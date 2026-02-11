@@ -7,9 +7,12 @@ async function getPokemon() {
 
     resultat.forEach(pokemon => {
       const pokemonDiv = document.createElement('div');
-      const pokemonPokedexId = document.createElement('h3')
       const pokemonNom = document.createElement('h2');
+      const pokemonPokedexId = document.createElement('h3')
       const pokemonImg = document.createElement('img');
+      const pokemonTop = document.createElement('div')
+      pokemonTop.classList.add('pokemon_top')
+      pokemonTop.append(pokemonNom, pokemonPokedexId)
       
       pokemonNom.textContent = pokemon.name;
       if (pokemon.id < 650) {
@@ -22,14 +25,13 @@ async function getPokemon() {
 
       pokemonPokedexId.textContent = '#'+ pokemon.id
 
-      // ✅ Div pour les types
       const typesContainer = document.createElement('div');
       typesContainer.classList.add('types_container');
 
       pokemon.apiTypes.forEach(type => {
         const typeImg = document.createElement('img');
-        typeImg.src = `img/type/${type.name}.png`;      // image du type
-        typeImg.alt = type.name;       // nom du type
+        typeImg.src = `img/type/${type.name}.png`;
+        typeImg.alt = type.name;
         typeImg.classList.add('type_icon');
         typeImg.width = 75
         typesContainer.appendChild(typeImg);
@@ -100,7 +102,7 @@ async function getPokemon() {
       divStats.append(divHp, divAtk, divDef, divSpa, divSpd, divSpe);
       
       // Ajout au div principal
-      pokemonDiv.append(pokemonNom, pokemonPokedexId, typesContainer, pokemonImg, divStats);
+      pokemonDiv.append(pokemonTop, pokemonImg, typesContainer, divStats);
 
       pokemonContainer.appendChild(pokemonDiv);
     });
