@@ -27,7 +27,7 @@ nav{
     align-items: center;
     background-color: var(--White);
     padding: 10px 15px;
-    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.0562);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
     z-index: 50;
 
     ion-icon{
@@ -82,7 +82,8 @@ nav{
         top: 50px;
         left: -100%;
         transition: left ease 300ms;
-        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.0562);
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+        
         a{
             color: var(--Black);
             font-size: 20px;
@@ -133,6 +134,8 @@ main{
         padding: 25px 15px;
 
         .pokemon_div{
+            display: flex;
+            flex-direction: column;
             width: 300px;
             background-color: #ededed;
             padding: 25px;
@@ -148,7 +151,20 @@ main{
                     margin-top: 3px;
                 }
             }
+            .talent{
+                margin-top: 10px;
+                gap: 5px;
+
+                .nom_talent{
+                    display: flex;
+                    flex-direction: column;
+                    a{
+                        margin-left: 10px;
+                    }
+                }
+            }
             .type_image{
+                width: 80px;
                 margin: 10px 0;
             }
             .type_image:first-child{
@@ -158,20 +174,23 @@ main{
                 display: flex;
                 flex-direction: column;
                 gap: 10px;
-
-                .div_hp, .div_atk, .div_def, .div_spa, .div_spd, .div_spe{
-                    display: flex;
-                    align-items: center;
-                    gap: 15px;
+                
+                .hp, .atk, .def, .spa, .spd, .spe {
                     position: relative;
+                    gap: 5px;
                 }
-                .barre_hp, .barre_atk, .barre_def, .barre_spa, .barre_spd, .barre_spe{
+                .barre_hp, 
+                .barre_atk, 
+                .barre_def, 
+                .barre_spa, 
+                .barre_spd, 
+                .barre_spe {
                     position: absolute;
                     top: 0;
                     left: 80px;
                     height: 20px;
-                    border: 1px solid var(--Black);
                     max-width: 175px;
+                    border: 1px solid var(--Black);
                 }
                 .barre_hp{
                     background-color: #a0f0a0;
@@ -194,6 +213,33 @@ main{
             }
             .text_resistances{
                 margin: 15px 0;
+            }
+            .res_div{
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                border: 1px solid var(--Black);
+                padding: 10px 0;
+                .df_res{
+                    display: flex;
+                    gap: 10px;
+                    flex-direction: column;
+                    border-top: 1px solid var(--Black);
+                    padding: 5px 10px;
+
+                    .right{
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 5px;
+                    }
+                }
+                .df_res:first-child{
+                    border: none;
+                }
+
+                img{
+                    width: 65px;
+                }
             }
         }
     }

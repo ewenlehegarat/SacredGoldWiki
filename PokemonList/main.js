@@ -1,114 +1,164 @@
 async function getPokemon() {
   try {
-    const reponse = await fetch("https://pokebuildapi.fr/api/v1/pokemon/limit/721");
-    const resultat = await reponse.json();
+    const reponse = await fetch("https://tyradex.vercel.app/api/v1/pokemon");
+    const data = await reponse.json();
+
+    const resultat = data.filter(pokemon =>
+      pokemon.pokedex_id &&
+      pokemon.pokedex_id <= 721
+    );
 
     const pokemonContainer = document.querySelector('.pokemon_container');
 
     resultat.forEach(pokemon => {
+
       const pokemonDiv = document.createElement('div');
-      pokemonDiv.classList.add('pokemon_div')
+      pokemonDiv.classList.add('pokemon_div');
+
+      const pokemonTop = document.createElement('div');
+      pokemonTop.classList.add('pokemon_top');
+
       const pokemonNom = document.createElement('h2');
-      const pokemonPokedexId = document.createElement('h3')
+      pokemonNom.textContent = pokemon.name.fr;
+
+      const pokemonPokedexId = document.createElement('h3');
+      pokemonPokedexId.textContent = '#' + String(pokemon.pokedex_id).padStart(3, '0');
+
+      pokemonTop.append(pokemonNom, pokemonPokedexId);
+
       const pokemonImg = document.createElement('img');
-      const pokemonTop = document.createElement('div')
-      pokemonTop.classList.add('pokemon_top')
-      pokemonTop.append(pokemonNom, pokemonPokedexId)
-      
-      pokemonNom.textContent = pokemon.name;
-      if (pokemon.id < 650) {
-        pokemonImg.src = `img/pokemon_animated_sprite/${pokemon.id}.gif`;
+      pokemonImg.alt = pokemon.name.fr;
+      pokemonImg.style.width = '80px';
+
+      if (pokemon.pokedex_id < 650) {
+        pokemonImg.src = `img/pokemon_animated_sprite/${pokemon.pokedex_id}.gif`;
       } else {
-        pokemonImg.src = pokemon.image;
+        pokemonImg.src = pokemon.sprites.regular;
       }
-      pokemonImg.alt = pokemon.name;
-      pokemonImg.style.width = '80px'
 
-      pokemonPokedexId.textContent = '#' + String(pokemon.id).padStart(3, '0');
+      // TALENTS
+      const divTalent = document.createElement('div');
+      divTalent.classList.add('talent');
 
+      const talentText = document.createElement('h3');
+      talentText.classList.add('talent_text');
+      talentText.textContent = 'Talents :';
+
+      const divNomTalent = document.createElement('div')
+      divNomTalent.classList.add('nom_talent')
+
+      divTalent.append(talentText, divNomTalent);
+
+      pokemon.talents.forEach((talent, index) => {
+      const talentNom = document.createElement('a');
+
+        let suffixe;
+
+        if (talent.tc === true) {
+          suffixe = "(H)";
+        } else {
+          suffixe = `(${index + 1})`;
+        }
+
+        talentNom.textContent = `${talent.name} ${suffixe}`;
+        talentNom.classList.add('talent_nom');
+        talentNom.href = `https://www.pokepedia.fr/${talent.name}`
+        talentNom.title = `Lien vers Poképedia : https://www.pokepedia.fr/${encodeURIComponent(talent.name)}`;
+
+        divNomTalent.appendChild(talentNom);
+      });
+
+
+      // TYPES
       const typesContainer = document.createElement('div');
       typesContainer.classList.add('types_container');
 
-      pokemon.apiTypes.forEach(type => {
+      pokemon.types.forEach(type => {
         const typeImg = document.createElement('img');
         typeImg.src = `./img/type/${type.name}.png`;
         typeImg.alt = type.name;
-        typeImg.classList.add('type_icon');
-        typeImg.width = 75
-        typeImg.classList.add('type_image')
+        typeImg.width = 75;
+        typeImg.classList.add('type_image');
         typesContainer.appendChild(typeImg);
       });
 
-      const divHp = document.createElement('div')
-      divHp.classList.add('div_hp')
-      const barreHp = document.createElement('div')
-      barreHp.classList.add('barre_hp')
-      barreHp.style.width = pokemon.stats.HP + "px";
-      const pokemonStatsHp = document.createElement('h4');
-      pokemonStatsHp.textContent = `Hp : ${pokemon.stats.HP}`
-      divHp.appendChild(pokemonStatsHp);
-      divHp.appendChild(barreHp)
+      // STATS
+      function createStat(label, value, className) {
+        const div = document.createElement('div');
+        div.classList.add(className);
 
-      const divAtk = document.createElement('div')
-      divAtk.classList.add('div_atk')
-      const barreAtk = document.createElement('div')
-      barreAtk.classList.add('barre_atk')
-      barreAtk.style.width = pokemon.stats.attack + "px";
-      const pokemonStatsAtk = document.createElement('h4');
-      pokemonStatsAtk.textContent = `Atk : ${pokemon.stats.attack}`
-      divAtk.appendChild(pokemonStatsAtk);
-      divAtk.appendChild(barreAtk)
+        const title = document.createElement('h4');
+        title.textContent = `${label} : ${value}`;
 
-      const divDef = document.createElement('div')
-      divDef.classList.add('div_def')
-      const barreDef = document.createElement('div')
-      barreDef.classList.add('barre_def')
-      barreDef.style.width = pokemon.stats.defense + "px";
-      const pokemonStatsDef = document.createElement('h4');
-      pokemonStatsDef.textContent = `Def : ${pokemon.stats.defense}`
-      divDef.appendChild(pokemonStatsDef);
-      divDef.appendChild(barreDef)
+        const bar = document.createElement('div');
+        bar.classList.add(`barre_${className}`);
+        bar.style.width = value + "px";
 
-      const divSpa = document.createElement('div')
-      divSpa.classList.add('div_spa')
-      const barreSpa = document.createElement('div')
-      barreSpa.classList.add('barre_spa')
-      barreSpa.style.width = pokemon.stats.special_attack + "px";
-      const pokemonStatsSpa = document.createElement('h4');
-      pokemonStatsSpa.textContent = `Spa : ${pokemon.stats.special_attack}`
-      divSpa.appendChild(pokemonStatsSpa);
-      divSpa.appendChild(barreSpa)
-
-      const divSpd = document.createElement('div');
-      divSpd.classList.add('div_spd')
-      const barreSpd = document.createElement('div');
-      barreSpd.classList.add('barre_spd');
-      barreSpd.style.width = pokemon.stats.special_defense + "px";
-      const pokemonStatsSpd = document.createElement('h4');
-      pokemonStatsSpd.textContent = `Spd : ${pokemon.stats.special_defense}`
-      divSpd.appendChild(pokemonStatsSpd);
-      divSpd.appendChild(barreSpd);
-      
-      const divSpe = document.createElement('div');
-      divSpe.classList.add('div_spe');
-      const barreSpe = document.createElement('div');
-      barreSpe.classList.add('barre_spe')
-      barreSpe.style.width = pokemon.stats.speed + "px";
-      const pokemonStatsSpe = document.createElement('h4');
-      pokemonStatsSpe.textContent = `Spe : ${pokemon.stats.speed}`;
-      divSpe.appendChild(pokemonStatsSpe);
-      divSpe.appendChild(barreSpe);
+        div.append(title, bar);
+        return div;
+      }
 
       const divStats = document.createElement('div');
       divStats.classList.add('div_stats');
-      divStats.append(divHp, divAtk, divDef, divSpa, divSpd, divSpe);
 
-      const textResistances = document.createElement('p')
+      divStats.append(
+        createStat("Hp", pokemon.stats.hp, "hp"),
+        createStat("Atk", pokemon.stats.atk, "atk"),
+        createStat("Def", pokemon.stats.def, "def"),
+        createStat("Spa", pokemon.stats.spe_atk, "spa"),
+        createStat("Spd", pokemon.stats.spe_def, "spd"),
+        createStat("Spe", pokemon.stats.vit, "spe")
+      );
+
+      // RESISTANCES
+      const textResistances = document.createElement('h4');
       textResistances.classList.add('text_resistances')
-      textResistances.textContent = 'Resistances :'
-      
-      // Ajout au div principal
-      pokemonDiv.append(pokemonTop, pokemonImg, typesContainer, divStats, textResistances);
+      textResistances.textContent = "Resistances :";
+
+      const resDiv = document.createElement('div');
+      resDiv.classList.add('res_div');
+
+      resDiv.innerHTML = `
+        <div class="df_res res_0"><h5>Immune:</h5><div class="right"></div></div>
+        <div class="df_res res_025"><h5>0.25x:</h5><div class="right"></div></div>
+        <div class="df_res res_05"><h5>0.5x:</h5><div class="right"></div></div>
+        <div class="df_res res_1"><h5>1x:</h5><div class="right"></div></div>
+        <div class="df_res weak_2"><h5>2x:</h5><div class="right"></div></div>
+        <div class="df_res weak_4"><h5>4x:</h5><div class="right"></div></div>
+      `;
+
+      pokemon.resistances.forEach(resistance => {
+
+        const img = document.createElement('img');
+        img.src = `./img/type/${resistance.name}.png`;
+        img.alt = resistance.name;
+        img.classList.add('type_icon');
+
+        const multiplier = resistance.multiplier;
+
+        if (multiplier === 0)
+          resDiv.querySelector('.res_0 .right').appendChild(img);
+        else if (multiplier === 0.25)
+          resDiv.querySelector('.res_025 .right').appendChild(img);
+        else if (multiplier === 0.5)
+          resDiv.querySelector('.res_05 .right').appendChild(img);
+        else if (multiplier === 1)
+          resDiv.querySelector('.res_1 .right').appendChild(img);
+        else if (multiplier === 2)
+          resDiv.querySelector('.weak_2 .right').appendChild(img);
+        else if (multiplier === 4)
+          resDiv.querySelector('.weak_4 .right').appendChild(img);
+      });
+
+      pokemonDiv.append(
+        pokemonTop,
+        pokemonImg,
+        divTalent,
+        typesContainer,
+        divStats,
+        textResistances,
+        resDiv
+      );
 
       pokemonContainer.appendChild(pokemonDiv);
     });
