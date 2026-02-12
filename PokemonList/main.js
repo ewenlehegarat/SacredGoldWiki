@@ -1,7 +1,7 @@
 async function getPokemon() {
   try {
-    const reponse = await fetch("https://tyradex.vercel.app/api/v1/pokemon");
-    const data = await reponse.json();
+    const response = await fetch("./pokemon.json");
+    const data = await response.json();
 
     const resultat = data.filter(pokemon =>
       pokemon.pokedex_id &&
