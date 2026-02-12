@@ -70,7 +70,7 @@ async function getPokemon() {
       const typesContainer = document.createElement('div');
       typesContainer.classList.add('types_container');
 
-      const types = [pokemon.Type1, pokemon.Type2].filter(t => t);
+      const types = [pokemon.Type1, pokemon.Type2].filter(t => t && t !== '-');
       types.forEach(type => {
         const typeImg = document.createElement('img');
         typeImg.src = `./img/type/${type.toLowerCase()}.png`;
