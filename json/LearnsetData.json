@@ -1,0 +1,3048 @@
+[
+    {
+        "ID": 0,
+        "Name": "-----\r"
+    },
+    {
+        "ID": 1,
+        "Name": "Bulbasaur",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 2,
+        "Name": "Ivysaur",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 3,
+        "Name": "Venusaur",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 4,
+        "Name": "Charmander",
+        "[Level": "[1",
+        "Move]": "Scratch]"
+    },
+    {
+        "ID": 5,
+        "Name": "Charmeleon",
+        "[Level": "[1",
+        "Move]": "Scratch]"
+    },
+    {
+        "ID": 6,
+        "Name": "Charizard",
+        "[Level": "[1",
+        "Move]": "Dragon Claw]"
+    },
+    {
+        "ID": 7,
+        "Name": "Squirtle",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 8,
+        "Name": "Wartortle",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 9,
+        "Name": "Blastoise",
+        "[Level": "[1",
+        "Move]": "Flash Cannon]"
+    },
+    {
+        "ID": 10,
+        "Name": "Caterpie",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 11,
+        "Name": "Metapod",
+        "[Level": "[1",
+        "Move]": "Harden]"
+    },
+    {
+        "ID": 12,
+        "Name": "Butterfree",
+        "[Level": "[1",
+        "Move]": "Confusion]"
+    },
+    {
+        "ID": 13,
+        "Name": "Weedle",
+        "[Level": "[1",
+        "Move]": "Poison Sting]"
+    },
+    {
+        "ID": 14,
+        "Name": "Kakuna",
+        "[Level": "[1",
+        "Move]": "Harden]"
+    },
+    {
+        "ID": 15,
+        "Name": "Beedrill",
+        "[Level": "[1",
+        "Move]": "Fury Attack]"
+    },
+    {
+        "ID": 16,
+        "Name": "Pidgey",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 17,
+        "Name": "Pidgeotto",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 18,
+        "Name": "Pidgeot",
+        "[Level": "[1",
+        "Move]": "Razor Wind]"
+    },
+    {
+        "ID": 19,
+        "Name": "Rattata",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 20,
+        "Name": "Raticate",
+        "[Level": "[1",
+        "Move]": "Swords Dance]"
+    },
+    {
+        "ID": 21,
+        "Name": "Spearow",
+        "[Level": "[1",
+        "Move]": "Peck]"
+    },
+    {
+        "ID": 22,
+        "Name": "Fearow",
+        "[Level": "[1",
+        "Move]": "Pluck]"
+    },
+    {
+        "ID": 23,
+        "Name": "Ekans",
+        "[Level": "[1",
+        "Move]": "Wrap]"
+    },
+    {
+        "ID": 24,
+        "Name": "Arbok",
+        "[Level": "[1",
+        "Move]": "Ice Fang]"
+    },
+    {
+        "ID": 25,
+        "Name": "Pikachu",
+        "[Level": "[1",
+        "Move]": "ThunderShock]"
+    },
+    {
+        "ID": 26,
+        "Name": "Raichu",
+        "[Level": "[1",
+        "Move]": "ThunderShock]"
+    },
+    {
+        "ID": 27,
+        "Name": "Sandshrew",
+        "[Level": "[1",
+        "Move]": "Scratch]"
+    },
+    {
+        "ID": 28,
+        "Name": "Sandslash",
+        "[Level": "[1",
+        "Move]": "Scratch]"
+    },
+    {
+        "ID": 29,
+        "Name": "Nidoran♀",
+        "[Level": "[1",
+        "Move]": "Growl]"
+    },
+    {
+        "ID": 30,
+        "Name": "Nidorina",
+        "[Level": "[1",
+        "Move]": "Growl]"
+    },
+    {
+        "ID": 31,
+        "Name": "Nidoqueen",
+        "[Level": "[1",
+        "Move]": "Scratch]"
+    },
+    {
+        "ID": 32,
+        "Name": "Nidoran♂",
+        "[Level": "[1",
+        "Move]": "Leer]"
+    },
+    {
+        "ID": 33,
+        "Name": "Nidorino",
+        "[Level": "[1",
+        "Move]": "Leer]"
+    },
+    {
+        "ID": 34,
+        "Name": "Nidoking",
+        "[Level": "[1",
+        "Move]": "Peck]"
+    },
+    {
+        "ID": 35,
+        "Name": "Clefairy",
+        "[Level": "[1",
+        "Move]": "Pound]"
+    },
+    {
+        "ID": 36,
+        "Name": "Clefable",
+        "[Level": "[1",
+        "Move]": "Softboiled]"
+    },
+    {
+        "ID": 37,
+        "Name": "Vulpix",
+        "[Level": "[1",
+        "Move]": "Ember]"
+    },
+    {
+        "ID": 38,
+        "Name": "Ninetales",
+        "[Level": "[1",
+        "Move]": "Morning Sun]"
+    },
+    {
+        "ID": 39,
+        "Name": "Jigglypuff",
+        "[Level": "[1",
+        "Move]": "Sing]"
+    },
+    {
+        "ID": 40,
+        "Name": "Wigglytuff",
+        "[Level": "[1",
+        "Move]": "Sing]"
+    },
+    {
+        "ID": 41,
+        "Name": "Zubat",
+        "[Level": "[1",
+        "Move]": "Leech Life]"
+    },
+    {
+        "ID": 42,
+        "Name": "Golbat",
+        "[Level": "[1",
+        "Move]": "Screech]"
+    },
+    {
+        "ID": 43,
+        "Name": "Oddish",
+        "[Level": "[1",
+        "Move]": "Absorb]"
+    },
+    {
+        "ID": 44,
+        "Name": "Gloom",
+        "[Level": "[1",
+        "Move]": "Absorb]"
+    },
+    {
+        "ID": 45,
+        "Name": "Vileplume",
+        "[Level": "[1",
+        "Move]": "Mega Drain]"
+    },
+    {
+        "ID": 46,
+        "Name": "Paras",
+        "[Level": "[1",
+        "Move]": "Scratch]"
+    },
+    {
+        "ID": 47,
+        "Name": "Parasect",
+        "[Level": "[1",
+        "Move]": "Fury Cutter]"
+    },
+    {
+        "ID": 48,
+        "Name": "Venonat",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 49,
+        "Name": "Venomoth",
+        "[Level": "[1",
+        "Move]": "Silver Wind]"
+    },
+    {
+        "ID": 50,
+        "Name": "Diglett",
+        "[Level": "[1",
+        "Move]": "Scratch]"
+    },
+    {
+        "ID": 51,
+        "Name": "Dugtrio",
+        "[Level": "[1",
+        "Move]": "Night Slash]"
+    },
+    {
+        "ID": 52,
+        "Name": "Meowth",
+        "[Level": "[1",
+        "Move]": "Scratch]"
+    },
+    {
+        "ID": 53,
+        "Name": "Persian",
+        "[Level": "[1",
+        "Move]": "Hypnosis]"
+    },
+    {
+        "ID": 54,
+        "Name": "Psyduck",
+        "[Level": "[1",
+        "Move]": "Water Sport]"
+    },
+    {
+        "ID": 55,
+        "Name": "Golduck",
+        "[Level": "[1",
+        "Move]": "Aqua Jet]"
+    },
+    {
+        "ID": 56,
+        "Name": "Mankey",
+        "[Level": "[1",
+        "Move]": "Covet]"
+    },
+    {
+        "ID": 57,
+        "Name": "Primeape",
+        "[Level": "[1",
+        "Move]": "Fling]"
+    },
+    {
+        "ID": 58,
+        "Name": "Growlithe",
+        "[Level": "[1",
+        "Move]": "Bite]"
+    },
+    {
+        "ID": 59,
+        "Name": "Arcanine",
+        "[Level": "[1",
+        "Move]": "Thunder Fang]"
+    },
+    {
+        "ID": 60,
+        "Name": "Poliwag",
+        "[Level": "[1",
+        "Move]": "Water Sport]"
+    },
+    {
+        "ID": 61,
+        "Name": "Poliwhirl",
+        "[Level": "[1",
+        "Move]": "Water Sport]"
+    },
+    {
+        "ID": 62,
+        "Name": "Poliwrath",
+        "[Level": "[1",
+        "Move]": "BubbleBeam]"
+    },
+    {
+        "ID": 63,
+        "Name": "Abra",
+        "[Level": "[1",
+        "Move]": "Teleport]\r"
+    },
+    {
+        "ID": 64,
+        "Name": "Kadabra",
+        "[Level": "[1",
+        "Move]": "Teleport]"
+    },
+    {
+        "ID": 65,
+        "Name": "Alakazam",
+        "[Level": "[1",
+        "Move]": "Teleport]"
+    },
+    {
+        "ID": 66,
+        "Name": "Machop",
+        "[Level": "[1",
+        "Move]": "Low Kick]"
+    },
+    {
+        "ID": 67,
+        "Name": "Machoke",
+        "[Level": "[1",
+        "Move]": "Low Kick]"
+    },
+    {
+        "ID": 68,
+        "Name": "Machamp",
+        "[Level": "[1",
+        "Move]": "Bullet Punch]"
+    },
+    {
+        "ID": 69,
+        "Name": "Bellsprout",
+        "[Level": "[1",
+        "Move]": "Vine Whip]"
+    },
+    {
+        "ID": 70,
+        "Name": "Weepinbell",
+        "[Level": "[1",
+        "Move]": "Vine Whip]"
+    },
+    {
+        "ID": 71,
+        "Name": "Victreebel",
+        "[Level": "[1",
+        "Move]": "Weather Ball]"
+    },
+    {
+        "ID": 72,
+        "Name": "Tentacool",
+        "[Level": "[1",
+        "Move]": "Poison Sting]"
+    },
+    {
+        "ID": 73,
+        "Name": "Tentacruel",
+        "[Level": "[1",
+        "Move]": "Poison Sting]"
+    },
+    {
+        "ID": 74,
+        "Name": "Geodude",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 75,
+        "Name": "Graveler",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 76,
+        "Name": "Golem",
+        "[Level": "[1",
+        "Move]": "Fire Punch]"
+    },
+    {
+        "ID": 77,
+        "Name": "Ponyta",
+        "[Level": "[1",
+        "Move]": "Growl]"
+    },
+    {
+        "ID": 78,
+        "Name": "Rapidash",
+        "[Level": "[1",
+        "Move]": "Poison Jab]"
+    },
+    {
+        "ID": 79,
+        "Name": "Slowpoke",
+        "[Level": "[1",
+        "Move]": "Curse]"
+    },
+    {
+        "ID": 80,
+        "Name": "Slowbro",
+        "[Level": "[1",
+        "Move]": "Curse]"
+    },
+    {
+        "ID": 81,
+        "Name": "Magnemite",
+        "[Level": "[1",
+        "Move]": "Metal Sound]"
+    },
+    {
+        "ID": 82,
+        "Name": "Magneton",
+        "[Level": "[1",
+        "Move]": "Tri Attack]"
+    },
+    {
+        "ID": 83,
+        "Name": "Farfetch’d",
+        "[Level": "[1",
+        "Move]": "Peck]"
+    },
+    {
+        "ID": 84,
+        "Name": "Doduo",
+        "[Level": "[1",
+        "Move]": "Peck]"
+    },
+    {
+        "ID": 85,
+        "Name": "Dodrio",
+        "[Level": "[1",
+        "Move]": "Pluck]"
+    },
+    {
+        "ID": 86,
+        "Name": "Seel",
+        "[Level": "[1",
+        "Move]": "Headbutt]"
+    },
+    {
+        "ID": 87,
+        "Name": "Dewgong",
+        "[Level": "[1",
+        "Move]": "Headbutt]"
+    },
+    {
+        "ID": 88,
+        "Name": "Grimer",
+        "[Level": "[1",
+        "Move]": "Poison Gas]"
+    },
+    {
+        "ID": 89,
+        "Name": "Muk",
+        "[Level": "[1",
+        "Move]": "Poison Gas]"
+    },
+    {
+        "ID": 90,
+        "Name": "Shellder",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 91,
+        "Name": "Cloyster",
+        "[Level": "[1",
+        "Move]": "Toxic Spikes]"
+    },
+    {
+        "ID": 92,
+        "Name": "Gastly",
+        "[Level": "[1",
+        "Move]": "Hypnosis]"
+    },
+    {
+        "ID": 93,
+        "Name": "Haunter",
+        "[Level": "[1",
+        "Move]": "Hypnosis]"
+    },
+    {
+        "ID": 94,
+        "Name": "Gengar",
+        "[Level": "[1",
+        "Move]": "Hypnosis]"
+    },
+    {
+        "ID": 95,
+        "Name": "Onix",
+        "[Level": "[1",
+        "Move]": "Mud Sport]"
+    },
+    {
+        "ID": 96,
+        "Name": "Drowzee",
+        "[Level": "[1",
+        "Move]": "Pound]"
+    },
+    {
+        "ID": 97,
+        "Name": "Hypno",
+        "[Level": "[1",
+        "Move]": "Nightmare]"
+    },
+    {
+        "ID": 98,
+        "Name": "Krabby",
+        "[Level": "[1",
+        "Move]": "Mud Sport]"
+    },
+    {
+        "ID": 99,
+        "Name": "Kingler",
+        "[Level": "[1",
+        "Move]": "Superpower]"
+    },
+    {
+        "ID": 100,
+        "Name": "Voltorb",
+        "[Level": "[1",
+        "Move]": "Charge]"
+    },
+    {
+        "ID": 101,
+        "Name": "Electrode",
+        "[Level": "[1",
+        "Move]": "Ice Ball]"
+    },
+    {
+        "ID": 102,
+        "Name": "Exeggcute",
+        "[Level": "[1",
+        "Move]": "Barrage]"
+    },
+    {
+        "ID": 103,
+        "Name": "Exeggutor",
+        "[Level": "[1",
+        "Move]": "Seed Bomb]"
+    },
+    {
+        "ID": 104,
+        "Name": "Cubone",
+        "[Level": "[1",
+        "Move]": "Growl]"
+    },
+    {
+        "ID": 105,
+        "Name": "Marowak",
+        "[Level": "[1",
+        "Move]": "Fire Punch]"
+    },
+    {
+        "ID": 106,
+        "Name": "Hitmonlee",
+        "[Level": "[1",
+        "Move]": "Revenge]"
+    },
+    {
+        "ID": 107,
+        "Name": "Hitmonchan",
+        "[Level": "[1",
+        "Move]": "Revenge]"
+    },
+    {
+        "ID": 108,
+        "Name": "Lickitung",
+        "[Level": "[1",
+        "Move]": "Lick]"
+    },
+    {
+        "ID": 109,
+        "Name": "Koffing",
+        "[Level": "[1",
+        "Move]": "Poison Gas]"
+    },
+    {
+        "ID": 110,
+        "Name": "Weezing",
+        "[Level": "[1",
+        "Move]": "Poison Gas]"
+    },
+    {
+        "ID": 111,
+        "Name": "Rhyhorn",
+        "[Level": "[1",
+        "Move]": "Horn Attack]"
+    },
+    {
+        "ID": 112,
+        "Name": "Rhydon",
+        "[Level": "[1",
+        "Move]": "Horn Attack]"
+    },
+    {
+        "ID": 113,
+        "Name": "Chansey",
+        "[Level": "[1",
+        "Move]": "Pound]"
+    },
+    {
+        "ID": 114,
+        "Name": "Tangela",
+        "[Level": "[1",
+        "Move]": "Ingrain]"
+    },
+    {
+        "ID": 115,
+        "Name": "Kangaskhan",
+        "[Level": "[1",
+        "Move]": "Fire Punch]"
+    },
+    {
+        "ID": 116,
+        "Name": "Horsea",
+        "[Level": "[1",
+        "Move]": "Bubble]"
+    },
+    {
+        "ID": 117,
+        "Name": "Seadra",
+        "[Level": "[1",
+        "Move]": "Bubble]"
+    },
+    {
+        "ID": 118,
+        "Name": "Goldeen",
+        "[Level": "[1",
+        "Move]": "Peck]"
+    },
+    {
+        "ID": 119,
+        "Name": "Seaking",
+        "[Level": "[1",
+        "Move]": "Poison Jab]"
+    },
+    {
+        "ID": 120,
+        "Name": "Staryu",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 121,
+        "Name": "Starmie",
+        "[Level": "[1",
+        "Move]": "Water Gun]"
+    },
+    {
+        "ID": 122,
+        "Name": "Mr. Mime",
+        "[Level": "[1",
+        "Move]": "Magical Leaf]"
+    },
+    {
+        "ID": 123,
+        "Name": "Scyther",
+        "[Level": "[1",
+        "Move]": "Vacuum Wave]"
+    },
+    {
+        "ID": 124,
+        "Name": "Jynx",
+        "[Level": "[1",
+        "Move]": "Pound]"
+    },
+    {
+        "ID": 125,
+        "Name": "Electabuzz",
+        "[Level": "[1",
+        "Move]": "Quick Attack]"
+    },
+    {
+        "ID": 126,
+        "Name": "Magmar",
+        "[Level": "[1",
+        "Move]": "Smog]"
+    },
+    {
+        "ID": 127,
+        "Name": "Pinsir",
+        "[Level": "[1",
+        "Move]": "ViceGrip]"
+    },
+    {
+        "ID": 128,
+        "Name": "Tauros",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 129,
+        "Name": "Magikarp",
+        "[Level": "[1",
+        "Move]": "Bubble]"
+    },
+    {
+        "ID": 130,
+        "Name": "Gyarados",
+        "[Level": "[1",
+        "Move]": "Thrash]"
+    },
+    {
+        "ID": 131,
+        "Name": "Lapras",
+        "[Level": "[1",
+        "Move]": "Sing]"
+    },
+    {
+        "ID": 132,
+        "Name": "Ditto",
+        "[Level": "[1",
+        "Move]": "Transform]\r"
+    },
+    {
+        "ID": 133,
+        "Name": "Eevee",
+        "[Level": "[1",
+        "Move]": "Tail Whip]"
+    },
+    {
+        "ID": 134,
+        "Name": "Vaporeon",
+        "[Level": "[1",
+        "Move]": "Tail Whip]"
+    },
+    {
+        "ID": 135,
+        "Name": "Jolteon",
+        "[Level": "[1",
+        "Move]": "Tail Whip]"
+    },
+    {
+        "ID": 136,
+        "Name": "Flareon",
+        "[Level": "[1",
+        "Move]": "Tail Whip]"
+    },
+    {
+        "ID": 137,
+        "Name": "Porygon",
+        "[Level": "[1",
+        "Move]": "Conversion 2]"
+    },
+    {
+        "ID": 138,
+        "Name": "Omanyte",
+        "[Level": "[1",
+        "Move]": "Constrict]"
+    },
+    {
+        "ID": 139,
+        "Name": "Omastar",
+        "[Level": "[1",
+        "Move]": "Constrict]"
+    },
+    {
+        "ID": 140,
+        "Name": "Kabuto",
+        "[Level": "[1",
+        "Move]": "Scratch]"
+    },
+    {
+        "ID": 141,
+        "Name": "Kabutops",
+        "[Level": "[1",
+        "Move]": "Feint]"
+    },
+    {
+        "ID": 142,
+        "Name": "Aerodactyl",
+        "[Level": "[1",
+        "Move]": "Ice Fang]"
+    },
+    {
+        "ID": 143,
+        "Name": "Snorlax",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 144,
+        "Name": "Articuno",
+        "[Level": "[1",
+        "Move]": "Gust]"
+    },
+    {
+        "ID": 145,
+        "Name": "Zapdos",
+        "[Level": "[1",
+        "Move]": "Peck]"
+    },
+    {
+        "ID": 146,
+        "Name": "Moltres",
+        "[Level": "[1",
+        "Move]": "Wing Attack]"
+    },
+    {
+        "ID": 147,
+        "Name": "Dratini",
+        "[Level": "[1",
+        "Move]": "Wrap]"
+    },
+    {
+        "ID": 148,
+        "Name": "Dragonair",
+        "[Level": "[1",
+        "Move]": "Wrap]"
+    },
+    {
+        "ID": 149,
+        "Name": "Dragonite",
+        "[Level": "[1",
+        "Move]": "Fire Punch]"
+    },
+    {
+        "ID": 150,
+        "Name": "Mewtwo",
+        "[Level": "[1",
+        "Move]": "Confusion]"
+    },
+    {
+        "ID": 151,
+        "Name": "Mew",
+        "[Level": "[1",
+        "Move]": "Pound]"
+    },
+    {
+        "ID": 152,
+        "Name": "Chikorita",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 153,
+        "Name": "Bayleef",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 154,
+        "Name": "Meganium",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 155,
+        "Name": "Cyndaquil",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 156,
+        "Name": "Quilava",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 157,
+        "Name": "Typhlosion",
+        "[Level": "[1",
+        "Move]": "Gyro Ball]"
+    },
+    {
+        "ID": 158,
+        "Name": "Totodile",
+        "[Level": "[1",
+        "Move]": "Scratch]"
+    },
+    {
+        "ID": 159,
+        "Name": "Croconaw",
+        "[Level": "[1",
+        "Move]": "Scratch]"
+    },
+    {
+        "ID": 160,
+        "Name": "Feraligatr",
+        "[Level": "[1",
+        "Move]": "Ice Punch]"
+    },
+    {
+        "ID": 161,
+        "Name": "Sentret",
+        "[Level": "[1",
+        "Move]": "Scratch]"
+    },
+    {
+        "ID": 162,
+        "Name": "Furret",
+        "[Level": "[1",
+        "Move]": "Scratch]"
+    },
+    {
+        "ID": 163,
+        "Name": "Hoothoot",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 164,
+        "Name": "Noctowl",
+        "[Level": "[1",
+        "Move]": "Heat Wave]"
+    },
+    {
+        "ID": 165,
+        "Name": "Ledyba",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 166,
+        "Name": "Ledian",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 167,
+        "Name": "Spinarak",
+        "[Level": "[1",
+        "Move]": "Poison Sting]"
+    },
+    {
+        "ID": 168,
+        "Name": "Ariados",
+        "[Level": "[1",
+        "Move]": "Bug Bite]"
+    },
+    {
+        "ID": 169,
+        "Name": "Crobat",
+        "[Level": "[1",
+        "Move]": "Cross Poison]"
+    },
+    {
+        "ID": 170,
+        "Name": "Chinchou",
+        "[Level": "[1",
+        "Move]": "Bubble]"
+    },
+    {
+        "ID": 171,
+        "Name": "Lanturn",
+        "[Level": "[1",
+        "Move]": "Bubble]"
+    },
+    {
+        "ID": 172,
+        "Name": "Pichu",
+        "[Level": "[1",
+        "Move]": "ThunderShock]"
+    },
+    {
+        "ID": 173,
+        "Name": "Cleffa",
+        "[Level": "[1",
+        "Move]": "Pound]"
+    },
+    {
+        "ID": 174,
+        "Name": "Igglybuff",
+        "[Level": "[1",
+        "Move]": "Sing]"
+    },
+    {
+        "ID": 175,
+        "Name": "Togepi",
+        "[Level": "[1",
+        "Move]": "Growl]"
+    },
+    {
+        "ID": 176,
+        "Name": "Togetic",
+        "[Level": "[1",
+        "Move]": "Magical Leaf]"
+    },
+    {
+        "ID": 177,
+        "Name": "Natu",
+        "[Level": "[1",
+        "Move]": "Peck]"
+    },
+    {
+        "ID": 178,
+        "Name": "Xatu",
+        "[Level": "[1",
+        "Move]": "Peck]"
+    },
+    {
+        "ID": 179,
+        "Name": "Mareep",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 180,
+        "Name": "Flaaffy",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 181,
+        "Name": "Ampharos",
+        "[Level": "[1",
+        "Move]": "Tail Glow]"
+    },
+    {
+        "ID": 182,
+        "Name": "Bellossom",
+        "[Level": "[1",
+        "Move]": "Leaf Blade]"
+    },
+    {
+        "ID": 183,
+        "Name": "Marill",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 184,
+        "Name": "Azumarill",
+        "[Level": "[1",
+        "Move]": "Superpower]"
+    },
+    {
+        "ID": 185,
+        "Name": "Sudowoodo",
+        "[Level": "[1",
+        "Move]": "Wood Hammer]"
+    },
+    {
+        "ID": 186,
+        "Name": "Politoed",
+        "[Level": "[1",
+        "Move]": "BubbleBeam]"
+    },
+    {
+        "ID": 187,
+        "Name": "Hoppip",
+        "[Level": "[1",
+        "Move]": "Splash]"
+    },
+    {
+        "ID": 188,
+        "Name": "Skiploom",
+        "[Level": "[1",
+        "Move]": "Splash]"
+    },
+    {
+        "ID": 189,
+        "Name": "Jumpluff",
+        "[Level": "[1",
+        "Move]": "Splash]"
+    },
+    {
+        "ID": 190,
+        "Name": "Aipom",
+        "[Level": "[1",
+        "Move]": "Scratch]"
+    },
+    {
+        "ID": 191,
+        "Name": "Sunkern",
+        "[Level": "[1",
+        "Move]": "Absorb]"
+    },
+    {
+        "ID": 192,
+        "Name": "Sunflora",
+        "[Level": "[1",
+        "Move]": "Absorb]"
+    },
+    {
+        "ID": 193,
+        "Name": "Yanma",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 194,
+        "Name": "Wooper",
+        "[Level": "[1",
+        "Move]": "Water Gun]"
+    },
+    {
+        "ID": 195,
+        "Name": "Quagsire",
+        "[Level": "[1",
+        "Move]": "Water Gun]"
+    },
+    {
+        "ID": 196,
+        "Name": "Espeon",
+        "[Level": "[1",
+        "Move]": "Tail Whip]"
+    },
+    {
+        "ID": 197,
+        "Name": "Umbreon",
+        "[Level": "[1",
+        "Move]": "Tail Whip]"
+    },
+    {
+        "ID": 198,
+        "Name": "Murkrow",
+        "[Level": "[1",
+        "Move]": "Peck]"
+    },
+    {
+        "ID": 199,
+        "Name": "Slowking",
+        "[Level": "[1",
+        "Move]": "Power Gem]"
+    },
+    {
+        "ID": 200,
+        "Name": "Misdreavus",
+        "[Level": "[1",
+        "Move]": "Growl]"
+    },
+    {
+        "ID": 201,
+        "Name": "Unown",
+        "[Level": "[1",
+        "Move]": "Hidden Power]"
+    },
+    {
+        "ID": 202,
+        "Name": "Wobbuffet",
+        "[Level": "[1",
+        "Move]": "Counter]"
+    },
+    {
+        "ID": 203,
+        "Name": "Girafarig",
+        "[Level": "[1",
+        "Move]": "Power Swap]"
+    },
+    {
+        "ID": 204,
+        "Name": "Pineco",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 205,
+        "Name": "Forretress",
+        "[Level": "[1",
+        "Move]": "Toxic Spikes]"
+    },
+    {
+        "ID": 206,
+        "Name": "Dunsparce",
+        "[Level": "[1",
+        "Move]": "Rage]"
+    },
+    {
+        "ID": 207,
+        "Name": "Gligar",
+        "[Level": "[1",
+        "Move]": "Poison Sting]"
+    },
+    {
+        "ID": 208,
+        "Name": "Steelix",
+        "[Level": "[1",
+        "Move]": "Thunder Fang]"
+    },
+    {
+        "ID": 209,
+        "Name": "Snubbull",
+        "[Level": "[1",
+        "Move]": "Ice Fang]"
+    },
+    {
+        "ID": 210,
+        "Name": "Granbull",
+        "[Level": "[1",
+        "Move]": "Ice Fang]"
+    },
+    {
+        "ID": 211,
+        "Name": "Qwilfish",
+        "[Level": "[1",
+        "Move]": "Spikes]"
+    },
+    {
+        "ID": 212,
+        "Name": "Scizor",
+        "[Level": "[1",
+        "Move]": "Bullet Punch]"
+    },
+    {
+        "ID": 213,
+        "Name": "Shuckle",
+        "[Level": "[1",
+        "Move]": "Withdraw]"
+    },
+    {
+        "ID": 214,
+        "Name": "Heracross",
+        "[Level": "[1",
+        "Move]": "Night Slash]"
+    },
+    {
+        "ID": 215,
+        "Name": "Sneasel",
+        "[Level": "[1",
+        "Move]": "Scratch]"
+    },
+    {
+        "ID": 216,
+        "Name": "Teddiursa",
+        "[Level": "[1",
+        "Move]": "Covet]"
+    },
+    {
+        "ID": 217,
+        "Name": "Ursaring",
+        "[Level": "[1",
+        "Move]": "Covet]"
+    },
+    {
+        "ID": 218,
+        "Name": "Slugma",
+        "[Level": "[1",
+        "Move]": "Yawn]"
+    },
+    {
+        "ID": 219,
+        "Name": "Magcargo",
+        "[Level": "[1",
+        "Move]": "Yawn]"
+    },
+    {
+        "ID": 220,
+        "Name": "Swinub",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 221,
+        "Name": "Piloswine",
+        "[Level": "[1",
+        "Move]": "AncientPower]"
+    },
+    {
+        "ID": 222,
+        "Name": "Corsola",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 223,
+        "Name": "Remoraid",
+        "[Level": "[1",
+        "Move]": "Water Gun]"
+    },
+    {
+        "ID": 224,
+        "Name": "Octillery",
+        "[Level": "[1",
+        "Move]": "Seed Bomb]"
+    },
+    {
+        "ID": 225,
+        "Name": "Delibird",
+        "[Level": "[1",
+        "Move]": "Present]"
+    },
+    {
+        "ID": 226,
+        "Name": "Mantine",
+        "[Level": "[1",
+        "Move]": "Psybeam]"
+    },
+    {
+        "ID": 227,
+        "Name": "Skarmory",
+        "[Level": "[1",
+        "Move]": "Leer]"
+    },
+    {
+        "ID": 228,
+        "Name": "Houndour",
+        "[Level": "[1",
+        "Move]": "Leer]"
+    },
+    {
+        "ID": 229,
+        "Name": "Houndoom",
+        "[Level": "[1",
+        "Move]": "Thunder Fang]"
+    },
+    {
+        "ID": 230,
+        "Name": "Kingdra",
+        "[Level": "[1",
+        "Move]": "Yawn]"
+    },
+    {
+        "ID": 231,
+        "Name": "Phanpy",
+        "[Level": "[1",
+        "Move]": "Odor Sleuth]"
+    },
+    {
+        "ID": 232,
+        "Name": "Donphan",
+        "[Level": "[1",
+        "Move]": "Fire Fang]"
+    },
+    {
+        "ID": 233,
+        "Name": "Porygon2",
+        "[Level": "[1",
+        "Move]": "Conversion 2]"
+    },
+    {
+        "ID": 234,
+        "Name": "Stantler",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 235,
+        "Name": "Smeargle",
+        "[Level": "[1",
+        "Move]": "Sketch]"
+    },
+    {
+        "ID": 236,
+        "Name": "Tyrogue",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 237,
+        "Name": "Hitmontop",
+        "[Level": "[1",
+        "Move]": "Revenge]"
+    },
+    {
+        "ID": 238,
+        "Name": "Smoochum",
+        "[Level": "[1",
+        "Move]": "Pound]"
+    },
+    {
+        "ID": 239,
+        "Name": "Elekid",
+        "[Level": "[1",
+        "Move]": "Quick Attack]"
+    },
+    {
+        "ID": 240,
+        "Name": "Magby",
+        "[Level": "[1",
+        "Move]": "Smog]"
+    },
+    {
+        "ID": 241,
+        "Name": "Miltank",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 242,
+        "Name": "Blissey",
+        "[Level": "[1",
+        "Move]": "Pound]"
+    },
+    {
+        "ID": 243,
+        "Name": "Raikou",
+        "[Level": "[1",
+        "Move]": "Aura Sphere]"
+    },
+    {
+        "ID": 244,
+        "Name": "Entei",
+        "[Level": "[1",
+        "Move]": "Flare Blitz]"
+    },
+    {
+        "ID": 245,
+        "Name": "Suicune",
+        "[Level": "[1",
+        "Move]": "Air Slash]"
+    },
+    {
+        "ID": 246,
+        "Name": "Larvitar",
+        "[Level": "[1",
+        "Move]": "Bite]"
+    },
+    {
+        "ID": 247,
+        "Name": "Pupitar",
+        "[Level": "[1",
+        "Move]": "Bite]"
+    },
+    {
+        "ID": 248,
+        "Name": "Tyranitar",
+        "[Level": "[1",
+        "Move]": "Thunder Fang]"
+    },
+    {
+        "ID": 249,
+        "Name": "Lugia",
+        "[Level": "[1",
+        "Move]": "Whirlwind]"
+    },
+    {
+        "ID": 250,
+        "Name": "Ho-oh",
+        "[Level": "[1",
+        "Move]": "Whirlwind]"
+    },
+    {
+        "ID": 251,
+        "Name": "Celebi",
+        "[Level": "[1",
+        "Move]": "Leech Seed]"
+    },
+    {
+        "ID": 252,
+        "Name": "Treecko",
+        "[Level": "[1",
+        "Move]": "Pound]"
+    },
+    {
+        "ID": 253,
+        "Name": "Grovyle",
+        "[Level": "[1",
+        "Move]": "Pound]"
+    },
+    {
+        "ID": 254,
+        "Name": "Sceptile",
+        "[Level": "[1",
+        "Move]": "ThunderPunch]"
+    },
+    {
+        "ID": 255,
+        "Name": "Torchic",
+        "[Level": "[1",
+        "Move]": "Scratch]"
+    },
+    {
+        "ID": 256,
+        "Name": "Combusken",
+        "[Level": "[1",
+        "Move]": "Scratch]"
+    },
+    {
+        "ID": 257,
+        "Name": "Blaziken",
+        "[Level": "[1",
+        "Move]": "Fire Punch]"
+    },
+    {
+        "ID": 258,
+        "Name": "Mudkip",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 259,
+        "Name": "Marshtomp",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 260,
+        "Name": "Swampert",
+        "[Level": "[1",
+        "Move]": "Ice Punch]"
+    },
+    {
+        "ID": 261,
+        "Name": "Poochyena",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 262,
+        "Name": "Mightyena",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 263,
+        "Name": "Zigzagoon",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 264,
+        "Name": "Linoone",
+        "[Level": "[1",
+        "Move]": "Switcheroo]"
+    },
+    {
+        "ID": 265,
+        "Name": "Wurmple",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 266,
+        "Name": "Silcoon",
+        "[Level": "[1",
+        "Move]": "Harden]"
+    },
+    {
+        "ID": 267,
+        "Name": "Beautifly",
+        "[Level": "[1",
+        "Move]": "Absorb]"
+    },
+    {
+        "ID": 268,
+        "Name": "Cascoon",
+        "[Level": "[1",
+        "Move]": "Harden]"
+    },
+    {
+        "ID": 269,
+        "Name": "Dustox",
+        "[Level": "[1",
+        "Move]": "Confusion]"
+    },
+    {
+        "ID": 270,
+        "Name": "Lotad",
+        "[Level": "[1",
+        "Move]": "Astonish]"
+    },
+    {
+        "ID": 271,
+        "Name": "Lombre",
+        "[Level": "[1",
+        "Move]": "Astonish]"
+    },
+    {
+        "ID": 272,
+        "Name": "Ludicolo",
+        "[Level": "[1",
+        "Move]": "Fire Punch]"
+    },
+    {
+        "ID": 273,
+        "Name": "Seedot",
+        "[Level": "[1",
+        "Move]": "Bide]"
+    },
+    {
+        "ID": 274,
+        "Name": "Nuzleaf",
+        "[Level": "[1",
+        "Move]": "Pound]"
+    },
+    {
+        "ID": 275,
+        "Name": "Shiftry",
+        "[Level": "[1",
+        "Move]": "Heat Wave]"
+    },
+    {
+        "ID": 276,
+        "Name": "Taillow",
+        "[Level": "[1",
+        "Move]": "Peck]"
+    },
+    {
+        "ID": 277,
+        "Name": "Swellow",
+        "[Level": "[1",
+        "Move]": "Pluck]"
+    },
+    {
+        "ID": 278,
+        "Name": "Wingull",
+        "[Level": "[1",
+        "Move]": "Growl]"
+    },
+    {
+        "ID": 279,
+        "Name": "Pelipper",
+        "[Level": "[1",
+        "Move]": "Growl]"
+    },
+    {
+        "ID": 280,
+        "Name": "Ralts",
+        "[Level": "[1",
+        "Move]": "Growl]"
+    },
+    {
+        "ID": 281,
+        "Name": "Kirlia",
+        "[Level": "[1",
+        "Move]": "Growl]"
+    },
+    {
+        "ID": 282,
+        "Name": "Gardevoir",
+        "[Level": "[1",
+        "Move]": "Healing Wish]"
+    },
+    {
+        "ID": 283,
+        "Name": "Surskit",
+        "[Level": "[1",
+        "Move]": "Bubble]"
+    },
+    {
+        "ID": 284,
+        "Name": "Masquerain",
+        "[Level": "[1",
+        "Move]": "Ominous Wind]"
+    },
+    {
+        "ID": 285,
+        "Name": "Shroomish",
+        "[Level": "[1",
+        "Move]": "Absorb]"
+    },
+    {
+        "ID": 286,
+        "Name": "Breloom",
+        "[Level": "[1",
+        "Move]": "ThunderPunch]"
+    },
+    {
+        "ID": 287,
+        "Name": "Slakoth",
+        "[Level": "[1",
+        "Move]": "Scratch]"
+    },
+    {
+        "ID": 288,
+        "Name": "Vigoroth",
+        "[Level": "[1",
+        "Move]": "Scratch]"
+    },
+    {
+        "ID": 289,
+        "Name": "Slaking",
+        "[Level": "[1",
+        "Move]": "Fire Punch]"
+    },
+    {
+        "ID": 290,
+        "Name": "Nincada",
+        "[Level": "[1",
+        "Move]": "Scratch]"
+    },
+    {
+        "ID": 291,
+        "Name": "Ninjask",
+        "[Level": "[1",
+        "Move]": "Bug Bite]"
+    },
+    {
+        "ID": 292,
+        "Name": "Shedinja",
+        "[Level": "[1",
+        "Move]": "Scratch]"
+    },
+    {
+        "ID": 293,
+        "Name": "Whismur",
+        "[Level": "[1",
+        "Move]": "Pound]"
+    },
+    {
+        "ID": 294,
+        "Name": "Loudred",
+        "[Level": "[1",
+        "Move]": "Pound]"
+    },
+    {
+        "ID": 295,
+        "Name": "Exploud",
+        "[Level": "[1",
+        "Move]": "Ice Fang]"
+    },
+    {
+        "ID": 296,
+        "Name": "Makuhita",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 297,
+        "Name": "Hariyama",
+        "[Level": "[1",
+        "Move]": "Brine]"
+    },
+    {
+        "ID": 298,
+        "Name": "Azurill",
+        "[Level": "[1",
+        "Move]": "Splash]"
+    },
+    {
+        "ID": 299,
+        "Name": "Nosepass",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 300,
+        "Name": "Skitty",
+        "[Level": "[1",
+        "Move]": "Fake Out]"
+    },
+    {
+        "ID": 301,
+        "Name": "Delcatty",
+        "[Level": "[1",
+        "Move]": "Fake Out]"
+    },
+    {
+        "ID": 302,
+        "Name": "Sableye",
+        "[Level": "[1",
+        "Move]": "Leer]"
+    },
+    {
+        "ID": 303,
+        "Name": "Mawile",
+        "[Level": "[1",
+        "Move]": "Astonish]"
+    },
+    {
+        "ID": 304,
+        "Name": "Aron",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 305,
+        "Name": "Lairon",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 306,
+        "Name": "Aggron",
+        "[Level": "[1",
+        "Move]": "Superpower]"
+    },
+    {
+        "ID": 307,
+        "Name": "Meditite",
+        "[Level": "[1",
+        "Move]": "Bide]"
+    },
+    {
+        "ID": 308,
+        "Name": "Medicham",
+        "[Level": "[1",
+        "Move]": "Bullet Punch]"
+    },
+    {
+        "ID": 309,
+        "Name": "Electrike",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 310,
+        "Name": "Manectric",
+        "[Level": "[1",
+        "Move]": "Fire Fang]"
+    },
+    {
+        "ID": 311,
+        "Name": "Plusle",
+        "[Level": "[1",
+        "Move]": "Growl]"
+    },
+    {
+        "ID": 312,
+        "Name": "Minun",
+        "[Level": "[1",
+        "Move]": "Growl]"
+    },
+    {
+        "ID": 313,
+        "Name": "Volbeat",
+        "[Level": "[1",
+        "Move]": "Flash]"
+    },
+    {
+        "ID": 314,
+        "Name": "Illumise",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 315,
+        "Name": "Roselia",
+        "[Level": "[1",
+        "Move]": "Absorb]"
+    },
+    {
+        "ID": 316,
+        "Name": "Gulpin",
+        "[Level": "[1",
+        "Move]": "Pound]"
+    },
+    {
+        "ID": 317,
+        "Name": "Swalot",
+        "[Level": "[1",
+        "Move]": "Pound]"
+    },
+    {
+        "ID": 318,
+        "Name": "Carvanha",
+        "[Level": "[1",
+        "Move]": "Leer]"
+    },
+    {
+        "ID": 319,
+        "Name": "Sharpedo",
+        "[Level": "[1",
+        "Move]": "Feint]"
+    },
+    {
+        "ID": 320,
+        "Name": "Wailmer",
+        "[Level": "[1",
+        "Move]": "Splash]"
+    },
+    {
+        "ID": 321,
+        "Name": "Wailord",
+        "[Level": "[1",
+        "Move]": "Splash]"
+    },
+    {
+        "ID": 322,
+        "Name": "Numel",
+        "[Level": "[1",
+        "Move]": "Growl]"
+    },
+    {
+        "ID": 323,
+        "Name": "Camerupt",
+        "[Level": "[1",
+        "Move]": "Growl]"
+    },
+    {
+        "ID": 324,
+        "Name": "Torkoal",
+        "[Level": "[1",
+        "Move]": "Ember]"
+    },
+    {
+        "ID": 325,
+        "Name": "Spoink",
+        "[Level": "[1",
+        "Move]": "Splash]"
+    },
+    {
+        "ID": 326,
+        "Name": "Grumpig",
+        "[Level": "[1",
+        "Move]": "Splash]"
+    },
+    {
+        "ID": 327,
+        "Name": "Spinda",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 328,
+        "Name": "Trapinch",
+        "[Level": "[1",
+        "Move]": "Bite]"
+    },
+    {
+        "ID": 329,
+        "Name": "Vibrava",
+        "[Level": "[1",
+        "Move]": "SonicBoom]"
+    },
+    {
+        "ID": 330,
+        "Name": "Flygon",
+        "[Level": "[1",
+        "Move]": "SonicBoom]"
+    },
+    {
+        "ID": 331,
+        "Name": "Cacnea",
+        "[Level": "[1",
+        "Move]": "Poison Sting]"
+    },
+    {
+        "ID": 332,
+        "Name": "Cacturne",
+        "[Level": "[1",
+        "Move]": "ThunderPunch]"
+    },
+    {
+        "ID": 333,
+        "Name": "Swablu",
+        "[Level": "[1",
+        "Move]": "Pluck]"
+    },
+    {
+        "ID": 334,
+        "Name": "Altaria",
+        "[Level": "[1",
+        "Move]": "Pluck]"
+    },
+    {
+        "ID": 335,
+        "Name": "Zangoose",
+        "[Level": "[1",
+        "Move]": "Fire Punch]"
+    },
+    {
+        "ID": 336,
+        "Name": "Seviper",
+        "[Level": "[1",
+        "Move]": "Wrap]"
+    },
+    {
+        "ID": 337,
+        "Name": "Lunatone",
+        "[Level": "[1",
+        "Move]": "Moonlight]"
+    },
+    {
+        "ID": 338,
+        "Name": "Solrock",
+        "[Level": "[1",
+        "Move]": "Morning Sun]"
+    },
+    {
+        "ID": 339,
+        "Name": "Barboach",
+        "[Level": "[1",
+        "Move]": "Mud-Slap]"
+    },
+    {
+        "ID": 340,
+        "Name": "Whiscash",
+        "[Level": "[1",
+        "Move]": "Zen Headbutt]"
+    },
+    {
+        "ID": 341,
+        "Name": "Corphish",
+        "[Level": "[1",
+        "Move]": "Bubble]"
+    },
+    {
+        "ID": 342,
+        "Name": "Crawdaunt",
+        "[Level": "[1",
+        "Move]": "Bubble]"
+    },
+    {
+        "ID": 343,
+        "Name": "Baltoy",
+        "[Level": "[1",
+        "Move]": "Confusion]"
+    },
+    {
+        "ID": 344,
+        "Name": "Claydol",
+        "[Level": "[1",
+        "Move]": "Teleport]"
+    },
+    {
+        "ID": 345,
+        "Name": "Lileep",
+        "[Level": "[1",
+        "Move]": "Astonish]"
+    },
+    {
+        "ID": 346,
+        "Name": "Cradily",
+        "[Level": "[1",
+        "Move]": "Astonish]"
+    },
+    {
+        "ID": 347,
+        "Name": "Anorith",
+        "[Level": "[1",
+        "Move]": "Scratch]"
+    },
+    {
+        "ID": 348,
+        "Name": "Armaldo",
+        "[Level": "[1",
+        "Move]": "Scratch]"
+    },
+    {
+        "ID": 349,
+        "Name": "Feebas",
+        "[Level": "[1",
+        "Move]": "Splash]"
+    },
+    {
+        "ID": 350,
+        "Name": "Milotic",
+        "[Level": "[1",
+        "Move]": "Water Gun]"
+    },
+    {
+        "ID": 351,
+        "Name": "Castform",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 352,
+        "Name": "Kecleon",
+        "[Level": "[1",
+        "Move]": "Thief]"
+    },
+    {
+        "ID": 353,
+        "Name": "Shuppet",
+        "[Level": "[1",
+        "Move]": "Knock Off]"
+    },
+    {
+        "ID": 354,
+        "Name": "Banette",
+        "[Level": "[1",
+        "Move]": "Knock Off]"
+    },
+    {
+        "ID": 355,
+        "Name": "Duskull",
+        "[Level": "[1",
+        "Move]": "Leer]"
+    },
+    {
+        "ID": 356,
+        "Name": "Dusclops",
+        "[Level": "[1",
+        "Move]": "Fire Punch]"
+    },
+    {
+        "ID": 357,
+        "Name": "Tropius",
+        "[Level": "[1",
+        "Move]": "Leer]"
+    },
+    {
+        "ID": 358,
+        "Name": "Chimecho",
+        "[Level": "[1",
+        "Move]": "Wrap]"
+    },
+    {
+        "ID": 359,
+        "Name": "Absol",
+        "[Level": "[1",
+        "Move]": "Scratch]"
+    },
+    {
+        "ID": 360,
+        "Name": "Wynaut",
+        "[Level": "[1",
+        "Move]": "Splash]"
+    },
+    {
+        "ID": 361,
+        "Name": "Snorunt",
+        "[Level": "[1",
+        "Move]": "Powder Snow]"
+    },
+    {
+        "ID": 362,
+        "Name": "Glalie",
+        "[Level": "[1",
+        "Move]": "Powder Snow]"
+    },
+    {
+        "ID": 363,
+        "Name": "Spheal",
+        "[Level": "[1",
+        "Move]": "Defense Curl]"
+    },
+    {
+        "ID": 364,
+        "Name": "Sealeo",
+        "[Level": "[1",
+        "Move]": "Powder Snow]"
+    },
+    {
+        "ID": 365,
+        "Name": "Walrein",
+        "[Level": "[1",
+        "Move]": "Crunch]"
+    },
+    {
+        "ID": 366,
+        "Name": "Clamperl",
+        "[Level": "[1",
+        "Move]": "Clamp]"
+    },
+    {
+        "ID": 367,
+        "Name": "Huntail",
+        "[Level": "[1",
+        "Move]": "Whirlpool]"
+    },
+    {
+        "ID": 368,
+        "Name": "Gorebyss",
+        "[Level": "[1",
+        "Move]": "Whirlpool]"
+    },
+    {
+        "ID": 369,
+        "Name": "Relicanth",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 370,
+        "Name": "Luvdisc",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 371,
+        "Name": "Bagon",
+        "[Level": "[1",
+        "Move]": "Rage]"
+    },
+    {
+        "ID": 372,
+        "Name": "Shelgon",
+        "[Level": "[1",
+        "Move]": "Rage]"
+    },
+    {
+        "ID": 373,
+        "Name": "Salamence",
+        "[Level": "[1",
+        "Move]": "Hydro Pump]"
+    },
+    {
+        "ID": 374,
+        "Name": "Beldum",
+        "[Level": "[1",
+        "Move]": "Take Down]"
+    },
+    {
+        "ID": 375,
+        "Name": "Metang",
+        "[Level": "[1",
+        "Move]": "Magnet Rise]"
+    },
+    {
+        "ID": 376,
+        "Name": "Metagross",
+        "[Level": "[1",
+        "Move]": "ThunderPunch]"
+    },
+    {
+        "ID": 377,
+        "Name": "Regirock",
+        "[Level": "[1",
+        "Move]": "Explosion]"
+    },
+    {
+        "ID": 378,
+        "Name": "Regice",
+        "[Level": "[1",
+        "Move]": "Explosion]"
+    },
+    {
+        "ID": 379,
+        "Name": "Registeel",
+        "[Level": "[1",
+        "Move]": "Explosion]"
+    },
+    {
+        "ID": 380,
+        "Name": "Latias",
+        "[Level": "[1",
+        "Move]": "Psywave]"
+    },
+    {
+        "ID": 381,
+        "Name": "Latios",
+        "[Level": "[1",
+        "Move]": "Psywave]"
+    },
+    {
+        "ID": 382,
+        "Name": "Kyogre",
+        "[Level": "[1",
+        "Move]": "Water Pulse]"
+    },
+    {
+        "ID": 383,
+        "Name": "Groudon",
+        "[Level": "[1",
+        "Move]": "Mud Shot]"
+    },
+    {
+        "ID": 384,
+        "Name": "Rayquaza",
+        "[Level": "[1",
+        "Move]": "Twister]"
+    },
+    {
+        "ID": 385,
+        "Name": "Jirachi",
+        "[Level": "[1",
+        "Move]": "Wish]"
+    },
+    {
+        "ID": 386,
+        "Name": "Deoxys",
+        "[Level": "[1",
+        "Move]": "Leer]"
+    },
+    {
+        "ID": 387,
+        "Name": "Turtwig",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 388,
+        "Name": "Grotle",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 389,
+        "Name": "Torterra",
+        "[Level": "[1",
+        "Move]": "Wood Hammer]"
+    },
+    {
+        "ID": 390,
+        "Name": "Chimchar",
+        "[Level": "[1",
+        "Move]": "Scratch]"
+    },
+    {
+        "ID": 391,
+        "Name": "Monferno",
+        "[Level": "[1",
+        "Move]": "Scratch]"
+    },
+    {
+        "ID": 392,
+        "Name": "Infernape",
+        "[Level": "[1",
+        "Move]": "Fire Punch]"
+    },
+    {
+        "ID": 393,
+        "Name": "Piplup",
+        "[Level": "[1",
+        "Move]": "Pound]"
+    },
+    {
+        "ID": 394,
+        "Name": "Prinplup",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 395,
+        "Name": "Empoleon",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 396,
+        "Name": "Starly",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 397,
+        "Name": "Staravia",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 398,
+        "Name": "Staraptor",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 399,
+        "Name": "Bidoof",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 400,
+        "Name": "Bibarel",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 401,
+        "Name": "Kricketot",
+        "[Level": "[1",
+        "Move]": "Growl]"
+    },
+    {
+        "ID": 402,
+        "Name": "Kricketune",
+        "[Level": "[1",
+        "Move]": "Growl]"
+    },
+    {
+        "ID": 403,
+        "Name": "Shinx",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 404,
+        "Name": "Luxio",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 405,
+        "Name": "Luxray",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 406,
+        "Name": "Budew",
+        "[Level": "[1",
+        "Move]": "Absorb]"
+    },
+    {
+        "ID": 407,
+        "Name": "Roserade",
+        "[Level": "[1",
+        "Move]": "Weather Ball]"
+    },
+    {
+        "ID": 408,
+        "Name": "Cranidos",
+        "[Level": "[1",
+        "Move]": "Headbutt]"
+    },
+    {
+        "ID": 409,
+        "Name": "Rampardos",
+        "[Level": "[1",
+        "Move]": "Headbutt]"
+    },
+    {
+        "ID": 410,
+        "Name": "Shieldon",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 411,
+        "Name": "Bastiodon",
+        "[Level": "[1",
+        "Move]": "Magnet Rise]"
+    },
+    {
+        "ID": 412,
+        "Name": "Burmy",
+        "[Level": "[1",
+        "Move]": "Protect]"
+    },
+    {
+        "ID": 413,
+        "Name": "Wormadam",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 414,
+        "Name": "Mothim",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 415,
+        "Name": "Combee",
+        "[Level": "[1",
+        "Move]": "Sweet Scent]"
+    },
+    {
+        "ID": 416,
+        "Name": "Vespiquen",
+        "[Level": "[1",
+        "Move]": "Sweet Scent]"
+    },
+    {
+        "ID": 417,
+        "Name": "Pachirisu",
+        "[Level": "[1",
+        "Move]": "Growl]"
+    },
+    {
+        "ID": 418,
+        "Name": "Buizel",
+        "[Level": "[1",
+        "Move]": "SonicBoom]"
+    },
+    {
+        "ID": 419,
+        "Name": "Floatzel",
+        "[Level": "[1",
+        "Move]": "Low Kick]"
+    },
+    {
+        "ID": 420,
+        "Name": "Cherubi",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 421,
+        "Name": "Cherrim",
+        "[Level": "[1",
+        "Move]": "Weather Ball]"
+    },
+    {
+        "ID": 422,
+        "Name": "Shellos",
+        "[Level": "[1",
+        "Move]": "Mud-Slap]"
+    },
+    {
+        "ID": 423,
+        "Name": "Gastrodon",
+        "[Level": "[1",
+        "Move]": "Mud-Slap]"
+    },
+    {
+        "ID": 424,
+        "Name": "Ambipom",
+        "[Level": "[1",
+        "Move]": "Fire Punch]"
+    },
+    {
+        "ID": 425,
+        "Name": "Drifloon",
+        "[Level": "[1",
+        "Move]": "Constrict]"
+    },
+    {
+        "ID": 426,
+        "Name": "Drifblim",
+        "[Level": "[1",
+        "Move]": "Constrict]"
+    },
+    {
+        "ID": 427,
+        "Name": "Buneary",
+        "[Level": "[1",
+        "Move]": "Splash]"
+    },
+    {
+        "ID": 428,
+        "Name": "Lopunny",
+        "[Level": "[1",
+        "Move]": "Mirror Coat]"
+    },
+    {
+        "ID": 429,
+        "Name": "Mismagius",
+        "[Level": "[1",
+        "Move]": "Lucky Chant]"
+    },
+    {
+        "ID": 430,
+        "Name": "Honchkrow",
+        "[Level": "[1",
+        "Move]": "Astonish]"
+    },
+    {
+        "ID": 431,
+        "Name": "Glameow",
+        "[Level": "[1",
+        "Move]": "Fake Out]"
+    },
+    {
+        "ID": 432,
+        "Name": "Purugly",
+        "[Level": "[1",
+        "Move]": "Fake Out]"
+    },
+    {
+        "ID": 433,
+        "Name": "Chingling",
+        "[Level": "[1",
+        "Move]": "Wrap]"
+    },
+    {
+        "ID": 434,
+        "Name": "Stunky",
+        "[Level": "[1",
+        "Move]": "Scratch]"
+    },
+    {
+        "ID": 435,
+        "Name": "Skuntank",
+        "[Level": "[1",
+        "Move]": "Scratch]"
+    },
+    {
+        "ID": 436,
+        "Name": "Bronzor",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 437,
+        "Name": "Bronzong",
+        "[Level": "[1",
+        "Move]": "Sunny Day]"
+    },
+    {
+        "ID": 438,
+        "Name": "Bonsly",
+        "[Level": "[1",
+        "Move]": "Fake Tears]"
+    },
+    {
+        "ID": 439,
+        "Name": "Mime Jr.",
+        "[Level": "[1",
+        "Move]": "Tickle]"
+    },
+    {
+        "ID": 440,
+        "Name": "Happiny",
+        "[Level": "[1",
+        "Move]": "Pound]"
+    },
+    {
+        "ID": 441,
+        "Name": "Chatot",
+        "[Level": "[1",
+        "Move]": "Peck]"
+    },
+    {
+        "ID": 442,
+        "Name": "Spiritomb",
+        "[Level": "[1",
+        "Move]": "Curse]"
+    },
+    {
+        "ID": 443,
+        "Name": "Gible",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 444,
+        "Name": "Gabite",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 445,
+        "Name": "Garchomp",
+        "[Level": "[1",
+        "Move]": "Fire Fang]"
+    },
+    {
+        "ID": 446,
+        "Name": "Munchlax",
+        "[Level": "[1",
+        "Move]": "Metronome]"
+    },
+    {
+        "ID": 447,
+        "Name": "Riolu",
+        "[Level": "[1",
+        "Move]": "Quick Attack]"
+    },
+    {
+        "ID": 448,
+        "Name": "Lucario",
+        "[Level": "[1",
+        "Move]": "Dark Pulse]"
+    },
+    {
+        "ID": 449,
+        "Name": "Hippopotas",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 450,
+        "Name": "Hippowdon",
+        "[Level": "[1",
+        "Move]": "Ice Fang]"
+    },
+    {
+        "ID": 451,
+        "Name": "Skorupi",
+        "[Level": "[1",
+        "Move]": "Bite]"
+    },
+    {
+        "ID": 452,
+        "Name": "Drapion",
+        "[Level": "[1",
+        "Move]": "Thunder Fang]"
+    },
+    {
+        "ID": 453,
+        "Name": "Croagunk",
+        "[Level": "[1",
+        "Move]": "Astonish]"
+    },
+    {
+        "ID": 454,
+        "Name": "Toxicroak",
+        "[Level": "[1",
+        "Move]": "ThunderPunch]"
+    },
+    {
+        "ID": 455,
+        "Name": "Carnivine",
+        "[Level": "[1",
+        "Move]": "Bind]"
+    },
+    {
+        "ID": 456,
+        "Name": "Finneon",
+        "[Level": "[1",
+        "Move]": "Pound]"
+    },
+    {
+        "ID": 457,
+        "Name": "Lumineon",
+        "[Level": "[1",
+        "Move]": "Ominous Wind]"
+    },
+    {
+        "ID": 458,
+        "Name": "Mantyke",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 459,
+        "Name": "Snover",
+        "[Level": "[1",
+        "Move]": "Powder Snow]"
+    },
+    {
+        "ID": 460,
+        "Name": "Abomasnow",
+        "[Level": "[1",
+        "Move]": "Ice Punch]"
+    },
+    {
+        "ID": 461,
+        "Name": "Weavile",
+        "[Level": "[1",
+        "Move]": "Embargo]"
+    },
+    {
+        "ID": 462,
+        "Name": "Magnezone",
+        "[Level": "[1",
+        "Move]": "Mirror Coat]"
+    },
+    {
+        "ID": 463,
+        "Name": "Lickilicky",
+        "[Level": "[1",
+        "Move]": "Lick]"
+    },
+    {
+        "ID": 464,
+        "Name": "Rhyperior",
+        "[Level": "[1",
+        "Move]": "Poison Jab]"
+    },
+    {
+        "ID": 465,
+        "Name": "Tangrowth",
+        "[Level": "[1",
+        "Move]": "Ingrain]"
+    },
+    {
+        "ID": 466,
+        "Name": "Electivire",
+        "[Level": "[1",
+        "Move]": "Fire Punch]"
+    },
+    {
+        "ID": 467,
+        "Name": "Magmortar",
+        "[Level": "[1",
+        "Move]": "ThunderPunch]"
+    },
+    {
+        "ID": 468,
+        "Name": "Togekiss",
+        "[Level": "[1",
+        "Move]": "Heat Wave]"
+    },
+    {
+        "ID": 469,
+        "Name": "Yanmega",
+        "[Level": "[1",
+        "Move]": "Night Slash]"
+    },
+    {
+        "ID": 470,
+        "Name": "Leafeon",
+        "[Level": "[1",
+        "Move]": "Tail Whip]"
+    },
+    {
+        "ID": 471,
+        "Name": "Glaceon",
+        "[Level": "[1",
+        "Move]": "Tail Whip]"
+    },
+    {
+        "ID": 472,
+        "Name": "Gliscor",
+        "[Level": "[1",
+        "Move]": "Thunder Fang]"
+    },
+    {
+        "ID": 473,
+        "Name": "Mamoswine",
+        "[Level": "[1",
+        "Move]": "AncientPower]"
+    },
+    {
+        "ID": 474,
+        "Name": "Porygon-Z",
+        "[Level": "[1",
+        "Move]": "Trick Room]"
+    },
+    {
+        "ID": 475,
+        "Name": "Gallade",
+        "[Level": "[1",
+        "Move]": "Fire Punch]"
+    },
+    {
+        "ID": 476,
+        "Name": "Probopass",
+        "[Level": "[1",
+        "Move]": "Magnet Rise]"
+    },
+    {
+        "ID": 477,
+        "Name": "Dusknoir",
+        "[Level": "[1",
+        "Move]": "Fire Punch]"
+    },
+    {
+        "ID": 478,
+        "Name": "Froslass",
+        "[Level": "[1",
+        "Move]": "Powder Snow]"
+    },
+    {
+        "ID": 479,
+        "Name": "Rotom",
+        "[Level": "[1",
+        "Move]": "Trick]"
+    },
+    {
+        "ID": 480,
+        "Name": "Uxie",
+        "[Level": "[1",
+        "Move]": "Rest]"
+    },
+    {
+        "ID": 481,
+        "Name": "Mesprit",
+        "[Level": "[1",
+        "Move]": "Rest]"
+    },
+    {
+        "ID": 482,
+        "Name": "Azelf",
+        "[Level": "[1",
+        "Move]": "Rest]"
+    },
+    {
+        "ID": 483,
+        "Name": "Dialga",
+        "[Level": "[1",
+        "Move]": "DragonBreath]"
+    },
+    {
+        "ID": 484,
+        "Name": "Palkia",
+        "[Level": "[1",
+        "Move]": "DragonBreath]"
+    },
+    {
+        "ID": 485,
+        "Name": "Heatran",
+        "[Level": "[1",
+        "Move]": "AncientPower]"
+    },
+    {
+        "ID": 486,
+        "Name": "Regigigas",
+        "[Level": "[1",
+        "Move]": "Fire Punch]"
+    },
+    {
+        "ID": 487,
+        "Name": "Giratina",
+        "[Level": "[1",
+        "Move]": "DragonBreath]"
+    },
+    {
+        "ID": 488,
+        "Name": "Cresselia",
+        "[Level": "[1",
+        "Move]": "Confusion]"
+    },
+    {
+        "ID": 489,
+        "Name": "Phione",
+        "[Level": "[1",
+        "Move]": "Bubble]"
+    },
+    {
+        "ID": 490,
+        "Name": "Manaphy",
+        "[Level": "[1",
+        "Move]": "Tail Glow]"
+    },
+    {
+        "ID": 491,
+        "Name": "Darkrai",
+        "[Level": "[1",
+        "Move]": "Ominous Wind]"
+    },
+    {
+        "ID": 492,
+        "Name": "Shaymin",
+        "[Level": "[1",
+        "Move]": "Growth]"
+    },
+    {
+        "ID": 493,
+        "Name": "Arceus",
+        "[Level": "[1",
+        "Move]": "Seismic Toss]"
+    },
+    {
+        "ID": 494,
+        "Name": "Egg",
+        "[Level": "[1",
+        "Move]": "Splash]\r"
+    },
+    {
+        "ID": 495,
+        "Name": "Bad Egg",
+        "[Level": "[1",
+        "Move]": "Splash]\r"
+    },
+    {
+        "ID": 496,
+        "Name": "Deoxys - Attack",
+        "[Level": "[1",
+        "Move]": "Leer]"
+    },
+    {
+        "ID": 497,
+        "Name": "Deoxys - Defense",
+        "[Level": "[1",
+        "Move]": "Leer]"
+    },
+    {
+        "ID": 498,
+        "Name": "Deoxys - Speed",
+        "[Level": "[1",
+        "Move]": "Leer]"
+    },
+    {
+        "ID": 499,
+        "Name": "Wormadam - Sandy",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 500,
+        "Name": "Wormadam - Trash",
+        "[Level": "[1",
+        "Move]": "Tackle]"
+    },
+    {
+        "ID": 501,
+        "Name": "Giratina - Origin",
+        "[Level": "[1",
+        "Move]": "DragonBreath]"
+    },
+    {
+        "ID": 502,
+        "Name": "Shaymin - Sky",
+        "[Level": "[1",
+        "Move]": "Growth]"
+    },
+    {
+        "ID": 503,
+        "Name": "Rotom - Heat",
+        "[Level": "[1",
+        "Move]": "Trick]"
+    },
+    {
+        "ID": 504,
+        "Name": "Rotom - Wash",
+        "[Level": "[1",
+        "Move]": "Trick]"
+    },
+    {
+        "ID": 505,
+        "Name": "Rotom - Frost",
+        "[Level": "[1",
+        "Move]": "Trick]"
+    },
+    {
+        "ID": 506,
+        "Name": "Rotom - Fan",
+        "[Level": "[1",
+        "Move]": "Trick]"
+    },
+    {
+        "ID": 507,
+        "Name": "Rotom - Mow",
+        "[Level": "[1",
+        "Move]": "Trick]"
+    }
+]

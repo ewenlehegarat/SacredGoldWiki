@@ -1,0 +1,509 @@
+ID,Name,[Method|Param|Target]
+0,-----
+1,Bulbasaur,[LevelingUp|16|Ivysaur]
+2,Ivysaur,[LevelingUp|32|Venusaur]
+3,Venusaur
+4,Charmander,[LevelingUp|16|Charmeleon]
+5,Charmeleon,[LevelingUp|36|Charizard]
+6,Charizard
+7,Squirtle,[LevelingUp|16|Wartortle]
+8,Wartortle,[LevelingUp|36|Blastoise]
+9,Blastoise
+10,Caterpie,[LevelingUp|7|Metapod]
+11,Metapod,[LevelingUp|10|Butterfree]
+12,Butterfree
+13,Weedle,[LevelingUp|7|Kakuna]
+14,Kakuna,[LevelingUp|10|Beedrill]
+15,Beedrill
+16,Pidgey,[LevelingUp|18|Pidgeotto]
+17,Pidgeotto,[LevelingUp|36|Pidgeot]
+18,Pidgeot
+19,Rattata,[LevelingUp|20|Raticate]
+20,Raticate
+21,Spearow,[LevelingUp|20|Fearow]
+22,Fearow
+23,Ekans,[LevelingUp|22|Arbok]
+24,Arbok
+25,Pikachu,[Item|Thunderstone|Raichu]
+26,Raichu
+27,Sandshrew,[LevelingUp|22|Sandslash]
+28,Sandslash
+29,Nidoran♀,[LevelingUp|16|Nidorina]
+30,Nidorina,[Item|Moon Stone|Nidoqueen]
+31,Nidoqueen
+32,Nidoran♂,[LevelingUp|16|Nidorino]
+33,Nidorino,[Item|Moon Stone|Nidoking]
+34,Nidoking
+35,Clefairy,[Item|Moon Stone|Clefable]
+36,Clefable
+37,Vulpix,[Item|Fire Stone|Ninetales]
+38,Ninetales
+39,Jigglypuff,[Item|Moon Stone|Wigglytuff]
+40,Wigglytuff
+41,Zubat,[LevelingUp|22|Golbat]
+42,Golbat,[Friendship220|Ignored|Crobat]
+43,Oddish,[LevelingUp|21|Gloom]
+44,Gloom,[Item|Leaf Stone|Vileplume],[Item|Sun Stone|Bellossom]
+45,Vileplume
+46,Paras,[LevelingUp|24|Parasect]
+47,Parasect
+48,Venonat,[LevelingUp|31|Venomoth]
+49,Venomoth
+50,Diglett,[LevelingUp|26|Dugtrio]
+51,Dugtrio
+52,Meowth,[LevelingUp|28|Persian]
+53,Persian
+54,Psyduck,[LevelingUp|33|Golduck]
+55,Golduck
+56,Mankey,[LevelingUp|28|Primeape]
+57,Primeape
+58,Growlithe,[Item|Fire Stone|Arcanine]
+59,Arcanine
+60,Poliwag,[LevelingUp|25|Poliwhirl]
+61,Poliwhirl,[Item|Water Stone|Poliwrath],[Item|King’s Rock|Politoed]
+62,Poliwrath
+63,Abra,[LevelingUp|16|Kadabra]
+64,Kadabra,[Trade|Ignored|Alakazam],[Item|Covenant Orb|Alakazam]
+65,Alakazam
+66,Machop,[LevelingUp|28|Machoke]
+67,Machoke,[Trade|Ignored|Machamp],[Item|Covenant Orb|Machamp]
+68,Machamp
+69,Bellsprout,[LevelingUp|21|Weepinbell]
+70,Weepinbell,[Item|Leaf Stone|Victreebel]
+71,Victreebel
+72,Tentacool,[LevelingUp|30|Tentacruel]
+73,Tentacruel
+74,Geodude,[LevelingUp|25|Graveler]
+75,Graveler,[Trade|Ignored|Golem],[Item|Covenant Orb|Golem]
+76,Golem
+77,Ponyta,[LevelingUp|40|Rapidash]
+78,Rapidash
+79,Slowpoke,[LevelingUp|37|Slowbro],[Item|King’s Rock|Slowking]
+80,Slowbro
+81,Magnemite,[LevelingUp|30|Magneton]
+82,Magneton,[Item|Voltaic Ore|Magnezone]
+83,Farfetch’d
+84,Doduo,[LevelingUp|31|Dodrio]
+85,Dodrio
+86,Seel,[LevelingUp|34|Dewgong]
+87,Dewgong
+88,Grimer,[LevelingUp|38|Muk]
+89,Muk
+90,Shellder,[Item|Water Stone|Cloyster]
+91,Cloyster
+92,Gastly,[LevelingUp|25|Haunter]
+93,Haunter,[Trade|Ignored|Gengar],[Item|Covenant Orb|Gengar]
+94,Gengar
+95,Onix,[Item|Metal Coat|Steelix]
+96,Drowzee,[LevelingUp|26|Hypno]
+97,Hypno
+98,Krabby,[LevelingUp|28|Kingler]
+99,Kingler
+100,Voltorb,[LevelingUp|30|Electrode]
+101,Electrode
+102,Exeggcute,[Item|Leaf Stone|Exeggutor]
+103,Exeggutor
+104,Cubone,[LevelingUp|28|Marowak]
+105,Marowak
+106,Hitmonlee
+107,Hitmonchan
+108,Lickitung,[KnowsMove|Rollout|Lickilicky]
+109,Koffing,[LevelingUp|35|Weezing]
+110,Weezing
+111,Rhyhorn,[LevelingUp|42|Rhydon]
+112,Rhydon,[Item|Protector|Rhyperior]
+113,Chansey,[Friendship220|Ignored|Blissey]
+114,Tangela,[KnowsMove|AncientPower|Tangrowth]
+115,Kangaskhan
+116,Horsea,[LevelingUp|32|Seadra]
+117,Seadra,[Item|Dragon Scale|Kingdra]
+118,Goldeen,[LevelingUp|33|Seaking]
+119,Seaking
+120,Staryu,[Item|Water Stone|Starmie]
+121,Starmie
+122,Mr. Mime
+123,Scyther,[Item|Metal Coat|Scizor]
+124,Jynx
+125,Electabuzz,[Item|Electirizer|Electivire]
+126,Magmar,[Item|Magmarizer|Magmortar]
+127,Pinsir
+128,Tauros
+129,Magikarp,[LevelingUp|20|Gyarados]
+130,Gyarados
+131,Lapras
+132,Ditto
+133,Eevee,[Item|Woodland Ore|Leafeon],[Item|Chilled Ore|Glaceon],[Item|Thunderstone|Jolteon],[Item|Water Stone|Vaporeon],[Item|Fire Stone|Flareon],[Item|Aubade Orb|Espeon],[Item|Serenade Orb|Umbreon]
+134,Vaporeon
+135,Jolteon
+136,Flareon
+137,Porygon,[Item|Up-Grade|Porygon2]
+138,Omanyte,[LevelingUp|40|Omastar]
+139,Omastar
+140,Kabuto,[LevelingUp|40|Kabutops]
+141,Kabutops
+142,Aerodactyl
+143,Snorlax
+144,Articuno
+145,Zapdos
+146,Moltres
+147,Dratini,[LevelingUp|30|Dragonair]
+148,Dragonair,[LevelingUp|55|Dragonite]
+149,Dragonite
+150,Mewtwo
+151,Mew
+152,Chikorita,[LevelingUp|16|Bayleef]
+153,Bayleef,[LevelingUp|32|Meganium]
+154,Meganium
+155,Cyndaquil,[LevelingUp|14|Quilava]
+156,Quilava,[LevelingUp|36|Typhlosion]
+157,Typhlosion
+158,Totodile,[LevelingUp|18|Croconaw]
+159,Croconaw,[LevelingUp|30|Feraligatr]
+160,Feraligatr
+161,Sentret,[LevelingUp|15|Furret]
+162,Furret
+163,Hoothoot,[LevelingUp|20|Noctowl]
+164,Noctowl
+165,Ledyba,[LevelingUp|18|Ledian]
+166,Ledian
+167,Spinarak,[LevelingUp|22|Ariados]
+168,Ariados
+169,Crobat
+170,Chinchou,[LevelingUp|27|Lanturn]
+171,Lanturn
+172,Pichu,[Friendship220|Ignored|Pikachu]
+173,Cleffa,[Friendship220|Ignored|Clefairy]
+174,Igglybuff,[Friendship220|Ignored|Jigglypuff]
+175,Togepi,[Friendship220|Ignored|Togetic]
+176,Togetic,[Item|Shiny Stone|Togekiss]
+177,Natu,[LevelingUp|25|Xatu]
+178,Xatu
+179,Mareep,[LevelingUp|15|Flaaffy]
+180,Flaaffy,[LevelingUp|30|Ampharos]
+181,Ampharos
+182,Bellossom
+183,Marill,[LevelingUp|18|Azumarill]
+184,Azumarill
+185,Sudowoodo
+186,Politoed
+187,Hoppip,[LevelingUp|18|Skiploom]
+188,Skiploom,[LevelingUp|27|Jumpluff]
+189,Jumpluff
+190,Aipom,[KnowsMove|Double Hit|Ambipom]
+191,Sunkern,[Item|Sun Stone|Sunflora]
+192,Sunflora
+193,Yanma,[KnowsMove|AncientPower|Yanmega]
+194,Wooper,[LevelingUp|20|Quagsire]
+195,Quagsire
+196,Espeon
+197,Umbreon
+198,Murkrow,[Item|Dusk Stone|Honchkrow]
+199,Slowking
+200,Misdreavus,[Item|Dusk Stone|Mismagius]
+201,Unown
+202,Wobbuffet
+203,Girafarig
+204,Pineco,[LevelingUp|31|Forretress]
+205,Forretress
+206,Dunsparce
+207,Gligar,[HeldItem_Night|Razor Fang|Gliscor]
+208,Steelix
+209,Snubbull,[LevelingUp|23|Granbull]
+210,Granbull
+211,Qwilfish
+212,Scizor
+213,Shuckle
+214,Heracross
+215,Sneasel,[HeldItem_Night|Razor Claw|Weavile]
+216,Teddiursa,[LevelingUp|30|Ursaring]
+217,Ursaring
+218,Slugma,[LevelingUp|38|Magcargo]
+219,Magcargo
+220,Swinub,[LevelingUp|33|Piloswine]
+221,Piloswine,[KnowsMove|AncientPower|Mamoswine]
+222,Corsola
+223,Remoraid,[LevelingUp|25|Octillery]
+224,Octillery
+225,Delibird
+226,Mantine
+227,Skarmory
+228,Houndour,[LevelingUp|24|Houndoom]
+229,Houndoom
+230,Kingdra
+231,Phanpy,[LevelingUp|25|Donphan]
+232,Donphan
+233,Porygon2,[Item|Dubious Disc|Porygon-Z]
+234,Stantler
+235,Smeargle
+236,Tyrogue,[Def_Greater_Atk|20|Hitmonchan],[Atk_Greater_Def|20|Hitmonlee],[Atk_Equal_Def|20|Hitmontop]
+237,Hitmontop
+238,Smoochum,[LevelingUp|30|Jynx]
+239,Elekid,[LevelingUp|30|Electabuzz]
+240,Magby,[LevelingUp|30|Magmar]
+241,Miltank
+242,Blissey
+243,Raikou
+244,Entei
+245,Suicune
+246,Larvitar,[LevelingUp|30|Pupitar]
+247,Pupitar,[LevelingUp|55|Tyranitar]
+248,Tyranitar
+249,Lugia
+250,Ho-oh
+251,Celebi
+252,Treecko,[LevelingUp|16|Grovyle]
+253,Grovyle,[LevelingUp|36|Sceptile]
+254,Sceptile
+255,Torchic,[LevelingUp|16|Combusken]
+256,Combusken,[LevelingUp|36|Blaziken]
+257,Blaziken
+258,Mudkip,[LevelingUp|16|Marshtomp]
+259,Marshtomp,[LevelingUp|36|Swampert]
+260,Swampert
+261,Poochyena,[LevelingUp|18|Mightyena]
+262,Mightyena
+263,Zigzagoon,[LevelingUp|20|Linoone]
+264,Linoone
+265,Wurmple,[Personality1|7|Silcoon],[Personality2|7|Cascoon]
+266,Silcoon,[LevelingUp|10|Beautifly]
+267,Beautifly
+268,Cascoon,[LevelingUp|10|Dustox]
+269,Dustox
+270,Lotad,[LevelingUp|14|Lombre]
+271,Lombre,[Item|Water Stone|Ludicolo]
+272,Ludicolo
+273,Seedot,[LevelingUp|14|Nuzleaf]
+274,Nuzleaf,[Item|Leaf Stone|Shiftry]
+275,Shiftry
+276,Taillow,[LevelingUp|22|Swellow]
+277,Swellow
+278,Wingull,[LevelingUp|25|Pelipper]
+279,Pelipper
+280,Ralts,[LevelingUp|20|Kirlia]
+281,Kirlia,[LevelingUp|30|Gardevoir],[ItemMale|Dawn Stone|Gallade]
+282,Gardevoir
+283,Surskit,[LevelingUp|22|Masquerain]
+284,Masquerain
+285,Shroomish,[LevelingUp|23|Breloom]
+286,Breloom
+287,Slakoth,[LevelingUp|18|Vigoroth]
+288,Vigoroth,[LevelingUp|36|Slaking]
+289,Slaking
+290,Nincada,[FreeSpaceCheck|20|Ninjask],[Shedinja|20|Shedinja]
+291,Ninjask
+292,Shedinja
+293,Whismur,[LevelingUp|20|Loudred]
+294,Loudred,[LevelingUp|40|Exploud]
+295,Exploud
+296,Makuhita,[LevelingUp|24|Hariyama]
+297,Hariyama
+298,Azurill,[Friendship220|Ignored|Marill]
+299,Nosepass,[Item|Voltaic Ore|Probopass]
+300,Skitty,[Item|Moon Stone|Delcatty]
+301,Delcatty
+302,Sableye
+303,Mawile
+304,Aron,[LevelingUp|32|Lairon]
+305,Lairon,[LevelingUp|42|Aggron]
+306,Aggron
+307,Meditite,[LevelingUp|37|Medicham]
+308,Medicham
+309,Electrike,[LevelingUp|26|Manectric]
+310,Manectric
+311,Plusle
+312,Minun
+313,Volbeat
+314,Illumise
+315,Roselia,[Item|Shiny Stone|Roserade]
+316,Gulpin,[LevelingUp|26|Swalot]
+317,Swalot
+318,Carvanha,[LevelingUp|30|Sharpedo]
+319,Sharpedo
+320,Wailmer,[LevelingUp|40|Wailord]
+321,Wailord
+322,Numel,[LevelingUp|33|Camerupt]
+323,Camerupt
+324,Torkoal
+325,Spoink,[LevelingUp|32|Grumpig]
+326,Grumpig
+327,Spinda
+328,Trapinch,[LevelingUp|35|Vibrava]
+329,Vibrava,[LevelingUp|45|Flygon]
+330,Flygon
+331,Cacnea,[LevelingUp|32|Cacturne]
+332,Cacturne
+333,Swablu,[LevelingUp|35|Altaria]
+334,Altaria
+335,Zangoose
+336,Seviper
+337,Lunatone
+338,Solrock
+339,Barboach,[LevelingUp|30|Whiscash]
+340,Whiscash
+341,Corphish,[LevelingUp|30|Crawdaunt]
+342,Crawdaunt
+343,Baltoy,[LevelingUp|36|Claydol]
+344,Claydol
+345,Lileep,[LevelingUp|40|Cradily]
+346,Cradily
+347,Anorith,[LevelingUp|40|Armaldo]
+348,Armaldo
+349,Feebas,[BeautyThreshold|0|Milotic]
+350,Milotic
+351,Castform
+352,Kecleon
+353,Shuppet,[LevelingUp|37|Banette]
+354,Banette
+355,Duskull,[LevelingUp|37|Dusclops]
+356,Dusclops,[Item|Reaper Cloth|Dusknoir]
+357,Tropius
+358,Chimecho
+359,Absol
+360,Wynaut,[LevelingUp|15|Wobbuffet]
+361,Snorunt,[LevelingUp|42|Glalie],[ItemFemale|Dawn Stone|Froslass]
+362,Glalie
+363,Spheal,[LevelingUp|32|Sealeo]
+364,Sealeo,[LevelingUp|44|Walrein]
+365,Walrein
+366,Clamperl,[Item|DeepSeaTooth|Huntail],[Item|DeepSeaScale|Gorebyss]
+367,Huntail
+368,Gorebyss
+369,Relicanth
+370,Luvdisc
+371,Bagon,[LevelingUp|30|Shelgon]
+372,Shelgon,[LevelingUp|50|Salamence]
+373,Salamence
+374,Beldum,[LevelingUp|20|Metang]
+375,Metang,[LevelingUp|45|Metagross]
+376,Metagross
+377,Regirock
+378,Regice
+379,Registeel
+380,Latias
+381,Latios
+382,Kyogre
+383,Groudon
+384,Rayquaza
+385,Jirachi
+386,Deoxys
+387,Turtwig,[LevelingUp|18|Grotle]
+388,Grotle,[LevelingUp|32|Torterra]
+389,Torterra
+390,Chimchar,[LevelingUp|14|Monferno]
+391,Monferno,[LevelingUp|36|Infernape]
+392,Infernape
+393,Piplup,[LevelingUp|16|Prinplup]
+394,Prinplup,[LevelingUp|36|Empoleon]
+395,Empoleon
+396,Starly,[LevelingUp|14|Staravia]
+397,Staravia,[LevelingUp|34|Staraptor]
+398,Staraptor
+399,Bidoof,[LevelingUp|15|Bibarel]
+400,Bibarel
+401,Kricketot,[LevelingUp|10|Kricketune]
+402,Kricketune
+403,Shinx,[LevelingUp|15|Luxio]
+404,Luxio,[LevelingUp|30|Luxray]
+405,Luxray
+406,Budew,[Friendship220_Day|Ignored|Roselia]
+407,Roserade
+408,Cranidos,[LevelingUp|30|Rampardos]
+409,Rampardos
+410,Shieldon,[LevelingUp|30|Bastiodon]
+411,Bastiodon
+412,Burmy,[LevelingUp_Female|0|Wormadam],[LevelingUp_Male|20|Mothim]
+413,Wormadam
+414,Mothim
+415,Combee,[LevelingUp_Female|0|Vespiquen]
+416,Vespiquen
+417,Pachirisu
+418,Buizel,[LevelingUp|26|Floatzel]
+419,Floatzel
+420,Cherubi,[LevelingUp|25|Cherrim]
+421,Cherrim
+422,Shellos,[LevelingUp|30|Gastrodon]
+423,Gastrodon
+424,Ambipom
+425,Drifloon,[LevelingUp|28|Drifblim]
+426,Drifblim
+427,Buneary,[Friendship220|Ignored|Lopunny]
+428,Lopunny
+429,Mismagius
+430,Honchkrow
+431,Glameow,[LevelingUp|38|Purugly]
+432,Purugly
+433,Chingling,[Friendship220_Night|Ignored|Chimecho]
+434,Stunky,[LevelingUp|34|Skuntank]
+435,Skuntank
+436,Bronzor,[LevelingUp|33|Bronzong]
+437,Bronzong
+438,Bonsly,[KnowsMove|Mimic|Sudowoodo]
+439,Mime Jr.,[KnowsMove|Mimic|Mr. Mime]
+440,Happiny,[HeldItem_Day|Oval Stone|Chansey]
+441,Chatot
+442,Spiritomb
+443,Gible,[LevelingUp|24|Gabite]
+444,Gabite,[LevelingUp|48|Garchomp]
+445,Garchomp
+446,Munchlax,[Friendship220|Ignored|Snorlax]
+447,Riolu,[Friendship220_Day|Ignored|Lucario]
+448,Lucario
+449,Hippopotas,[LevelingUp|34|Hippowdon]
+450,Hippowdon
+451,Skorupi,[LevelingUp|40|Drapion]
+452,Drapion
+453,Croagunk,[LevelingUp|37|Toxicroak]
+454,Toxicroak
+455,Carnivine
+456,Finneon,[LevelingUp|31|Lumineon]
+457,Lumineon
+458,Mantyke,[PartyPokemonPresence|Voltorb|Mantine]
+459,Snover,[LevelingUp|40|Abomasnow]
+460,Abomasnow
+461,Weavile
+462,Magnezone
+463,Lickilicky
+464,Rhyperior
+465,Tangrowth
+466,Electivire
+467,Magmortar
+468,Togekiss
+469,Yanmega
+470,Leafeon
+471,Glaceon
+472,Gliscor
+473,Mamoswine
+474,Porygon-Z
+475,Gallade
+476,Probopass
+477,Dusknoir
+478,Froslass
+479,Rotom
+480,Uxie
+481,Mesprit
+482,Azelf
+483,Dialga
+484,Palkia
+485,Heatran
+486,Regigigas
+487,Giratina
+488,Cresselia
+489,Phione
+490,Manaphy
+491,Darkrai
+492,Shaymin
+493,Arceus
+494,Egg
+495,Bad Egg
+496,Deoxys - Attack
+497,Deoxys - Defense
+498,Deoxys - Speed
+499,Wormadam - Sandy
+500,Wormadam - Trash
+501,Giratina - Origin
+502,Shaymin - Sky
+503,Rotom - Heat
+504,Rotom - Wash
+505,Rotom - Frost
+506,Rotom - Fan
+507,Rotom - Mow

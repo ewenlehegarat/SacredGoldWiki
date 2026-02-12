@@ -1,0 +1,469 @@
+Move ID,Move Name,Move Type,Move Split,Power,Accuracy,Priority,Side Effect Probability,PP,Ranges,Flags,Effect Description
+0,-,NORMAL,PHYSICAL,0,0,0,0,0,[],[],Hit
+1,Pound,NORMAL,PHYSICAL,40,100,0,0,35,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Hit
+2,Karate Chop,FIGHTING,PHYSICAL,50,100,0,0,25,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],High crit chance
+3,DoubleSlap,NORMAL,PHYSICAL,15,85,0,0,10,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Multi-hit (2-5 times)
+4,Comet Punch,NORMAL,PHYSICAL,18,85,0,0,15,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Multi-hit (2-5 times)
+5,Mega Punch,NORMAL,PHYSICAL,80,85,0,0,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Hit
+6,Pay Day,NORMAL,PHYSICAL,40,100,0,0,20,[],[PROTECT|MIRROR_MOVE|KINGSROCK],Increase prize money
+7,Fire Punch,FIRE,PHYSICAL,75,100,0,10,15,[],[CONTACT|PROTECT|MIRROR_MOVE],May Burn (Hit)
+8,Ice Punch,ICE,PHYSICAL,75,100,0,10,15,[],[CONTACT|PROTECT|MIRROR_MOVE],May Freeze (Hit)
+9,ThunderPunch,ELECTRIC,PHYSICAL,75,100,0,10,15,[],[CONTACT|PROTECT|MIRROR_MOVE],May Paralyze (Hit)
+10,Scratch,NORMAL,PHYSICAL,40,100,0,0,35,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Hit
+11,ViceGrip,NORMAL,PHYSICAL,55,100,0,0,30,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Hit
+12,Guillotine,NORMAL,PHYSICAL,1,30,0,0,5,[],[CONTACT|PROTECT|MIRROR_MOVE],OHKO
+13,Razor Wind,NORMAL,SPECIAL,80,100,0,0,10,[BOTH],[PROTECT|MIRROR_MOVE|KINGSROCK],User charges this turn, attacks next turn with high crit chance
+14,Swords Dance,NORMAL,STATUS,0,0,0,0,30,[USER],[SNATCH|KEEP_HP_BAR],Sharply raises User's Atk (Status)
+15,Cut,GRASS,PHYSICAL,60,100,0,0,30,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Hit
+16,Gust,FLYING,SPECIAL,40,100,0,0,35,[],[PROTECT|MIRROR_MOVE|KINGSROCK],2x Damage on Pokemon using Bounce/Fly
+17,Wing Attack,FLYING,PHYSICAL,60,100,0,0,35,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Hit
+18,Whirlwind,NORMAL,STATUS,0,100,-6,0,20,[],[PROTECT|MIRROR_MOVE|KEEP_HP_BAR],Force switch
+19,Fly,FLYING,PHYSICAL,90,95,0,0,15,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],User charges this turn, invulnerable until it attacks next turn
+20,Bind,NORMAL,PHYSICAL,15,85,0,0,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Prevents Target from escaping, deals 1/16 Target's max HP damage for 5 turns (Hit)
+21,Slam,NORMAL,PHYSICAL,80,75,0,0,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Hit
+22,Vine Whip,GRASS,PHYSICAL,35,100,0,0,15,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Hit
+23,Stomp,NORMAL,PHYSICAL,65,100,0,30,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KEEP_HP_BAR],Causes flinch and 2x damage if (a) Target has used Minimize (Hit)
+24,Double Kick,FIGHTING,PHYSICAL,30,100,0,0,30,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Hits twice
+25,Mega Kick,NORMAL,PHYSICAL,120,75,0,0,5,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],Hit
+26,Jump Kick,FIGHTING,PHYSICAL,100,95,0,0,25,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],User loses 1/2 max HP if move misses
+27,Rolling Kick,FIGHTING,PHYSICAL,60,85,0,30,15,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],May cause Flinch (Hit)
+28,Sand-Attack,GROUND,STATUS,0,100,0,0,15,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE],Lowers Target's Accuracy (Status)
+29,Headbutt,NORMAL,PHYSICAL,70,100,0,30,15,[],[CONTACT|PROTECT|MIRROR_MOVE|KEEP_HP_BAR],May cause Flinch (Hit)
+30,Horn Attack,NORMAL,PHYSICAL,65,100,0,0,25,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Hit
+31,Fury Attack,NORMAL,PHYSICAL,15,85,0,0,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Multi-hit (2-5 times)
+32,Horn Drill,NORMAL,PHYSICAL,1,30,0,0,5,[],[CONTACT|PROTECT|MIRROR_MOVE],OHKO
+33,Tackle,NORMAL,PHYSICAL,50,100,0,0,35,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Hit
+34,Body Slam,NORMAL,PHYSICAL,85,100,0,30,15,[],[CONTACT|PROTECT|MIRROR_MOVE|KEEP_HP_BAR],May Paralyze (Hit)
+35,Wrap,NORMAL,PHYSICAL,15,90,0,0,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Prevents Target from escaping, deals 1/16 Target's max HP damage for 5 turns (Hit)
+36,Take Down,NORMAL,PHYSICAL,90,85,0,0,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],1/4 damage recoil
+37,Thrash,NORMAL,PHYSICAL,120,100,0,0,20,[RANDOM],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Locked into move for 2-3 turns; confuses User after
+38,Double-Edge,NORMAL,PHYSICAL,120,100,0,0,15,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],1/3 damage recoil
+39,Tail Whip,NORMAL,STATUS,0,100,0,0,30,[BOTH],[PROTECT|MAGIC_COAT|MIRROR_MOVE|KEEP_HP_BAR],Lowers Target's Def (Status)
+40,Poison Sting,POISON,PHYSICAL,15,100,0,30,35,[],[PROTECT|MIRROR_MOVE],May Poison (Hit)
+41,Twineedle,BUG,PHYSICAL,25,100,0,20,20,[],[PROTECT|MIRROR_MOVE|KEEP_HP_BAR],Multi-hit and may Poison
+42,Pin Missile,BUG,PHYSICAL,14,85,0,0,20,[],[PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Multi-hit (2-5 times)
+43,Leer,NORMAL,STATUS,0,100,0,0,30,[BOTH],[PROTECT|MAGIC_COAT|MIRROR_MOVE],Lowers Target's Def (Status)
+44,Bite,DARK,PHYSICAL,60,100,0,30,25,[],[CONTACT|PROTECT|MIRROR_MOVE],May cause Flinch (Hit)
+45,Growl,NORMAL,STATUS,0,100,0,0,40,[BOTH],[PROTECT|MAGIC_COAT|MIRROR_MOVE|KEEP_HP_BAR],Lowers Target's Atk (Status)
+46,Roar,NORMAL,STATUS,0,100,-6,0,20,[],[PROTECT|MIRROR_MOVE|KEEP_HP_BAR],Force switch
+47,Sing,NORMAL,STATUS,0,55,0,0,15,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE],Causes Sleep
+48,Supersonic,NORMAL,STATUS,0,55,0,0,20,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE],Causes confusion
+49,SonicBoom,NORMAL,SPECIAL,1,90,0,0,20,[],[PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Deals 20 damage
+50,Disable,NORMAL,STATUS,0,100,0,0,20,[],[PROTECT|MIRROR_MOVE],Disables last move used for 4-7 turns
+51,Acid,POISON,SPECIAL,40,100,0,10,30,[BOTH],[PROTECT|MIRROR_MOVE],Lowers Target's Sp. Def (Hit)
+52,Ember,FIRE,SPECIAL,40,100,0,10,25,[],[PROTECT|MIRROR_MOVE|KEEP_HP_BAR],May Burn (Hit)
+53,Flamethrower,FIRE,SPECIAL,95,100,0,10,15,[],[PROTECT|MIRROR_MOVE],May Burn (Hit)
+54,Mist,ICE,STATUS,0,0,0,0,30,[USER_SIDE],[SNATCH],Prevents stat reduction
+55,Water Gun,WATER,SPECIAL,40,100,0,0,25,[],[PROTECT|MIRROR_MOVE|KINGSROCK],Hit
+56,Hydro Pump,WATER,SPECIAL,120,80,0,0,5,[],[PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],Hit
+57,Surf,WATER,SPECIAL,95,100,0,0,15,[FOES_AND_ALLY],[PROTECT|MIRROR_MOVE|KINGSROCK],2x damage on targets using move with Move Effect ID #255
+58,Ice Beam,ICE,SPECIAL,95,100,0,10,10,[],[PROTECT|MIRROR_MOVE],May Freeze (Hit)
+59,Blizzard,ICE,SPECIAL,120,70,0,10,5,[BOTH],[PROTECT|MIRROR_MOVE|DEL_SHADOW],Always hits in Hail, may cause Freeze
+60,Psybeam,PSYCHIC,SPECIAL,65,100,0,10,20,[],[PROTECT|MIRROR_MOVE],May Confuse (Hit)
+61,BubbleBeam,WATER,SPECIAL,65,100,0,10,20,[],[PROTECT|MIRROR_MOVE],Lowers Target's Speed (Hit)
+62,Aurora Beam,ICE,SPECIAL,65,100,0,10,20,[],[PROTECT|MIRROR_MOVE],Lowers Target's Atk (Hit)
+63,Hyper Beam,NORMAL,SPECIAL,150,90,0,0,5,[],[PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],Requires recharge turn
+64,Peck,FLYING,PHYSICAL,35,100,0,0,35,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Hit
+65,Drill Peck,FLYING,PHYSICAL,80,100,0,0,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Hit
+66,Submission,FIGHTING,PHYSICAL,80,80,0,0,25,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],1/4 damage recoil
+67,Low Kick,FIGHTING,PHYSICAL,1,100,0,0,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Increase power with Target's weight
+68,Counter,FIGHTING,PHYSICAL,1,100,-5,0,20,[VARIABLE],[CONTACT],Deals 2x last amount of damage received
+69,Seismic Toss,FIGHTING,PHYSICAL,1,100,0,0,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],Deals damage equal to User's level
+70,Strength,ROCK,PHYSICAL,75,100,0,10,15,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Lowers Target's Atk (Hit)
+71,Absorb,GRASS,SPECIAL,20,100,0,0,25,[],[PROTECT|MIRROR_MOVE],Restore own HP by 1/2 damage dealt
+72,Mega Drain,GRASS,SPECIAL,40,100,0,0,15,[],[PROTECT|MIRROR_MOVE],Restore own HP by 1/2 damage dealt
+73,Leech Seed,GRASS,STATUS,0,90,0,0,10,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE],Causes leech seed
+74,Growth,NORMAL,STATUS,0,0,0,0,40,[USER],[SNATCH|KEEP_HP_BAR],Raises User's Sp. Atk (Status)
+75,Razor Leaf,GRASS,PHYSICAL,55,95,0,0,25,[BOTH],[PROTECT|MIRROR_MOVE|KINGSROCK],High crit chance
+76,SolarBeam,GRASS,SPECIAL,120,100,0,0,10,[],[PROTECT|MIRROR_MOVE|KINGSROCK],User charges this turn, attacks next turn; instant in Sun
+77,PoisonPowder,POISON,STATUS,0,75,0,0,35,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE|KEEP_HP_BAR],Causes Poison
+78,Stun Spore,GRASS,STATUS,0,75,0,0,30,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE|KEEP_HP_BAR],Causes Paralysis
+79,Sleep Powder,GRASS,STATUS,0,75,0,0,15,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE|KEEP_HP_BAR],Causes Sleep
+80,Petal Dance,GRASS,SPECIAL,120,100,0,0,20,[RANDOM],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Locked into move for 2-3 turns; confuses User after
+81,String Shot,BUG,STATUS,0,95,0,0,40,[BOTH],[PROTECT|MAGIC_COAT|MIRROR_MOVE],Lowers Target's Speed (Status)
+82,Dragon Rage,DRAGON,SPECIAL,1,100,0,0,10,[],[PROTECT|MIRROR_MOVE|KINGSROCK],Deals 40 damage
+83,Fire Spin,FIRE,SPECIAL,35,85,0,0,15,[],[PROTECT|MIRROR_MOVE|KINGSROCK],Prevents Target from escaping, deals 1/16 Target's max HP damage for 5 turns (Hit)
+84,ThunderShock,ELECTRIC,SPECIAL,40,100,0,10,30,[],[PROTECT|MIRROR_MOVE],May Paralyze (Hit)
+85,Thunderbolt,ELECTRIC,SPECIAL,95,100,0,10,15,[],[PROTECT|MIRROR_MOVE],May Paralyze (Hit)
+86,Thunder Wave,ELECTRIC,STATUS,0,100,0,0,20,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE],Causes Paralysis
+87,Thunder,ELECTRIC,SPECIAL,120,70,0,30,10,[],[PROTECT|MIRROR_MOVE|DEL_SHADOW],Guaranteed hit in Rain, may Paralyze; can hit invulnerable Fly/Bounce user
+88,Rock Throw,ROCK,PHYSICAL,50,90,0,0,15,[],[PROTECT|MIRROR_MOVE|KINGSROCK],Hit
+89,Earthquake,GROUND,PHYSICAL,100,100,0,0,10,[FOES_AND_ALLY],[PROTECT|MIRROR_MOVE|KINGSROCK],2x damage on Target using Move with Move Effect ID #256
+90,Fissure,GROUND,PHYSICAL,1,30,0,0,5,[],[PROTECT|MIRROR_MOVE|DEL_SHADOW],OHKO
+91,Dig,GROUND,PHYSICAL,80,100,0,0,10,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],User charges, becomes invulnerable until attack next turn; vulnerable to Move Effect IDs #89, #222
+92,Toxic,POISON,STATUS,0,90,0,0,10,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE],Badly Poisons
+93,Confusion,PSYCHIC,SPECIAL,50,100,0,10,25,[],[PROTECT|MIRROR_MOVE],May Confuse (Hit)
+94,Psychic,PSYCHIC,SPECIAL,90,100,0,10,10,[],[PROTECT|MIRROR_MOVE],Lowers Target's Sp. Def (Hit)
+95,Hypnosis,PSYCHIC,STATUS,0,70,0,0,20,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE],Causes Sleep
+96,Meditate,PSYCHIC,STATUS,0,0,0,0,40,[USER],[SNATCH],Raises User's Atk (Status)
+97,Agility,PSYCHIC,STATUS,0,0,0,0,30,[USER],[SNATCH|DEL_SHADOW],Sharply raises User's Speed (Status)
+98,Quick Attack,NORMAL,PHYSICAL,40,100,1,0,30,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Priority +1
+99,Rage,NORMAL,PHYSICAL,20,100,0,0,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Raises User's Atk when hit; locked into move until User is KO'd or battle ends
+100,Teleport,PSYCHIC,STATUS,0,0,0,0,20,[USER],[],Flee from wild Single battle; fails in trainer battles
+101,Night Shade,GHOST,SPECIAL,1,100,0,0,15,[],[PROTECT|MIRROR_MOVE|KINGSROCK],Deals damage equal to User's level
+102,Mimic,NORMAL,STATUS,0,0,0,0,10,[],[PROTECT],Mimic effect
+103,Screech,NORMAL,STATUS,0,85,0,0,40,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE|KEEP_HP_BAR],Sharply lowers Target's Def (Status)
+104,Double Team,NORMAL,STATUS,0,0,0,0,15,[USER],[SNATCH|KEEP_HP_BAR],Raises User's Evasion (Status)
+105,Recover,NORMAL,STATUS,0,0,0,0,10,[USER],[SNATCH|KEEP_HP_BAR],Restore half of max HP
+106,Harden,NORMAL,STATUS,0,0,0,0,30,[USER],[SNATCH|KEEP_HP_BAR],Raises User's Def (Status)
+107,Minimize,NORMAL,STATUS,0,0,0,0,20,[USER],[SNATCH],Raises Evasion; weak to Stomp/Rollout/Bodyslam
+108,SmokeScreen,NORMAL,STATUS,0,100,0,0,20,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE],Lowers Target's Accuracy (Status)
+109,Confuse Ray,GHOST,STATUS,0,100,0,0,10,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE],Causes confusion
+110,Withdraw,WATER,STATUS,0,0,0,0,40,[USER],[SNATCH|KEEP_HP_BAR],Raises User's Def (Status)
+111,Defense Curl,NORMAL,STATUS,0,0,0,0,40,[USER],[SNATCH|KEEP_HP_BAR],Raises Def and 2x Rollout/ Ice Ball power
+112,Barrier,PSYCHIC,STATUS,0,0,0,0,30,[USER],[SNATCH|KEEP_HP_BAR],Sharply raises User's Def (Status)
+113,Light Screen,PSYCHIC,STATUS,0,0,0,0,30,[USER_SIDE],[SNATCH|KEEP_HP_BAR],Sets Light Screen
+114,Haze,ICE,STATUS,0,0,0,0,30,[ACTIVE_FIELD],[],Reset stat changes
+115,Reflect,PSYCHIC,STATUS,0,0,0,0,20,[USER_SIDE],[SNATCH|KEEP_HP_BAR],Sets Reflect
+116,Focus Energy,NORMAL,STATUS,0,0,0,0,30,[USER],[SNATCH|KEEP_HP_BAR],Sharply raises crit chance
+117,Bide,NORMAL,PHYSICAL,1,0,1,0,10,[USER],[CONTACT|PROTECT|KINGSROCK|KEEP_HP_BAR],Bide effect
+118,Metronome,NORMAL,STATUS,0,0,0,0,10,[VARIABLE],[KEEP_HP_BAR],User uses random move
+119,Mirror Move,FLYING,STATUS,0,0,0,0,20,[VARIABLE],[],Uses the last move targeted at User by a Pokémon still on field
+120,Selfdestruct,NORMAL,PHYSICAL,200,100,0,0,5,[FOES_AND_ALLY],[PROTECT|MIRROR_MOVE|KINGSROCK],Halves target's defense + KOs self
+121,Egg Bomb,NORMAL,PHYSICAL,100,75,0,0,10,[],[PROTECT|MIRROR_MOVE|KINGSROCK],Hit
+122,Lick,GHOST,PHYSICAL,20,100,0,30,30,[],[CONTACT|PROTECT|MIRROR_MOVE|KEEP_HP_BAR],May Paralyze (Hit)
+123,Smog,POISON,SPECIAL,20,70,0,40,20,[],[PROTECT|MIRROR_MOVE],May Poison (Hit)
+124,Sludge,POISON,SPECIAL,65,100,0,30,20,[],[PROTECT|MIRROR_MOVE],May Poison (Hit)
+125,Bone Club,GROUND,PHYSICAL,65,85,0,10,20,[],[PROTECT|MIRROR_MOVE|KEEP_HP_BAR],May cause Flinch (Hit)
+126,Fire Blast,FIRE,SPECIAL,120,85,0,10,5,[],[PROTECT|MIRROR_MOVE|DEL_SHADOW],May Burn (Hit)
+127,Waterfall,WATER,PHYSICAL,80,100,0,20,15,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],May cause Flinch (Hit)
+128,Clamp,WATER,PHYSICAL,35,85,0,0,10,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Prevents Target from escaping, deals 1/16 Target's max HP damage for 5 turns (Hit)
+129,Swift,NORMAL,SPECIAL,60,0,0,0,20,[BOTH],[PROTECT|MIRROR_MOVE|KINGSROCK],Guaranteed hit
+130,Skull Bash,NORMAL,PHYSICAL,100,100,0,100,15,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],User raises Def and charges this turn, attacks next turn
+131,Spike Cannon,NORMAL,PHYSICAL,20,100,0,0,15,[],[PROTECT|MIRROR_MOVE|KINGSROCK],Multi-hit (2-5 times)
+132,Constrict,NORMAL,PHYSICAL,10,100,0,10,35,[],[CONTACT|PROTECT|MIRROR_MOVE],Lowers Target's Speed (Hit)
+133,Amnesia,PSYCHIC,STATUS,0,0,0,0,20,[USER],[SNATCH],Sharply raises User's Sp. Def (Status)
+134,Kinesis,PSYCHIC,STATUS,0,80,0,0,15,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE|KEEP_HP_BAR],Lowers Target's Accuracy (Status)
+135,Softboiled,NORMAL,STATUS,0,0,0,0,10,[USER],[SNATCH|KEEP_HP_BAR],Restore half of max HP
+136,Hi Jump Kick,FIGHTING,PHYSICAL,130,90,0,0,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],User loses 1/2 max HP if move misses
+137,Glare,NORMAL,STATUS,0,90,0,0,30,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE],Causes Paralysis
+138,Dream Eater,PSYCHIC,SPECIAL,100,100,0,0,15,[],[PROTECT|MIRROR_MOVE],Fails on awake Target; Restore own HP by 1/2 damage dealt
+139,Poison Gas,POISON,STATUS,0,80,0,0,40,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE],Causes Poison
+140,Barrage,NORMAL,PHYSICAL,15,85,0,0,20,[],[PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Multi-hit (2-5 times)
+141,Leech Life,BUG,PHYSICAL,20,100,0,0,15,[],[CONTACT|PROTECT|MIRROR_MOVE],Restore own HP by 1/2 damage dealt
+142,Lovely Kiss,NORMAL,STATUS,0,75,0,0,10,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE],Causes Sleep
+143,Sky Attack,FLYING,PHYSICAL,140,90,0,30,5,[],[PROTECT|MIRROR_MOVE|KINGSROCK],User charges this turn, attacks next turn with Flinch chance and high crit chance
+144,Transform,NORMAL,STATUS,0,0,0,0,10,[],[KEEP_HP_BAR],User transforms into Target
+145,Bubble,WATER,SPECIAL,20,100,0,10,30,[BOTH],[PROTECT|MIRROR_MOVE],Lowers Target's Speed (Hit)
+146,Dizzy Punch,NORMAL,PHYSICAL,70,100,0,20,10,[],[CONTACT|PROTECT|MIRROR_MOVE],May Confuse (Hit)
+147,Spore,GRASS,STATUS,0,100,0,0,15,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE],Causes Sleep
+148,Flash,NORMAL,STATUS,0,100,0,0,20,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE|DEL_SHADOW],Lowers Target's Accuracy (Status)
+149,Psywave,PSYCHIC,SPECIAL,1,80,0,0,15,[],[PROTECT|MIRROR_MOVE|KINGSROCK],Deals damage equal to User's level x1.5
+150,Splash,NORMAL,STATUS,0,0,0,0,40,[USER],[KEEP_HP_BAR],Do nothing
+151,Acid Armor,POISON,STATUS,0,0,0,0,40,[USER],[SNATCH|KEEP_HP_BAR],Sharply raises User's Def (Status)
+152,Crabhammer,WATER,PHYSICAL,90,90,0,0,10,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],High crit chance
+153,Explosion,NORMAL,PHYSICAL,250,100,0,0,5,[FOES_AND_ALLY],[PROTECT|MIRROR_MOVE|KINGSROCK],Halves target's defense + KOs self
+154,Fury Swipes,NORMAL,PHYSICAL,18,80,0,0,15,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Multi-hit (2-5 times)
+155,Bonemerang,GROUND,PHYSICAL,50,90,0,0,10,[],[PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Hits twice
+156,Rest,PSYCHIC,STATUS,0,0,0,0,10,[USER],[SNATCH|KEEP_HP_BAR],Rest effect
+157,Rock Slide,ROCK,PHYSICAL,75,90,0,30,10,[BOTH],[PROTECT|MIRROR_MOVE],May cause Flinch (Hit)
+158,Hyper Fang,NORMAL,PHYSICAL,80,90,0,10,15,[],[CONTACT|PROTECT|MIRROR_MOVE],May cause Flinch (Hit)
+159,Sharpen,NORMAL,STATUS,0,0,0,0,30,[USER],[SNATCH|KEEP_HP_BAR],Raises User's Atk (Status)
+160,Conversion,NORMAL,STATUS,0,0,0,0,30,[USER],[KEEP_HP_BAR],Conversion effect
+161,Tri Attack,NORMAL,SPECIAL,80,100,0,20,10,[],[PROTECT|MIRROR_MOVE],May Paralyze, Burn, or Freeze (Hit)
+162,Super Fang,NORMAL,PHYSICAL,1,90,0,0,10,[],[CONTACT|PROTECT|MIRROR_MOVE|KEEP_HP_BAR],Halve target's HP
+163,Slash,NORMAL,PHYSICAL,70,100,0,0,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],High crit chance
+164,Substitute,NORMAL,STATUS,0,0,0,0,10,[USER],[SNATCH|KEEP_HP_BAR],Substitute effect
+165,Struggle,NORMAL,PHYSICAL,50,0,0,0,1,[],[CONTACT|PROTECT|KINGSROCK|KEEP_HP_BAR],1/4 max HP recoil
+166,Sketch,NORMAL,STATUS,0,0,0,0,1,[],[],User permanently replaces move with Target's last used move
+167,Triple Kick,FIGHTING,PHYSICAL,10,90,0,0,10,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Hit 3 times
+168,Thief,DARK,PHYSICAL,40,100,0,0,10,[],[CONTACT|PROTECT|MIRROR_MOVE|KEEP_HP_BAR],User steals Target's held item
+169,Spider Web,BUG,STATUS,0,0,0,0,10,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE],Prevents Target from escaping
+170,Mind Reader,NORMAL,STATUS,0,0,0,0,5,[],[PROTECT|MIRROR_MOVE],Next move used by user guaranteed to hit
+171,Nightmare,GHOST,STATUS,0,100,0,0,15,[],[PROTECT|MIRROR_MOVE],Sleeping Target takes 1/4 max HP damage every turn until waking up
+172,Flame Wheel,FIRE,PHYSICAL,60,100,0,10,25,[],[CONTACT|PROTECT|MIRROR_MOVE],May burn; Thaws User (Hit)
+173,Snore,NORMAL,SPECIAL,40,100,0,30,15,[],[PROTECT|MIRROR_MOVE|KINGSROCK],User must be asleep; May cause Flinch
+174,Curse,???,STATUS,0,0,0,0,10,[],[KEEP_HP_BAR],Curse effect
+175,Flail,NORMAL,PHYSICAL,1,100,0,0,15,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Higher power the less HP user has
+176,Conversion 2,NORMAL,STATUS,0,0,0,0,30,[USER],[],Conversion2 effect
+177,Aeroblast,FLYING,SPECIAL,100,95,0,0,5,[],[PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],High crit chance
+178,Cotton Spore,GRASS,STATUS,0,100,0,0,40,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE|KEEP_HP_BAR],Sharply lowers Target's Speed (Status)
+179,Reversal,FIGHTING,PHYSICAL,1,100,0,0,15,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Higher power the less HP user has
+180,Spite,GHOST,STATUS,0,100,0,0,10,[],[PROTECT|MIRROR_MOVE],Decreases PP of target's last used move by 4
+181,Powder Snow,ICE,SPECIAL,40,100,0,10,25,[BOTH],[PROTECT|MIRROR_MOVE],May Freeze (Hit)
+182,Protect,NORMAL,STATUS,0,0,3,0,10,[USER],[],User is protected from attacks this turn if moving first; high likelihood of failure next turn
+183,Mach Punch,FIGHTING,PHYSICAL,40,100,1,0,30,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Priority +1
+184,Scary Face,NORMAL,STATUS,0,100,0,0,10,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE],Sharply lowers Target's Speed (Status)
+185,Faint Attack,DARK,PHYSICAL,60,0,0,0,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Guaranteed hit
+186,Sweet Kiss,NORMAL,STATUS,0,75,0,0,10,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE],Causes confusion
+187,Belly Drum,NORMAL,STATUS,0,0,0,0,10,[USER],[SNATCH|KEEP_HP_BAR],Raises Atk by 12, loses 1/2 max HP
+188,Sludge Bomb,POISON,SPECIAL,90,100,0,30,10,[],[PROTECT|MIRROR_MOVE],May Poison (Hit)
+189,Mud-Slap,GROUND,SPECIAL,20,100,0,100,10,[],[PROTECT|MIRROR_MOVE],Lowers Target's Accuracy (Hit)
+190,Octazooka,WATER,SPECIAL,65,85,0,50,10,[],[PROTECT|MIRROR_MOVE],Lowers Target's Accuracy (Hit)
+191,Spikes,GROUND,STATUS,0,0,0,0,20,[OPPONENTS_FIELD],[],Sets Spikes; Stacks up to 3
+192,Zap Cannon,ELECTRIC,SPECIAL,120,50,0,100,5,[],[PROTECT|MIRROR_MOVE|DEL_SHADOW],May Paralyze (Hit)
+193,Foresight,NORMAL,STATUS,0,0,0,0,40,[],[PROTECT|MIRROR_MOVE|KEEP_HP_BAR],Removes a Ghost-Type Target's Normal and Fighting immunities
+194,Destiny Bond,GHOST,STATUS,0,0,0,0,5,[USER],[],KO from attack causes attacker to be KO'd; active until User's next move
+195,Perish Song,NORMAL,STATUS,0,0,0,0,5,[ACTIVE_FIELD],[DEL_SHADOW],All on field are KO'd in 3 turns
+196,Icy Wind,ICE,SPECIAL,55,95,0,100,15,[BOTH],[PROTECT|MIRROR_MOVE],Lowers Target's Speed (Hit)
+197,Detect,FIGHTING,STATUS,0,0,3,0,5,[USER],[],User is protected from attacks this turn if moving first; high likelihood of failure next turn
+198,Bone Rush,GROUND,PHYSICAL,25,90,0,0,10,[],[PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Multi-hit (2-5 times)
+199,Lock-On,NORMAL,STATUS,0,0,0,0,5,[],[PROTECT|MIRROR_MOVE],Next move used by user guaranteed to hit
+200,Outrage,DRAGON,PHYSICAL,120,100,0,0,15,[RANDOM],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],Locked into move for 2-3 turns; confuses User after
+201,Sandstorm,ROCK,STATUS,0,0,0,0,10,[ACTIVE_FIELD],[],Causes Sandstorm
+202,Giga Drain,GRASS,SPECIAL,75,100,0,0,10,[],[PROTECT|MIRROR_MOVE],Restore own HP by 1/2 damage dealt
+203,Endure,NORMAL,STATUS,0,0,3,0,10,[USER],[KEEP_HP_BAR],User survives next move with at least 1 HP
+204,Charm,NORMAL,STATUS,0,100,0,0,20,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE|KEEP_HP_BAR],Sharply lowers Target's Atk (Status)
+205,Rollout,ROCK,PHYSICAL,30,90,0,0,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Double power each turn, locked into move
+206,False Swipe,NORMAL,PHYSICAL,40,100,0,0,40,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Target will remain with at least 1 HP
+207,Swagger,NORMAL,STATUS,0,90,0,0,15,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE|KEEP_HP_BAR],Sharply raises Target's Atk and causes Confusion
+208,Milk Drink,NORMAL,STATUS,0,0,0,0,10,[USER],[SNATCH],Restore half of max HP
+209,Spark,ELECTRIC,PHYSICAL,65,100,0,30,20,[],[CONTACT|PROTECT|MIRROR_MOVE],May Paralyze (Hit)
+210,Fury Cutter,BUG,PHYSICAL,20,95,0,0,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],2x power for every consecutive hit
+211,Steel Wing,STEEL,PHYSICAL,70,90,0,10,25,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],May raise User's Def (Hit)
+212,Mean Look,NORMAL,STATUS,0,0,0,0,5,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE],Prevents Target from escaping
+213,Attract,NORMAL,STATUS,0,100,0,0,15,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE],Causes Infatuation on Target if opposite gender of User
+214,Sleep Talk,NORMAL,STATUS,0,0,0,0,10,[VARIABLE],[],Use random known move while asleep
+215,Heal Bell,NORMAL,STATUS,0,0,0,0,5,[USER_SIDE],[SNATCH|KEEP_HP_BAR],Cure party of all status
+216,Return,NORMAL,PHYSICAL,1,100,0,0,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Power based on high Friendship
+217,Present,NORMAL,PHYSICAL,1,90,0,0,15,[],[PROTECT|MIRROR_MOVE],Randomly heals or damages Target; variable power
+218,Frustration,NORMAL,PHYSICAL,1,100,0,0,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Power based on low Friendship
+219,Safeguard,NORMAL,STATUS,0,0,0,0,25,[USER_SIDE],[SNATCH|KEEP_HP_BAR],Prevents new status effects for Target for 5 turns
+220,Pain Split,NORMAL,STATUS,0,0,0,0,20,[],[PROTECT|MIRROR_MOVE],Pain Split effect
+221,Sacred Fire,FIRE,PHYSICAL,100,95,0,50,5,[],[PROTECT|MIRROR_MOVE|DEL_SHADOW],May burn; Thaws User (Hit)
+222,Magnitude,GROUND,PHYSICAL,1,100,0,0,30,[FOES_AND_ALLY],[PROTECT|MIRROR_MOVE|KINGSROCK],Variable damage; can hit Target using Dig
+223,DynamicPunch,FIGHTING,PHYSICAL,100,50,0,100,5,[],[CONTACT|PROTECT|MIRROR_MOVE|DEL_SHADOW],May Confuse (Hit)
+224,Megahorn,BUG,PHYSICAL,120,85,0,0,10,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],Hit
+225,DragonBreath,DRAGON,SPECIAL,60,100,0,30,20,[],[PROTECT|MIRROR_MOVE|KINGSROCK],May Paralyze (Hit)
+226,Baton Pass,NORMAL,STATUS,0,0,0,0,40,[USER],[],Pass stat boosts and switch out
+227,Encore,NORMAL,STATUS,0,100,0,0,5,[],[PROTECT|MIRROR_MOVE],Locks target into last move used for 3-7 turns
+228,Pursuit,DARK,PHYSICAL,40,100,0,0,20,[],[CONTACT|PROTECT|MIRROR_MOVE|DEL_SHADOW],If Target switches, hits first with 2x damage
+229,Rapid Spin,NORMAL,PHYSICAL,20,100,0,0,40,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Remove hazards and binding on User's side of field
+230,Sweet Scent,NORMAL,STATUS,0,100,0,0,20,[BOTH],[PROTECT|MAGIC_COAT|MIRROR_MOVE],Lowers Target's Evasion (Status)
+231,Iron Tail,STEEL,PHYSICAL,100,75,0,30,15,[],[CONTACT|PROTECT|MIRROR_MOVE],Lowers Target's Def (Hit)
+232,Metal Claw,STEEL,PHYSICAL,50,95,0,10,35,[],[CONTACT|PROTECT|MIRROR_MOVE],May raise User's Atk (Hit)
+233,Vital Throw,FIGHTING,PHYSICAL,70,0,-1,0,10,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Priority -1, guaranteed hit
+234,Morning Sun,NORMAL,STATUS,0,0,0,0,5,[USER],[SNATCH],Restore 1/2 max HP; x1.5 in Sun, x0.5 in other weather
+235,Synthesis,GRASS,STATUS,0,0,0,0,5,[USER],[SNATCH|KEEP_HP_BAR],Restore 1/2 max HP; x1.5 in Sun, x0.5 in other weather
+236,Moonlight,NORMAL,STATUS,0,0,0,0,5,[USER],[SNATCH|DEL_SHADOW],Restore 1/2 max HP; x1.5 in Sun, x0.5 in other weather
+237,Hidden Power,NORMAL,SPECIAL,1,100,0,0,15,[],[PROTECT|MIRROR_MOVE|KINGSROCK],Type and Power determined by user's IVs
+238,Cross Chop,FIGHTING,PHYSICAL,100,80,0,0,5,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],High crit chance
+239,Twister,DRAGON,SPECIAL,40,100,0,20,20,[BOTH],[PROTECT|MIRROR_MOVE|KINGSROCK],Can hit target currently in Fly/Bounce, May cause Flinch (Hit)
+240,Rain Dance,WATER,STATUS,0,0,0,0,5,[ACTIVE_FIELD],[],Causes Rain
+241,Sunny Day,FIRE,STATUS,0,0,0,0,5,[ACTIVE_FIELD],[],Causes Harsh Sunlight
+242,Crunch,DARK,PHYSICAL,80,100,0,20,15,[],[CONTACT|PROTECT|MIRROR_MOVE],Lowers Target's Def (Hit)
+243,Mirror Coat,PSYCHIC,SPECIAL,1,100,-5,0,20,[VARIABLE],[],Deals 2x damage of last move received if it was Special
+244,Psych Up,NORMAL,STATUS,0,0,0,0,10,[],[SNATCH|KEEP_HP_BAR],Copy target stat changes
+245,ExtremeSpeed,NORMAL,PHYSICAL,80,100,1,0,5,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],Priority +1
+246,AncientPower,ROCK,SPECIAL,60,100,0,10,5,[],[PROTECT|MIRROR_MOVE],May raise all of User's stats (Hit)
+247,Shadow Ball,GHOST,SPECIAL,80,100,0,20,15,[],[PROTECT|MIRROR_MOVE],Lowers Target's Sp. Def (Hit)
+248,Future Sight,PSYCHIC,SPECIAL,100,100,0,0,15,[],[],Attacks in 2 turns after all moves; ignores type effectiveness
+249,Rock Smash,FIGHTING,PHYSICAL,60,100,0,30,15,[],[CONTACT|PROTECT|MIRROR_MOVE],Lowers Target's Def (Hit)
+250,Whirlpool,WATER,SPECIAL,35,85,0,0,15,[],[PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],Traps Target; deals 1/16th max HP damage per turn; Can hit Targets using move with Move Effect ID #255
+251,Beat Up,DARK,PHYSICAL,10,100,0,0,10,[],[PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Hits once with each healthy party member's Atk stat; Typeless
+252,Fake Out,NORMAL,PHYSICAL,40,100,1,100,10,[],[CONTACT|PROTECT|MIRROR_MOVE],Causes Flinch; fails if User was on field last turn
+253,Uproar,NORMAL,SPECIAL,90,100,0,0,10,[RANDOM],[PROTECT|MIRROR_MOVE|KINGSROCK],All on field unable to sleep; wakes all sleeping Pokémon
+254,Stockpile,NORMAL,STATUS,0,0,0,0,20,[USER],[SNATCH|KEEP_HP_BAR],Stockpile +1, raises Def and Sp. Def; Stacks up to 3
+255,Spit Up,NORMAL,SPECIAL,1,100,0,0,10,[],[PROTECT|KINGSROCK],Damage determined by Stockpile level
+256,Swallow,NORMAL,STATUS,0,0,0,0,10,[USER],[SNATCH|KEEP_HP_BAR],Healing determined by Stockpile level
+257,Heat Wave,FIRE,SPECIAL,100,90,0,10,10,[BOTH],[PROTECT|MIRROR_MOVE],May Burn (Hit)
+258,Hail,ICE,STATUS,0,0,0,0,10,[ACTIVE_FIELD],[PROTECT],Causes Hail
+259,Torment,DARK,STATUS,0,100,0,0,15,[],[PROTECT|MIRROR_MOVE|KEEP_HP_BAR],Target is unable to use the same attack consecutively
+260,Flatter,DARK,STATUS,0,100,0,0,15,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE],Raises Target's Sp. Atk and causes Confusion
+261,Will-O-Wisp,FIRE,STATUS,0,75,0,0,15,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE],Guaranteed Burn; activates Flash Fire
+262,Memento,DARK,STATUS,0,100,0,0,10,[],[PROTECT|MIRROR_MOVE],KOs self and sharply lowers Target's Atk and Sp. Atk
+263,Facade,NORMAL,PHYSICAL,70,100,0,0,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KEEP_HP_BAR],2x power when user has Poison, Paralysis, or Burn
+264,Focus Punch,FIGHTING,PHYSICAL,150,100,-3,0,20,[],[CONTACT|PROTECT|DEL_SHADOW],User focuses at start of turn; Fails if User takes damage
+265,SmellingSalt,NORMAL,PHYSICAL,60,100,0,0,10,[],[CONTACT|PROTECT|MIRROR_MOVE],2x power if target is Paralyzed; cures target of Paralysis
+266,Follow Me,NORMAL,STATUS,0,0,3,0,20,[USER],[],Redirects all moves to user
+267,Nature Power,NORMAL,STATUS,0,0,0,0,20,[VARIABLE],[KEEP_HP_BAR],Calls attack depending on battle environment
+268,Charge,ELECTRIC,STATUS,0,0,0,0,20,[USER],[SNATCH],Raises Target Sp. Def and Target's Electric-Type attacks have 2x power next turn
+269,Taunt,DARK,STATUS,0,100,0,0,20,[],[PROTECT|MIRROR_MOVE|KEEP_HP_BAR],Target can't use status moves for 3-5 turns
+270,Helping Hand,NORMAL,STATUS,0,0,5,0,20,[ALLY],[],Ally's attack deals 1.5x damage this turn
+271,Trick,PSYCHIC,STATUS,0,100,0,0,10,[],[PROTECT|MIRROR_MOVE],Swaps User's held item with Target's
+272,Role Play,PSYCHIC,STATUS,0,0,0,0,10,[],[],Copy Target's ability
+273,Wish,NORMAL,STATUS,0,0,0,0,10,[USER],[DEL_SHADOW],Restore 1/2 User's max HP to Target at end of next turn
+274,Assist,NORMAL,STATUS,0,0,0,0,20,[VARIABLE],[],Use random move known by ally
+275,Ingrain,GRASS,STATUS,0,0,0,0,20,[USER],[SNATCH|KEEP_HP_BAR],Heal 1/16 max HP per turn; prevents User from escaping
+276,Superpower,FIGHTING,PHYSICAL,120,100,0,0,5,[],[CONTACT|PROTECT|MIRROR_MOVE|DEL_SHADOW],Lowers User's Atk and Def
+277,Magic Coat,PSYCHIC,STATUS,0,0,4,0,15,[VARIABLE],[],Reflects status moves back at their user
+278,Recycle,NORMAL,STATUS,0,0,0,0,10,[USER],[KEEP_HP_BAR],User replenishes last-used Held-Item
+279,Revenge,FIGHTING,PHYSICAL,60,100,-4,0,10,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],2x power if User has been hit this turn
+280,Brick Break,FIGHTING,PHYSICAL,75,100,0,0,15,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Removes Light Screen/Reflect from Target's side of the field
+281,Yawn,NORMAL,STATUS,0,0,0,0,10,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE],Causes sleep next turn
+282,Knock Off,DARK,PHYSICAL,20,100,0,0,20,[],[CONTACT|PROTECT|MIRROR_MOVE],Makes Target unable to use its held item
+283,Endeavor,NORMAL,PHYSICAL,1,100,0,0,5,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Set Target's HP equal to User's
+284,Eruption,FIRE,SPECIAL,150,100,0,0,5,[BOTH],[PROTECT|MIRROR_MOVE|KINGSROCK],Higher power the less damage User has taken
+285,Skill Swap,PSYCHIC,STATUS,0,0,0,0,10,[],[PROTECT|MIRROR_MOVE],Swaps User's Ability with Target's
+286,Imprison,PSYCHIC,STATUS,0,0,0,0,10,[USER],[],Target is prevented from using moves shared with the user
+287,Refresh,NORMAL,STATUS,0,0,0,0,20,[USER],[SNATCH],Cures User of Burn, Poison, or Paralysis
+288,Grudge,GHOST,STATUS,0,0,0,0,5,[USER],[],PP of attacker's move which causes User KO this turn is reduced to 0
+289,Snatch,DARK,STATUS,0,0,4,0,10,[VARIABLE],[],Snatch effect
+290,Secret Power,NORMAL,PHYSICAL,70,100,0,30,20,[],[PROTECT|MIRROR_MOVE],Secondary effect determined by battle environment
+291,Dive,WATER,PHYSICAL,80,100,0,0,10,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],User charges, becomes invulnerable until attack next turn; vulnerable to Move Effect ID #257
+292,Arm Thrust,FIGHTING,PHYSICAL,15,100,0,0,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Multi-hit (2-5 times)
+293,Camouflage,NORMAL,STATUS,0,0,0,0,20,[USER],[SNATCH|KEEP_HP_BAR],Changes User's Type to match Battle Environment
+294,Tail Glow,BUG,STATUS,0,0,0,0,20,[USER],[SNATCH],Sharply raises User's Sp. Atk (Status)
+295,Luster Purge,PSYCHIC,SPECIAL,70,100,0,50,5,[],[PROTECT|MIRROR_MOVE],Lowers Target's Sp. Def (Hit)
+296,Mist Ball,PSYCHIC,SPECIAL,70,100,0,50,5,[],[PROTECT|MIRROR_MOVE|DEL_SHADOW],Lowers Target's Sp. Atk (Hit)
+297,FeatherDance,FLYING,STATUS,0,100,0,0,15,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE],Sharply lowers Target's Atk (Status)
+298,Teeter Dance,NORMAL,STATUS,0,100,0,0,20,[FOES_AND_ALLY],[PROTECT|MIRROR_MOVE],Guaranteed Confusion (Hit)
+299,Blaze Kick,FIRE,PHYSICAL,85,90,0,10,10,[],[CONTACT|PROTECT|MIRROR_MOVE],High crit chance; may Burn (Hit)
+300,Mud Sport,GROUND,STATUS,0,0,0,0,15,[ACTIVE_FIELD],[],Halve Electric-Type move damage
+301,Ice Ball,ICE,PHYSICAL,30,90,0,0,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Double power each turn, locked into move
+302,Needle Arm,GRASS,PHYSICAL,60,100,0,30,15,[],[CONTACT|PROTECT|MIRROR_MOVE],May cause Flinch (Hit)
+303,Slack Off,NORMAL,STATUS,0,0,0,0,10,[USER],[SNATCH|KEEP_HP_BAR],Restore half of max HP
+304,Hyper Voice,NORMAL,SPECIAL,90,100,0,0,10,[BOTH],[PROTECT|MIRROR_MOVE],Hit
+305,Poison Fang,POISON,PHYSICAL,50,100,0,30,15,[],[CONTACT|PROTECT|MIRROR_MOVE],May Badly Poison (Hit)
+306,Crush Claw,NORMAL,PHYSICAL,75,95,0,50,10,[],[CONTACT|PROTECT|MIRROR_MOVE],Lowers Target's Def (Hit)
+307,Blast Burn,FIRE,SPECIAL,150,90,0,0,5,[],[PROTECT|MIRROR_MOVE|KINGSROCK],Requires recharge turn
+308,Hydro Cannon,WATER,SPECIAL,150,90,0,0,5,[],[PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],Requires recharge turn
+309,Meteor Mash,STEEL,PHYSICAL,100,85,0,20,10,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],May raise User's Atk (Hit)
+310,Astonish,GHOST,PHYSICAL,30,100,0,30,15,[],[CONTACT|PROTECT|MIRROR_MOVE|KEEP_HP_BAR],May cause Flinch (Hit)
+311,Weather Ball,NORMAL,SPECIAL,50,100,0,0,10,[],[PROTECT|MIRROR_MOVE|KINGSROCK],Changes Move Type to match weather
+312,Aromatherapy,GRASS,STATUS,0,0,0,0,5,[USER_SIDE],[SNATCH],Cure party of all status
+313,Fake Tears,DARK,STATUS,0,100,0,0,20,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE|KEEP_HP_BAR],Sharply lowers Target's Sp. Def (Status)
+314,Air Cutter,FLYING,SPECIAL,55,95,0,0,25,[BOTH],[PROTECT|MIRROR_MOVE|KINGSROCK],High crit chance
+315,Overheat,FIRE,SPECIAL,140,90,0,100,5,[],[PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],Harshly Lowers User's Sp. Atk
+316,Odor Sleuth,NORMAL,STATUS,0,0,0,0,40,[],[PROTECT|MIRROR_MOVE|KEEP_HP_BAR],Removes a Ghost-Type Target's Normal and Fighting immunities
+317,Rock Tomb,ROCK,PHYSICAL,50,80,0,100,10,[],[PROTECT|MIRROR_MOVE],Lowers Target's Speed (Hit)
+318,Silver Wind,BUG,SPECIAL,60,100,0,10,5,[],[PROTECT|MIRROR_MOVE|KINGSROCK],May raise all of User's stats (Hit)
+319,Metal Sound,STEEL,STATUS,0,85,0,0,40,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE],Sharply lowers Target's Sp. Def (Status)
+320,GrassWhistle,GRASS,STATUS,0,55,0,0,15,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE],Causes Sleep
+321,Tickle,NORMAL,STATUS,0,100,0,0,20,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE|KEEP_HP_BAR],Lowers Atk and Def
+322,Cosmic Power,PSYCHIC,STATUS,0,0,0,0,20,[USER],[SNATCH|DEL_SHADOW],Raises User's Def and Sp. Def
+323,Water Spout,WATER,SPECIAL,150,100,0,0,5,[BOTH],[PROTECT|MIRROR_MOVE],Higher power the less damage User has taken
+324,Signal Beam,BUG,SPECIAL,75,100,0,10,15,[],[PROTECT|MIRROR_MOVE|KINGSROCK],May Confuse (Hit)
+325,Shadow Punch,GHOST,PHYSICAL,60,0,0,0,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Guaranteed hit
+326,Extrasensory,PSYCHIC,SPECIAL,80,100,0,10,30,[],[PROTECT|MIRROR_MOVE],May cause Flinch (Hit)
+327,Sky Uppercut,FIGHTING,PHYSICAL,85,90,0,0,15,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],Can hit Target using Move with Move Effect IDs #155, #263 (Hit)
+328,Sand Tomb,GROUND,PHYSICAL,35,85,0,0,15,[],[PROTECT|MIRROR_MOVE|KINGSROCK],Prevents Target from escaping, deals 1/16 Target's max HP damage for 5 turns (Hit)
+329,Sheer Cold,ICE,SPECIAL,1,30,0,0,5,[],[PROTECT|MIRROR_MOVE],OHKO
+330,Muddy Water,WATER,SPECIAL,95,85,0,30,10,[BOTH],[PROTECT|MIRROR_MOVE|KINGSROCK],Lowers Target's Accuracy (Hit)
+331,Bullet Seed,GRASS,PHYSICAL,25,100,0,0,30,[],[PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Multi-hit (2-5 times)
+332,Aerial Ace,FLYING,PHYSICAL,60,0,0,0,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Guaranteed hit
+333,Icicle Spear,ICE,PHYSICAL,25,100,0,0,30,[],[PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Multi-hit (2-5 times)
+334,Iron Defense,STEEL,STATUS,0,0,0,0,15,[USER],[SNATCH|KEEP_HP_BAR],Sharply raises User's Def (Status)
+335,Block,NORMAL,STATUS,0,0,0,0,5,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE],Prevents Target from escaping
+336,Howl,NORMAL,STATUS,0,0,0,0,40,[USER],[SNATCH],Raises User's Atk (Status)
+337,Dragon Claw,DRAGON,PHYSICAL,80,100,0,0,15,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Hit
+338,Frenzy Plant,GRASS,SPECIAL,150,90,0,0,5,[],[PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],Requires recharge turn
+339,Bulk Up,FIGHTING,STATUS,0,0,0,0,20,[USER],[SNATCH|KEEP_HP_BAR],Raises User's Atk and Def
+340,Bounce,FLYING,PHYSICAL,85,85,0,30,5,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],User charges, becomes invulnerable until attack next turn, may cause Paralysis
+341,Mud Shot,GROUND,SPECIAL,55,95,0,100,15,[],[PROTECT|MIRROR_MOVE|KINGSROCK],Lowers Target's Speed (Hit)
+342,Poison Tail,POISON,PHYSICAL,50,100,0,10,25,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],High crit chance, may Poison (Hit)
+343,Covet,NORMAL,PHYSICAL,60,100,0,0,40,[],[CONTACT|PROTECT|MIRROR_MOVE],User steals Target's held item
+344,Volt Tackle,ELECTRIC,PHYSICAL,120,100,0,10,15,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],1/3 damage recoil, may cause Paralysis (Hit)
+345,Magical Leaf,GRASS,SPECIAL,60,0,0,0,20,[],[PROTECT|MIRROR_MOVE|KINGSROCK],Guaranteed hit
+346,Water Sport,WATER,STATUS,0,0,0,0,15,[ACTIVE_FIELD],[],Halves Fire-Type move damage
+347,Calm Mind,PSYCHIC,STATUS,0,0,0,0,20,[USER],[SNATCH],Raises User's Sp. Atk and Sp. Def
+348,Leaf Blade,GRASS,PHYSICAL,90,100,0,0,15,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],High crit chance
+349,Dragon Dance,DRAGON,STATUS,0,0,0,0,20,[USER],[SNATCH],Raises User's Atk and Speed
+350,Rock Blast,ROCK,PHYSICAL,25,90,0,0,10,[],[PROTECT|MIRROR_MOVE|KINGSROCK],Multi-hit (2-5 times)
+351,Shock Wave,ELECTRIC,SPECIAL,60,0,0,0,20,[],[PROTECT|MIRROR_MOVE|KINGSROCK],Guaranteed hit
+352,Water Pulse,WATER,SPECIAL,60,100,0,20,20,[],[PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],May Confuse (Hit)
+353,Doom Desire,STEEL,SPECIAL,140,100,0,0,5,[],[DEL_SHADOW],Attacks in 2 turns after all moves; ignores type effectiveness
+354,Psycho Boost,PSYCHIC,SPECIAL,140,90,0,100,5,[],[PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],Harshly Lowers User's Sp. Atk
+355,Roost,FLYING,STATUS,0,0,0,0,10,[USER],[SNATCH|KEEP_HP_BAR],Restores 1/2 max HP and loses Flying-Type
+356,Gravity,PSYCHIC,STATUS,0,0,0,0,5,[ACTIVE_FIELD],[],Gravity effect
+357,Miracle Eye,PSYCHIC,STATUS,0,0,0,0,40,[],[PROTECT|MIRROR_MOVE],Dark-Type Target loses Psychic immunity
+358,Wake-Up Slap,FIGHTING,PHYSICAL,60,100,0,0,10,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],2x Damage if Target is asleep; Wakes Target
+359,Hammer Arm,FIGHTING,PHYSICAL,100,90,0,0,10,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Lowers User's Speed (Hit)
+360,Gyro Ball,STEEL,PHYSICAL,1,100,0,0,5,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Greater power the slower User is than Target
+361,Healing Wish,PSYCHIC,STATUS,0,0,0,0,10,[USER],[],KOs self and fully heals replacement
+362,Brine,WATER,SPECIAL,65,100,0,0,10,[],[PROTECT|MIRROR_MOVE|KINGSROCK],2x power when Target is below 1/2 HP
+363,Natural Gift,NORMAL,PHYSICAL,1,100,0,0,15,[],[PROTECT|MIRROR_MOVE|KEEP_HP_BAR],Power and Type determined by User's held berry; berry is consumed
+364,Feint,NORMAL,PHYSICAL,30,100,2,0,10,[],[],Can only hit Target which has used Protect/Detect this turn
+365,Pluck,FLYING,PHYSICAL,60,100,0,0,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],User consumes Target's berry and receives its effect
+366,Tailwind,FLYING,STATUS,0,0,0,0,30,[USER_SIDE],[SNATCH],2x Speed for User's party for 3 turns
+367,Acupressure,NORMAL,STATUS,0,0,0,0,30,[ACUPRESSURE],[SNATCH|KEEP_HP_BAR],Sharply raises random stat
+368,Metal Burst,STEEL,PHYSICAL,1,100,0,0,10,[VARIABLE],[MIRROR_MOVE],Metal Burst effect
+369,U-turn,BUG,PHYSICAL,70,100,0,0,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Switches User out after dealing damage (Hit)
+370,Close Combat,FIGHTING,PHYSICAL,120,100,0,0,5,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],Lowers User's Def and Sp. Def (Hit)
+371,Payback,DARK,PHYSICAL,50,100,0,0,10,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],2x Power if user moves after target
+372,Assurance,DARK,PHYSICAL,50,100,0,0,10,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],2x damage if Target has already taken damage this turn
+373,Embargo,DARK,STATUS,0,100,0,0,15,[],[PROTECT|MIRROR_MOVE],Prevents the use of all items for Target
+374,Fling,DARK,PHYSICAL,1,100,0,0,10,[],[PROTECT|MIRROR_MOVE],Power and effect determined by User's held item
+375,Psycho Shift,PSYCHIC,STATUS,0,90,0,0,10,[],[PROTECT|MIRROR_MOVE],Transfers User's status condition to Target
+376,Trump Card,NORMAL,SPECIAL,1,0,0,0,5,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Higher power the less PP the move has
+377,Heal Block,PSYCHIC,STATUS,0,100,0,0,15,[BOTH],[PROTECT|MIRROR_MOVE],Blocks all sources of healing to the Target
+378,Wring Out,NORMAL,SPECIAL,1,100,0,0,5,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Higher power the more HP Target has
+379,Power Trick,PSYCHIC,STATUS,0,0,0,0,10,[USER],[KEEP_HP_BAR],Swaps Atk and Def stats
+380,Gastro Acid,POISON,STATUS,0,100,0,0,10,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE],Suppress Target's ability
+381,Lucky Chant,NORMAL,STATUS,0,0,0,0,30,[USER_SIDE],[KEEP_HP_BAR],User's party immune to crits for 5 turns
+382,Me First,NORMAL,STATUS,0,0,0,0,20,[ME_FIRST],[PROTECT],Fails if User moves after Target; Steals Target's move and uses it at 1.5x power
+383,Copycat,NORMAL,STATUS,0,0,0,0,20,[VARIABLE],[],User uses the last-used Move
+384,Power Swap,PSYCHIC,STATUS,0,0,0,0,10,[],[PROTECT|MIRROR_MOVE],Swap Atk and Sp. Atk changes
+385,Guard Swap,PSYCHIC,STATUS,0,0,0,0,10,[],[PROTECT|MIRROR_MOVE],Swap Def and Sp. Def changes
+386,Punishment,DARK,PHYSICAL,1,100,0,0,5,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Higher power the more stat increases Target has
+387,Last Resort,NORMAL,PHYSICAL,140,100,0,0,5,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Fails if User has not used all other known moves at least once
+388,Worry Seed,GRASS,STATUS,0,100,0,0,10,[],[PROTECT|MAGIC_COAT|MIRROR_MOVE],Set ability to Insomnia
+389,Sucker Punch,DARK,PHYSICAL,80,100,1,0,5,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Fails if Target selected a status move or has already moved; Moves first
+390,Toxic Spikes,POISON,STATUS,0,0,0,0,20,[OPPONENTS_FIELD],[KEEP_HP_BAR],Sets toxic spikes; Stacks up to 2
+391,Heart Swap,PSYCHIC,STATUS,0,0,0,0,10,[],[PROTECT|MIRROR_MOVE],Swap stat changes
+392,Aqua Ring,WATER,STATUS,0,0,0,0,20,[USER],[],Restore 1/16 max HP every turn
+393,Magnet Rise,ELECTRIC,STATUS,0,0,0,0,10,[USER],[],Gives Ground immunity
+394,Flare Blitz,FIRE,PHYSICAL,120,100,0,10,15,[],[CONTACT|PROTECT|MIRROR_MOVE|DEL_SHADOW],1/3 damage recoil and Thaws User; May cause Burn to Target (Hit)
+395,Force Palm,FIGHTING,PHYSICAL,60,100,0,30,10,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],May Paralyze (Hit)
+396,Aura Sphere,FIGHTING,SPECIAL,90,0,0,0,20,[],[PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],Guaranteed hit
+397,Rock Polish,ROCK,STATUS,0,0,0,0,20,[USER],[SNATCH],Sharply raises User's Speed (Status)
+398,Poison Jab,POISON,PHYSICAL,80,100,0,30,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],May Poison (Hit)
+399,Dark Pulse,DARK,SPECIAL,80,100,0,20,15,[],[PROTECT|MIRROR_MOVE|KINGSROCK],May cause Flinch (Hit)
+400,Night Slash,DARK,PHYSICAL,70,100,0,0,15,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],High crit chance
+401,Aqua Tail,WATER,PHYSICAL,90,90,0,0,10,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Hit
+402,Seed Bomb,GRASS,PHYSICAL,80,100,0,0,15,[],[PROTECT|MIRROR_MOVE|KINGSROCK],Hit
+403,Air Slash,FLYING,SPECIAL,75,95,0,30,20,[],[PROTECT|MIRROR_MOVE|KINGSROCK],May cause Flinch (Hit)
+404,X-Scissor,BUG,PHYSICAL,80,100,0,0,15,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Hit
+405,Bug Buzz,BUG,SPECIAL,90,100,0,10,10,[],[PROTECT|MIRROR_MOVE],Lowers Target's Sp. Def (Hit)
+406,Dragon Pulse,DRAGON,SPECIAL,90,100,0,0,10,[],[PROTECT|MIRROR_MOVE|KINGSROCK],Hit
+407,Dragon Rush,DRAGON,PHYSICAL,100,75,0,20,10,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],May cause Flinch (Hit)
+408,Power Gem,ROCK,SPECIAL,70,100,0,0,20,[],[PROTECT|MIRROR_MOVE|KINGSROCK],Hit
+409,Drain Punch,FIGHTING,PHYSICAL,75,100,0,0,10,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Restore own HP by 1/2 damage dealt
+410,Vacuum Wave,FIGHTING,SPECIAL,40,100,1,0,30,[],[PROTECT|MIRROR_MOVE|KINGSROCK],Priority +1
+411,Focus Blast,FIGHTING,SPECIAL,120,70,0,10,5,[],[PROTECT|MIRROR_MOVE|DEL_SHADOW],Lowers Target's Sp. Def (Hit)
+412,Energy Ball,GRASS,SPECIAL,80,100,0,10,10,[],[PROTECT|MIRROR_MOVE],Lowers Target's Sp. Def (Hit)
+413,Brave Bird,FLYING,PHYSICAL,120,100,0,0,15,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],1/3 damage recoil
+414,Earth Power,GROUND,SPECIAL,90,100,0,10,10,[],[PROTECT|MIRROR_MOVE|KINGSROCK],Lowers Target's Sp. Def (Hit)
+415,Switcheroo,DARK,STATUS,0,100,0,0,10,[],[PROTECT|MIRROR_MOVE],Swaps User's held item with Target's
+416,Giga Impact,NORMAL,PHYSICAL,150,90,0,0,5,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],Requires recharge turn
+417,Nasty Plot,DARK,STATUS,0,0,0,0,20,[USER],[SNATCH|KEEP_HP_BAR],Sharply raises User's Sp. Atk (Status)
+418,Bullet Punch,STEEL,PHYSICAL,40,100,1,0,30,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Priority +1
+419,Avalanche,ICE,PHYSICAL,60,100,-4,0,10,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],2x power if User has been hit this turn
+420,Ice Shard,ICE,PHYSICAL,40,100,1,0,30,[],[PROTECT|MIRROR_MOVE|KINGSROCK],Priority +1
+421,Shadow Claw,GHOST,PHYSICAL,70,100,0,0,15,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],High crit chance
+422,Thunder Fang,ELECTRIC,PHYSICAL,65,95,0,10,15,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],May cause Flinch and/or Paralysis (Hit)
+423,Ice Fang,ICE,PHYSICAL,65,95,0,10,15,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],May cause Flinch and/or Freeze (Hit)
+424,Fire Fang,FIRE,PHYSICAL,65,95,0,10,15,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],May cause Flinch and/or Burn; ignores Wonder Guard (Hit)
+425,Shadow Sneak,GHOST,PHYSICAL,40,100,1,0,30,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Priority +1
+426,Mud Bomb,GROUND,SPECIAL,65,85,0,30,10,[],[PROTECT|MIRROR_MOVE|KINGSROCK],Lowers Target's Accuracy (Hit)
+427,Psycho Cut,PSYCHIC,PHYSICAL,70,100,0,0,20,[],[PROTECT|MIRROR_MOVE|KINGSROCK],High crit chance
+428,Zen Headbutt,PSYCHIC,PHYSICAL,80,90,0,20,15,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],May cause Flinch (Hit)
+429,Mirror Shot,STEEL,SPECIAL,65,85,0,30,10,[],[PROTECT|MIRROR_MOVE|KINGSROCK],Lowers Target's Accuracy (Hit)
+430,Flash Cannon,STEEL,SPECIAL,80,100,0,10,10,[],[PROTECT|MIRROR_MOVE|KINGSROCK],Lowers Target's Sp. Def (Hit)
+431,Rock Climb,NORMAL,PHYSICAL,90,85,0,20,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],May Confuse (Hit)
+432,Defog,FLYING,STATUS,0,0,0,0,15,[],[PROTECT|MIRROR_MOVE],Defog effect
+433,Trick Room,PSYCHIC,STATUS,0,0,-7,0,5,[ACTIVE_FIELD],[MIRROR_MOVE],Reverses Turn Order for 5 turns; Ignores priority
+434,Draco Meteor,DRAGON,SPECIAL,140,90,0,100,5,[],[PROTECT|MIRROR_MOVE|KINGSROCK],Harshly Lowers User's Sp. Atk
+435,Discharge,ELECTRIC,SPECIAL,80,100,0,30,15,[FOES_AND_ALLY],[PROTECT|MIRROR_MOVE|KINGSROCK],May Paralyze (Hit)
+436,Lava Plume,FIRE,SPECIAL,80,100,0,30,15,[FOES_AND_ALLY],[PROTECT|MIRROR_MOVE|KINGSROCK],May Burn (Hit)
+437,Leaf Storm,GRASS,SPECIAL,140,90,0,100,5,[],[PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],Harshly Lowers User's Sp. Atk
+438,Power Whip,GRASS,PHYSICAL,120,85,0,0,10,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],Hit
+439,Rock Wrecker,ROCK,PHYSICAL,150,90,0,0,5,[],[PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],Requires recharge turn
+440,Cross Poison,POISON,PHYSICAL,70,100,0,10,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],High crit chance, may Poison (Hit)
+441,Gunk Shot,POISON,PHYSICAL,120,70,0,30,5,[],[PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],May Poison (Hit)
+442,Iron Head,STEEL,PHYSICAL,80,100,0,30,15,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],May cause Flinch (Hit)
+443,Magnet Bomb,STEEL,PHYSICAL,60,0,0,0,20,[],[PROTECT|MIRROR_MOVE|KINGSROCK],Guaranteed hit
+444,Stone Edge,ROCK,PHYSICAL,100,80,0,0,5,[],[PROTECT|MIRROR_MOVE|KINGSROCK],High crit chance
+445,Captivate,NORMAL,STATUS,0,100,0,0,20,[BOTH],[PROTECT|MAGIC_COAT|MIRROR_MOVE|KEEP_HP_BAR],Harshly lowers Sp. Atk; fails if Target is not opposite gender
+446,Stealth Rock,ROCK,STATUS,0,0,0,0,20,[OPPONENTS_FIELD],[],Sets stealth rocks
+447,Grass Knot,GRASS,SPECIAL,1,100,0,0,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],Increase power with Target's weight
+448,Chatter,FLYING,SPECIAL,60,100,0,0,20,[],[PROTECT|KEEP_HP_BAR],May cause Confusion; chance determined by Chatter sound sample
+449,Judgment,NORMAL,SPECIAL,100,100,0,0,10,[],[PROTECT|MIRROR_MOVE|KINGSROCK],Type matches held Plate
+450,Bug Bite,BUG,PHYSICAL,60,100,0,0,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|KEEP_HP_BAR],User consumes Target's berry and receives its effect
+451,Charge Beam,ELECTRIC,SPECIAL,50,90,0,70,10,[],[PROTECT|MIRROR_MOVE|KINGSROCK],May raise User's Sp. Atk (Hit)
+452,Wood Hammer,GRASS,PHYSICAL,120,100,0,0,15,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],1/3 damage recoil
+453,Aqua Jet,WATER,PHYSICAL,40,100,1,0,20,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Priority +1
+454,Attack Order,BUG,PHYSICAL,90,100,0,0,15,[],[PROTECT|MIRROR_MOVE|KINGSROCK],High crit chance
+455,Defend Order,BUG,STATUS,0,0,0,0,10,[USER],[SNATCH],Raises User's Def and Sp. Def
+456,Heal Order,BUG,STATUS,0,0,0,0,10,[USER],[SNATCH],Restore half of max HP
+457,Head Smash,ROCK,PHYSICAL,150,80,0,0,5,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],1/2 damage recoil
+458,Double Hit,NORMAL,PHYSICAL,35,90,0,0,10,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Hits twice
+459,Roar of Time,DRAGON,SPECIAL,150,90,0,0,5,[],[PROTECT|MIRROR_MOVE|KINGSROCK],Requires recharge turn
+460,Spacial Rend,DRAGON,SPECIAL,100,95,0,0,5,[],[PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],High crit chance
+461,Lunar Dance,PSYCHIC,STATUS,0,0,0,0,10,[USER],[DEL_SHADOW],KOs self and Full Restores replacement
+462,Crush Grip,NORMAL,PHYSICAL,1,100,0,0,5,[],[CONTACT|PROTECT|MIRROR_MOVE|KINGSROCK],Higher power the more HP Target has
+463,Magma Storm,FIRE,SPECIAL,120,75,0,0,5,[],[PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],Prevents Target from escaping, deals 1/16 Target's max HP damage for 5 turns (Hit)
+464,Dark Void,DARK,STATUS,0,80,0,0,10,[BOTH],[PROTECT|MAGIC_COAT|MIRROR_MOVE|DEL_SHADOW],Causes Sleep
+465,Seed Flare,GRASS,SPECIAL,120,85,0,40,5,[],[PROTECT|MIRROR_MOVE|KINGSROCK|DEL_SHADOW],May harshly lower Target's Sp. Def (Hit)
+466,Ominous Wind,GHOST,SPECIAL,60,100,0,10,5,[],[PROTECT|MIRROR_MOVE|KINGSROCK],May raise all of User's stats (Hit)
+467,Shadow Force,GHOST,PHYSICAL,120,100,0,0,5,[],[CONTACT|MIRROR_MOVE|KINGSROCK],User charges, becomes invulnerable until attack next turn; ignores Protect/Detect

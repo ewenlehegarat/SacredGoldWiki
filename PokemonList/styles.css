@@ -141,6 +141,9 @@ main{
             padding: 25px;
             border-radius: 5px;
             
+            h2{
+                font-size: 20px;
+            }
             .pokemon_top{
                 display: flex;
                 align-items: center;
@@ -169,6 +172,13 @@ main{
             }
             .type_image:first-child{
                 margin-right: 5px;
+            }
+            .pokemon_sprite{
+                width: 120px;
+                height: 120px;
+                object-fit: contain;
+                display: block;
+                margin: 10px 0;
             }
             .div_stats{
                 display: flex;
