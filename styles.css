@@ -118,6 +118,15 @@ nav input:checked ~ label span:nth-child(3){
     top: 6px;
 }
 
+/* ###### Main ###### */
+main{
+    padding: 150px 0 0 10px;
+
+    h1{
+        font-size: 25px;
+    }
+}
+
 @media screen and (min-width: 768px) {
     nav{
         justify-content: start;
