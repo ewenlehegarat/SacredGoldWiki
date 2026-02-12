@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* ###### Global ###### */
-*{
+*, ::before, ::after{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -30,6 +30,9 @@ nav{
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
     z-index: 50;
 
+    .links{
+        display: none;
+    }
     ion-icon{
         font-size: 30px;
     }
@@ -89,6 +92,7 @@ nav{
             font-size: 20px;
             font-weight: 600;
             text-decoration: none;
+            cursor: pointer;
         }
         a:hover{
             color: rgb(77, 77, 77);
@@ -175,7 +179,6 @@ main{
             }
             .pokemon_sprite{
                 width: 120px;
-                height: 120px;
                 object-fit: contain;
                 display: block;
                 margin: 10px 0;
@@ -251,6 +254,44 @@ main{
                     width: 65px;
                 }
             }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    nav{
+        justify-content: start;
+        .links{
+            display: flex;
+            gap: 30px;
+            margin-left: 50px;
+            
+            a{
+                position: relative;
+                text-decoration: none;
+                font-size: 20px;
+                color: var(--Black);
+                cursor: pointer;
+            }
+            a::after{
+                content: "";
+                position: absolute;
+                top: 34px;
+                left: 0;
+                width: 0;
+                height: 3px;
+                background-color: var(--Black);
+                transition: width ease 400ms;
+            }
+            a:hover::after{
+                width: 100%;
+            }
+        }
+        label{
+            display: none;
+        }
+        .dropdown_content{
+            display: none;
         }
     }
 }

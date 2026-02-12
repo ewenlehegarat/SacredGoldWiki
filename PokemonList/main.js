@@ -75,7 +75,6 @@ async function getPokemon() {
         const typeImg = document.createElement('img');
         typeImg.src = `./img/type/${type.toLowerCase()}.png`;
         typeImg.alt = type;
-        typeImg.width = 75;
         typeImg.classList.add('type_image');
         typesContainer.appendChild(typeImg);
       });

@@ -14,7 +14,7 @@
 
 /* ###### Body ###### */
 body{
-    background-color: rgb(239, 239, 239);
+    background-color: rgb(0, 82, 150);
     font-family: "Roboto", sans-serif;
 }
 
@@ -27,8 +27,12 @@ nav{
     align-items: center;
     background-color: var(--White);
     padding: 10px 15px;
-    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.0562);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+    z-index: 50;
 
+    .links{
+        display: none;
+    }
     ion-icon{
         font-size: 30px;
     }
@@ -81,12 +85,14 @@ nav{
         top: 50px;
         left: -100%;
         transition: left ease 300ms;
-        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.0562);
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+        
         a{
             color: var(--Black);
             font-size: 20px;
             font-weight: 600;
             text-decoration: none;
+            cursor: pointer;
         }
         a:hover{
             color: rgb(77, 77, 77);
@@ -110,4 +116,42 @@ nav input:checked ~ label span:nth-child(2){
 nav input:checked ~ label span:nth-child(3){
     transform: rotate(-45deg);
     top: 6px;
+}
+
+@media screen and (min-width: 768px) {
+    nav{
+        justify-content: start;
+        .links{
+            display: flex;
+            gap: 30px;
+            margin-left: 50px;
+            
+            a{
+                position: relative;
+                text-decoration: none;
+                font-size: 20px;
+                color: var(--Black);
+                cursor: pointer;
+            }
+            a::after{
+                content: "";
+                position: absolute;
+                top: 34px;
+                left: 0;
+                width: 0;
+                height: 3px;
+                background-color: var(--Black);
+                transition: width ease 400ms;
+            }
+            a:hover::after{
+                width: 100%;
+            }
+        }
+        label{
+            display: none;
+        }
+        .dropdown_content{
+            display: none;
+        }
+    }
 }
