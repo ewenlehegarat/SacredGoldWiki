@@ -63,7 +63,7 @@ async function getPokemon() {
         talentNom.textContent = `${talent.name} ${suffixe}`;
         talentNom.classList.add('talent_nom');
         talentNom.href = `https://www.pokepedia.fr/${talent.name}`
-        talentNom.title = `Lien vers Poképedia : https://www.pokepedia.fr/${encodeURIComponent(talent.name)}`;
+        talentNom.title = `Lien vers Poképedia`;
 
         divNomTalent.appendChild(talentNom);
       });

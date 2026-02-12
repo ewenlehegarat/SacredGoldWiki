@@ -1656,9 +1656,9 @@
       "hp": 60,
       "atk": 45,
       "def": 50,
-      "spe_atk": 90,
-      "spe_def": 80,
-      "vit": 70
+      "spe_atk": 100,
+      "spe_def": 100,
+      "vit": 80
     },
     "resistances": [
       {
@@ -2086,11 +2086,11 @@
     ],
     "stats": {
       "hp": 65,
-      "atk": 90,
+      "atk": 100,
       "def": 40,
       "spe_atk": 45,
-      "spe_def": 80,
-      "vit": 75
+      "spe_def": 90,
+      "vit": 95
     },
     "resistances": [
       {
@@ -2533,12 +2533,12 @@
       }
     ],
     "stats": {
-      "hp": 83,
-      "atk": 80,
+      "hp": 103,
+      "atk": 91,
       "def": 75,
       "spe_atk": 70,
       "spe_def": 70,
-      "vit": 101
+      "vit": 91
     },
     "resistances": [
       {
@@ -2835,12 +2835,12 @@
       }
     ],
     "stats": {
-      "hp": 55,
-      "atk": 81,
+      "hp": 65,
+      "atk": 91,
       "def": 60,
       "spe_atk": 50,
       "spe_def": 70,
-      "vit": 97
+      "vit": 107
     },
     "resistances": [
       {
@@ -3125,11 +3125,11 @@
     ],
     "stats": {
       "hp": 65,
-      "atk": 90,
+      "atk": 95,
       "def": 65,
       "spe_atk": 61,
       "spe_def": 61,
-      "vit": 100
+      "vit": 105
     },
     "resistances": [
       {
@@ -3406,11 +3406,11 @@
     ],
     "stats": {
       "hp": 60,
-      "atk": 95,
+      "atk": 91,
       "def": 69,
       "spe_atk": 65,
       "spe_def": 79,
-      "vit": 80
+      "vit": 86
     },
     "resistances": [
       {
@@ -3546,11 +3546,11 @@
     ],
     "stats": {
       "hp": 45,
-      "atk": 80,
+      "atk": 65,
       "def": 50,
-      "spe_atk": 75,
+      "spe_atk": 60,
       "spe_def": 60,
-      "vit": 120
+      "vit": 95
     },
     "resistances": [
       {
@@ -3689,11 +3689,11 @@
     ],
     "stats": {
       "hp": 60,
-      "atk": 90,
+      "atk": 100,
       "def": 55,
-      "spe_atk": 90,
+      "spe_atk": 100,
       "spe_def": 80,
-      "vit": 110
+      "vit": 121
     },
     "resistances": [
       {
@@ -4427,7 +4427,7 @@
       }
     ],
     "stats": {
-      "hp": 90,
+      "hp": 100,
       "atk": 92,
       "def": 87,
       "spe_atk": 75,
@@ -4868,9 +4868,9 @@
     ],
     "stats": {
       "hp": 81,
-      "atk": 102,
+      "atk": 97,
       "def": 77,
-      "spe_atk": 85,
+      "spe_atk": 90,
       "spe_def": 75,
       "vit": 85
     },
@@ -5748,11 +5748,11 @@
       }
     ],
     "stats": {
-      "hp": 140,
+      "hp": 148,
       "atk": 70,
-      "def": 45,
+      "def": 55,
       "spe_atk": 85,
-      "spe_def": 50,
+      "spe_def": 65,
       "vit": 45
     },
     "resistances": [
