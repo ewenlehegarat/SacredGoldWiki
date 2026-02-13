@@ -130,8 +130,9 @@ main{
     flex-direction: column;
     padding: 75px 25px;
     align-items: center;
+    gap: 25px;
 
-    .new_bark_town{
+    .divs{
         padding: 15px;
         background-color: var(--White);
         display: flex;
@@ -144,9 +145,12 @@ main{
             flex-direction: column;
             gap: 25px;
 
-            .city_image{
+            .top_image{
                 width: 100%;
                 border-radius: 5px;
+            }
+            .route_image{
+                object-fit: cover;
             }
             .encounter{
                 width: 100%;
@@ -207,11 +211,11 @@ main{
         }
     }
     main{
-        .new_bark_town{
+        .divs{
             .container{
                 flex-direction: row;
                 .encounter{
-
+                    flex-direction: column;
                 }
             }
         }
