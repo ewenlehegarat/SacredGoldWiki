@@ -124,69 +124,6 @@ nav input:checked ~ label span:nth-child(3){
     top: 6px;
 }
 
-/* ###### Main ###### */
-main{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 75px 25px;
-    gap: 25px;
-
-    input{
-        width: 300px;
-        height: 50px;
-        padding-left: 15px;
-        border-radius: 50px;
-        border: 2px solid var(--Black);
-        box-shadow: 0 1px 5px var(--Black);
-        outline: none;
-        position: sticky;
-        top: 80px;
-        left: 20px;
-        z-index: 20;
-    }
-    .divs{
-        width: 100%;
-        padding: 15px;
-        background-color: var(--White);
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        border-radius: 10px;
-
-        .container{
-            display: flex;
-            flex-direction: column;
-            gap: 25px;
-
-            .top_image{
-                width: 100%;
-                border-radius: 5px;
-            }
-            .route_image{
-                object-fit: cover;
-            }
-            .encounter{
-                width: 100%;
-                display: flex;
-                flex-wrap: wrap;
-                gap: 15px;
-
-                .encounters{
-                    display: flex;
-                    align-items: center;
-                    gap: 20px;
-                    flex-wrap: wrap;
-
-                    p{
-                        display: flex;
-                        align-items: center;
-                    }
-                }
-            }
-        }
-    }
-}
-
 @media screen and (min-width: 768px) {
     nav{
         justify-content: start;
@@ -221,16 +158,6 @@ main{
         }
         .dropdown_content{
             display: none;
-        }
-    }
-    main{
-        .divs{
-            .container{
-                flex-direction: row;
-                .encounter{
-                    flex-direction: column;
-                }
-            }
         }
     }
 }

@@ -1,19 +1,18 @@
-// convert.js
 const fs = require('fs');
 
-const content = fs.readFileSync('./csv/TrainerData.txt', 'utf-8');
+const content = fs.readFileSync('TrainerData.txt', 'utf-8');
 const trainerBlocks = content.trim().split(/\n(?=\[\d+\])/);
 const trainers = [];
 
 for (const block of trainerBlocks) {
-  const lines = block.split('\n').map(l => l.replace('\r', '').trim());
-
+  const lines = block.split('\n').map(l => l.replace('\r', '').trim()).filter((l, i) => i === 0 || l !== '');
+  
   const headerMatch = lines[0].match(/\[(\d+)\]\s+(.+?):\s*$/);
   if (!headerMatch) continue;
 
   const id = parseInt(headerMatch[1]);
   const fullName = headerMatch[2].trim();
-  const parts = fullName.split(/\s+(?=\S+$)/);
+  const parts = fullName.rsplit ? fullName.rsplit(' ', 1) : fullName.split(/\s+(?=\S+$)/);
   const trainerClass = parts[0];
   const trainerName = parts[1] || '';
 
@@ -53,5 +52,5 @@ for (const block of trainerBlocks) {
   trainers.push({ id, class: trainerClass, name: trainerName, fullName, pokemon: pokemonList });
 }
 
-fs.writeFileSync('./json/TrainerData.json', JSON.stringify(trainers, null, 2), 'utf-8');
-console.log(`✅ ${trainers.length} trainers écrits dans json/TrainerData.json`);
+fs.writeFileSync('TrainerData.json', JSON.stringify(trainers, null, 2), 'utf-8');
+console.log(`✅ ${trainers.length} trainers convertis.`);
