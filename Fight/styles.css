@@ -14,7 +14,9 @@
     --Red: #EA9999;
     --Pink: #F4CCCC;
     --Blue: #A4C2F4;
-    --Little-Blue: #C9DAF8;
+    --Little-Blue: #c9f3f8;
+    --Green: #B6D7A8;
+    --Little-Green: #D9EAD3;
     --Color-1: #D7B957;
     --Color-2: #9EA5A8;
 }
@@ -185,9 +187,14 @@ main{
                         background-color: var(--Red);
                     }
                 }
-                tr:nth-child(6){
+                tr:nth-child(5){
                     th:first-child{
                         background-color: var(--Blue);
+                    }
+                }
+                tr:nth-child(8){
+                    th:first-child{
+                        background-color: var(--Green);
                     }
                 }
             }
@@ -310,6 +317,68 @@ main{
                 tr:nth-child(4){
                     th{
                         background-color: var(--Little-Blue);
+                    }
+                    th:last-child{
+                        background-color: var(--Black);
+                    }
+                }
+            }
+        }
+    }
+    .green_div{
+        table{
+
+            thead{
+                tr:first-child{
+                    th{
+                        background-color: var(--Black);
+                        color: var(--White);
+                        padding: 4px 0;
+                    }
+                }
+                tr:nth-child(2){
+                    height: 80px;
+
+                    th:last-child{
+                        background-color: var(--Black);
+                        color: white;
+                    }
+                }
+            }
+            tbody{
+                tr{
+                    th{
+                        padding: 8px 0;
+                        width: 12.5%;
+                        height: 40px;
+                    }
+                    th:last-child{
+                        background-color: var(--Black);
+                        color: white;
+                    }
+                }
+                tr:first-child{
+                    th{
+                        background-color: var(--Green);
+                    }
+                    th:last-child{
+                        background-color: var(--Black);
+                    }
+                }
+                tr:nth-child(2){
+                    th:first-child{
+                        background-color: var(--White);
+                    }
+                    th{
+                        background-color: var(--Little-Green);
+                    }
+                    th:last-child{
+                        background-color: var(--Black);
+                    }
+                }
+                tr:nth-child(4){
+                    th{
+                        background-color: var(--Little-Green);
                     }
                     th:last-child{
                         background-color: var(--Black);
