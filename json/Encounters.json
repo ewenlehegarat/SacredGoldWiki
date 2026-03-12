@@ -1,0 +1,7205 @@
+[
+  {
+    "id": "new_bark_town",
+    "name": "New Bark Town",
+    "levels": "",
+    "image": "img/city/new_bark_town.png",
+    "methods": {
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 72,
+            "pct": "90%"
+          }
+        ]
+      },
+      "old": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 73,
+            "pct": "10%"
+          }
+        ]
+      },
+      "good": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "60%"
+          },
+          {
+            "id": 90,
+            "pct": "35%"
+          },
+          {
+            "id": 170,
+            "pct": "5%"
+          }
+        ]
+      },
+      "super": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 90,
+            "pct": "60%"
+          },
+          {
+            "id": 171,
+            "pct": "30%"
+          },
+          {
+            "id": 130,
+            "pct": "10%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "route_29",
+    "name": "Route 29",
+    "levels": "3-5",
+    "image": "img/Route/Route_29.png",
+    "methods": {
+      "grass_morning": {
+        "label": "Grass Day",
+        "pokemon": [
+          {
+            "id": 16,
+            "pct": "20%"
+          },
+          {
+            "id": 161,
+            "pct": "20%"
+          },
+          {
+            "id": 396,
+            "pct": "15%"
+          },
+          {
+            "id": 19,
+            "pct": "15%"
+          },
+          {
+            "id": 263,
+            "pct": "10%"
+          },
+          {
+            "id": 399,
+            "pct": "10%"
+          },
+          {
+            "id": 187,
+            "pct": "5%"
+          },
+          {
+            "id": 265,
+            "pct": "5%"
+          }
+        ]
+      },
+      "grass_night": {
+        "label": "Grass Night",
+        "pokemon": [
+          {
+            "id": 163,
+            "pct": "20%"
+          },
+          {
+            "id": 19,
+            "pct": "20%"
+          },
+          {
+            "id": 261,
+            "pct": "15%"
+          },
+          {
+            "id": 263,
+            "pct": "15%"
+          },
+          {
+            "id": 399,
+            "pct": "15%"
+          },
+          {
+            "id": 265,
+            "pct": "15%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 162
+          },
+          {
+            "id": 20
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 311
+          },
+          {
+            "id": 312
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "route_46",
+    "name": "Route 46",
+    "levels": "4-6",
+    "image": "img/Route/Route_46.png",
+    "methods": {
+      "grass_morning": {
+        "label": "Grass Day",
+        "pokemon": [
+          {
+            "id": 74,
+            "pct": "20%"
+          },
+          {
+            "id": 21,
+            "pct": "20%"
+          },
+          {
+            "id": 325,
+            "pct": "10%"
+          },
+          {
+            "id": 333,
+            "pct": "10%"
+          },
+          {
+            "id": 19,
+            "pct": "10%"
+          },
+          {
+            "id": 322,
+            "pct": "10%"
+          },
+          {
+            "id": 39,
+            "pct": "10%"
+          },
+          {
+            "id": 231,
+            "pct": "10%"
+          }
+        ]
+      },
+      "grass_night": {
+        "label": "Grass Night",
+        "pokemon": [
+          {
+            "id": 74,
+            "pct": "20%"
+          },
+          {
+            "id": 322,
+            "pct": "20%"
+          },
+          {
+            "id": 325,
+            "pct": "10%"
+          },
+          {
+            "id": 19,
+            "pct": "10%"
+          },
+          {
+            "id": 35,
+            "pct": "10%"
+          },
+          {
+            "id": 39,
+            "pct": "10%"
+          },
+          {
+            "id": 228,
+            "pct": "10%"
+          },
+          {
+            "id": 403,
+            "pct": "10%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 75
+          },
+          {
+            "id": 22
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 174
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "cherry_grove",
+    "name": "Cherrygrove City",
+    "levels": "",
+    "image": "img/city/cherrygrove_city.png",
+    "methods": {
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 183,
+            "pct": "95%"
+          },
+          {
+            "id": 184,
+            "pct": "5%"
+          }
+        ]
+      },
+      "old": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 73,
+            "pct": "10%"
+          }
+        ]
+      },
+      "good": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "60%"
+          },
+          {
+            "id": 90,
+            "pct": "35%"
+          },
+          {
+            "id": 170,
+            "pct": "5%"
+          }
+        ]
+      },
+      "super": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 90,
+            "pct": "60%"
+          },
+          {
+            "id": 171,
+            "pct": "30%"
+          },
+          {
+            "id": 130,
+            "pct": "10%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "route_30",
+    "name": "Route 30",
+    "levels": "4-6",
+    "image": "img/Route/Route_30.png",
+    "methods": {
+      "grass_morning": {
+        "label": "Grass Morning",
+        "pokemon": [
+          {
+            "id": 165,
+            "pct": "20%"
+          },
+          {
+            "id": 276,
+            "pct": "20%"
+          },
+          {
+            "id": 270,
+            "pct": "10%"
+          },
+          {
+            "id": 273,
+            "pct": "10%"
+          },
+          {
+            "id": 10,
+            "pct": "10%"
+          },
+          {
+            "id": 13,
+            "pct": "10%"
+          },
+          {
+            "id": 401,
+            "pct": "10%"
+          },
+          {
+            "id": 283,
+            "pct": "5%"
+          },
+          {
+            "id": 280,
+            "pct": "5%"
+          }
+        ]
+      },
+      "grass_day": {
+        "label": "Grass Day",
+        "pokemon": [
+          {
+            "id": 10,
+            "pct": "20%"
+          },
+          {
+            "id": 13,
+            "pct": "20%"
+          },
+          {
+            "id": 270,
+            "pct": "10%"
+          },
+          {
+            "id": 273,
+            "pct": "10%"
+          },
+          {
+            "id": 276,
+            "pct": "10%"
+          },
+          {
+            "id": 11,
+            "pct": "10%"
+          },
+          {
+            "id": 14,
+            "pct": "10%"
+          },
+          {
+            "id": 283,
+            "pct": "5%"
+          },
+          {
+            "id": 280,
+            "pct": "5%"
+          }
+        ]
+      },
+      "grass_night": {
+        "label": "Grass Night",
+        "pokemon": [
+          {
+            "id": 167,
+            "pct": "20%"
+          },
+          {
+            "id": 163,
+            "pct": "20%"
+          },
+          {
+            "id": 261,
+            "pct": "15%"
+          },
+          {
+            "id": 263,
+            "pct": "15%"
+          },
+          {
+            "id": 399,
+            "pct": "15%"
+          },
+          {
+            "id": 265,
+            "pct": "15%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 271
+          },
+          {
+            "id": 274
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 280
+          }
+        ]
+      },
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 60,
+            "pct": "60%"
+          },
+          {
+            "id": 270,
+            "pct": "30%"
+          },
+          {
+            "id": 61,
+            "pct": "5%"
+          },
+          {
+            "id": 271,
+            "pct": "5%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 60,
+            "pct": "60%"
+          },
+          {
+            "id": 118,
+            "pct": "30%"
+          },
+          {
+            "id": 54,
+            "pct": "10%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 54,
+            "pct": "60%"
+          },
+          {
+            "id": 118,
+            "pct": "30%"
+          },
+          {
+            "id": 61,
+            "pct": "10%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 61,
+            "pct": "60%"
+          },
+          {
+            "id": 119,
+            "pct": "30%"
+          },
+          {
+            "id": 55,
+            "pct": "10%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "route_31",
+    "name": "Route 31",
+    "levels": "6-10",
+    "image": "img/Route/Route_31.png",
+    "methods": {
+      "grass_morning": {
+        "label": "Grass Morning",
+        "pokemon": [
+          {
+            "id": 165,
+            "pct": "20%"
+          },
+          {
+            "id": 69,
+            "pct": "20%"
+          },
+          {
+            "id": 418,
+            "pct": "10%"
+          },
+          {
+            "id": 403,
+            "pct": "10%"
+          },
+          {
+            "id": 63,
+            "pct": "10%"
+          },
+          {
+            "id": 177,
+            "pct": "10%"
+          },
+          {
+            "id": 102,
+            "pct": "5%"
+          },
+          {
+            "id": 54,
+            "pct": "5%"
+          },
+          {
+            "id": 11,
+            "pct": "4%"
+          },
+          {
+            "id": 14,
+            "pct": "4%"
+          },
+          {
+            "id": 12,
+            "pct": "1%"
+          },
+          {
+            "id": 15,
+            "pct": "1%"
+          }
+        ]
+      },
+      "grass_day": {
+        "label": "Grass Day",
+        "pokemon": [
+          {
+            "id": 265,
+            "pct": "20%"
+          },
+          {
+            "id": 69,
+            "pct": "20%"
+          },
+          {
+            "id": 418,
+            "pct": "10%"
+          },
+          {
+            "id": 403,
+            "pct": "10%"
+          },
+          {
+            "id": 63,
+            "pct": "10%"
+          },
+          {
+            "id": 177,
+            "pct": "10%"
+          },
+          {
+            "id": 406,
+            "pct": "5%"
+          },
+          {
+            "id": 54,
+            "pct": "5%"
+          },
+          {
+            "id": 266,
+            "pct": "4%"
+          },
+          {
+            "id": 268,
+            "pct": "4%"
+          },
+          {
+            "id": 102,
+            "pct": "2%"
+          }
+        ]
+      },
+      "grass_night": {
+        "label": "Grass Night",
+        "pokemon": [
+          {
+            "id": 167,
+            "pct": "20%"
+          },
+          {
+            "id": 69,
+            "pct": "20%"
+          },
+          {
+            "id": 54,
+            "pct": "10%"
+          },
+          {
+            "id": 403,
+            "pct": "10%"
+          },
+          {
+            "id": 63,
+            "pct": "10%"
+          },
+          {
+            "id": 177,
+            "pct": "10%"
+          },
+          {
+            "id": 102,
+            "pct": "5%"
+          },
+          {
+            "id": 418,
+            "pct": "5%"
+          },
+          {
+            "id": 11,
+            "pct": "4%"
+          },
+          {
+            "id": 14,
+            "pct": "4%"
+          },
+          {
+            "id": 267,
+            "pct": "1%"
+          },
+          {
+            "id": 269,
+            "pct": "1%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 12
+          },
+          {
+            "id": 15
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 406
+          }
+        ]
+      },
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 183,
+            "pct": "60%"
+          },
+          {
+            "id": 283,
+            "pct": "35%"
+          },
+          {
+            "id": 284,
+            "pct": "5%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 72,
+            "pct": "60%"
+          },
+          {
+            "id": 79,
+            "pct": "35%"
+          },
+          {
+            "id": 349,
+            "pct": "5%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 72,
+            "pct": "60%"
+          },
+          {
+            "id": 79,
+            "pct": "30%"
+          },
+          {
+            "id": 349,
+            "pct": "10%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 73,
+            "pct": "60%"
+          },
+          {
+            "id": 349,
+            "pct": "30%"
+          },
+          {
+            "id": 80,
+            "pct": "10%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "dark_cave_violet",
+    "name": "Dark Cave (Violet Side)",
+    "levels": "8-10",
+    "image": "img/cave/dark_cave.png",
+    "methods": {
+      "cave_morning_day": {
+        "label": "Cave Morning / Day",
+        "pokemon": [
+          {
+            "id": 74,
+            "pct": "20%"
+          },
+          {
+            "id": 41,
+            "pct": "20%"
+          },
+          {
+            "id": 436,
+            "pct": "10%"
+          },
+          {
+            "id": 296,
+            "pct": "10%"
+          },
+          {
+            "id": 27,
+            "pct": "10%"
+          },
+          {
+            "id": 216,
+            "pct": "10%"
+          },
+          {
+            "id": 218,
+            "pct": "10%"
+          },
+          {
+            "id": 246,
+            "pct": "4%"
+          },
+          {
+            "id": 206,
+            "pct": "4%"
+          },
+          {
+            "id": 433,
+            "pct": "2%"
+          }
+        ]
+      },
+      "cave_night": {
+        "label": "Cave Night",
+        "pokemon": [
+          {
+            "id": 74,
+            "pct": "20%"
+          },
+          {
+            "id": 41,
+            "pct": "20%"
+          },
+          {
+            "id": 436,
+            "pct": "10%"
+          },
+          {
+            "id": 296,
+            "pct": "10%"
+          },
+          {
+            "id": 27,
+            "pct": "10%"
+          },
+          {
+            "id": 360,
+            "pct": "10%"
+          },
+          {
+            "id": 218,
+            "pct": "10%"
+          },
+          {
+            "id": 246,
+            "pct": "4%"
+          },
+          {
+            "id": 206,
+            "pct": "4%"
+          },
+          {
+            "id": 433,
+            "pct": "2%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 42
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 433
+          }
+        ]
+      },
+      "swarm": {
+        "label": "Swarm",
+        "pokemon": [
+          {
+            "id": 246
+          }
+        ]
+      },
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 422,
+            "pct": "60%"
+          },
+          {
+            "id": 194,
+            "pct": "30%"
+          },
+          {
+            "id": 423,
+            "pct": "10%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 118,
+            "pct": "60%"
+          },
+          {
+            "id": 339,
+            "pct": "30%"
+          },
+          {
+            "id": 194,
+            "pct": "10%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 118,
+            "pct": "60%"
+          },
+          {
+            "id": 339,
+            "pct": "30%"
+          },
+          {
+            "id": 195,
+            "pct": "10%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 119,
+            "pct": "60%"
+          },
+          {
+            "id": 340,
+            "pct": "30%"
+          },
+          {
+            "id": 195,
+            "pct": "10%"
+          }
+        ]
+      },
+      "rock_smash": {
+        "label": "Rock Smash",
+        "pokemon": [
+          {
+            "id": 206,
+            "pct": "90%"
+          },
+          {
+            "id": 299,
+            "pct": "10%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "violet_city",
+    "name": "Violet City",
+    "levels": "N/A",
+    "image": "img/city/violet_city.png",
+    "methods": {
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 60,
+            "pct": "90%"
+          },
+          {
+            "id": 61,
+            "pct": "10%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "60%"
+          },
+          {
+            "id": 60,
+            "pct": "30%"
+          },
+          {
+            "id": 120,
+            "pct": "10%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 60,
+            "pct": "60%"
+          },
+          {
+            "id": 120,
+            "pct": "30%"
+          },
+          {
+            "id": 170,
+            "pct": "10%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 61,
+            "pct": "60%"
+          },
+          {
+            "id": 120,
+            "pct": "30%"
+          },
+          {
+            "id": 171,
+            "pct": "10%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "route_32",
+    "name": "Route 32",
+    "levels": "10-12",
+    "image": "img/Route/route_32.png",
+    "methods": {
+      "grass_morning_day": {
+        "label": "Grass Morning / Day",
+        "pokemon": [
+          {
+            "id": 179,
+            "pct": "20%"
+          },
+          {
+            "id": 69,
+            "pct": "20%"
+          },
+          {
+            "id": 290,
+            "pct": "15%"
+          },
+          {
+            "id": 187,
+            "pct": "15%"
+          },
+          {
+            "id": 81,
+            "pct": "15%"
+          },
+          {
+            "id": 23,
+            "pct": "10%"
+          },
+          {
+            "id": 417,
+            "pct": "5%"
+          }
+        ]
+      },
+      "grass_night": {
+        "label": "Grass Night",
+        "pokemon": [
+          {
+            "id": 179,
+            "pct": "20%"
+          },
+          {
+            "id": 69,
+            "pct": "20%"
+          },
+          {
+            "id": 290,
+            "pct": "15%"
+          },
+          {
+            "id": 194,
+            "pct": "15%"
+          },
+          {
+            "id": 81,
+            "pct": "15%"
+          },
+          {
+            "id": 23,
+            "pct": "10%"
+          },
+          {
+            "id": 425,
+            "pct": "5%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 180
+          },
+          {
+            "id": 82
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 425
+          },
+          {
+            "id": 417
+          }
+        ]
+      },
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 194,
+            "pct": "60%"
+          },
+          {
+            "id": 72,
+            "pct": "30%"
+          },
+          {
+            "id": 195,
+            "pct": "5%"
+          },
+          {
+            "id": 73,
+            "pct": "5%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 72,
+            "pct": "60%"
+          },
+          {
+            "id": 54,
+            "pct": "35%"
+          },
+          {
+            "id": 211,
+            "pct": "5%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 72,
+            "pct": "60%"
+          },
+          {
+            "id": 54,
+            "pct": "30%"
+          },
+          {
+            "id": 211,
+            "pct": "10%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 211,
+            "pct": "60%"
+          },
+          {
+            "id": 73,
+            "pct": "30%"
+          },
+          {
+            "id": 55,
+            "pct": "10%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "ruins_of_alph",
+    "name": "Ruins of Alph",
+    "levels": "26-30",
+    "image": "img/ruins/ruins_of_alph.png",
+    "methods": {
+      "grass_all": {
+        "label": "Grass All Times",
+        "pokemon": [
+          {
+            "id": 177,
+            "pct": "40%"
+          },
+          {
+            "id": 235,
+            "pct": "40%"
+          },
+          {
+            "id": 203,
+            "pct": "20%"
+          }
+        ]
+      },
+      "rock_smash": {
+        "label": "Rock Smash",
+        "pokemon": [
+          {
+            "id": 74,
+            "pct": "90%"
+          },
+          {
+            "id": 299,
+            "pct": "10%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 178
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 175
+          }
+        ]
+      },
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 194,
+            "pct": "90%"
+          },
+          {
+            "id": 195,
+            "pct": "10%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "60%"
+          },
+          {
+            "id": 223,
+            "pct": "30%"
+          },
+          {
+            "id": 147,
+            "pct": "10%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "60%"
+          },
+          {
+            "id": 223,
+            "pct": "30%"
+          },
+          {
+            "id": 147,
+            "pct": "9%"
+          },
+          {
+            "id": 148,
+            "pct": "1%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 130,
+            "pct": "60%"
+          },
+          {
+            "id": 369,
+            "pct": "30%"
+          },
+          {
+            "id": 148,
+            "pct": "5%"
+          },
+          {
+            "id": 224,
+            "pct": "5%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "sprout_tower_2f",
+    "name": "Sprout Tower [2F]",
+    "levels": "9-12",
+    "image": "img/tour/sprout_tower_2f.png",
+    "methods": {
+      "building_morning_day": {
+        "label": "Building Morning / Day",
+        "pokemon": [
+          {
+            "id": 263,
+            "pct": "20%"
+          },
+          {
+            "id": 19,
+            "pct": "20%"
+          },
+          {
+            "id": 16,
+            "pct": "20%"
+          },
+          {
+            "id": 399,
+            "pct": "10%"
+          },
+          {
+            "id": 396,
+            "pct": "10%"
+          },
+          {
+            "id": 307,
+            "pct": "10%"
+          },
+          {
+            "id": 327,
+            "pct": "5%"
+          },
+          {
+            "id": 441,
+            "pct": "5%"
+          }
+        ]
+      },
+      "building_night": {
+        "label": "Building Night",
+        "pokemon": [
+          {
+            "id": 92,
+            "pct": "20%"
+          },
+          {
+            "id": 19,
+            "pct": "20%"
+          },
+          {
+            "id": 69,
+            "pct": "20%"
+          },
+          {
+            "id": 399,
+            "pct": "10%"
+          },
+          {
+            "id": 431,
+            "pct": "10%"
+          },
+          {
+            "id": 434,
+            "pct": "10%"
+          },
+          {
+            "id": 327,
+            "pct": "5%"
+          },
+          {
+            "id": 425,
+            "pct": "5%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 400
+          },
+          {
+            "id": 264
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 327
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "sprout_tower_3f",
+    "name": "Sprout Tower [3F]",
+    "levels": "10-13",
+    "image": "img/Route/sprout_tower_3f.png",
+    "methods": {
+      "building_morning_day": {
+        "label": "Building Morning / Day",
+        "pokemon": [
+          {
+            "id": 263,
+            "pct": "20%"
+          },
+          {
+            "id": 19,
+            "pct": "20%"
+          },
+          {
+            "id": 16,
+            "pct": "20%"
+          },
+          {
+            "id": 399,
+            "pct": "10%"
+          },
+          {
+            "id": 396,
+            "pct": "10%"
+          },
+          {
+            "id": 307,
+            "pct": "10%"
+          },
+          {
+            "id": 327,
+            "pct": "5%"
+          },
+          {
+            "id": 441,
+            "pct": "5%"
+          }
+        ]
+      },
+      "building_night": {
+        "label": "Building Night",
+        "pokemon": [
+          {
+            "id": 92,
+            "pct": "20%"
+          },
+          {
+            "id": 19,
+            "pct": "20%"
+          },
+          {
+            "id": 69,
+            "pct": "20%"
+          },
+          {
+            "id": 399,
+            "pct": "10%"
+          },
+          {
+            "id": 431,
+            "pct": "10%"
+          },
+          {
+            "id": 434,
+            "pct": "10%"
+          },
+          {
+            "id": 327,
+            "pct": "5%"
+          },
+          {
+            "id": 425,
+            "pct": "5%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 400
+          },
+          {
+            "id": 264
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 327
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "union_cave_1f",
+    "name": "Union Cave [1F]",
+    "levels": "12-15",
+    "image": "img/Route/union_cave_1f.png",
+    "methods": {
+      "cave_all": {
+        "label": "Cave All Times",
+        "pokemon": [
+          {
+            "id": 41,
+            "pct": "25%"
+          },
+          {
+            "id": 27,
+            "pct": "25%"
+          },
+          {
+            "id": 74,
+            "pct": "10%"
+          },
+          {
+            "id": 293,
+            "pct": "10%"
+          },
+          {
+            "id": 296,
+            "pct": "10%"
+          },
+          {
+            "id": 66,
+            "pct": "10%"
+          },
+          {
+            "id": 304,
+            "pct": "5%"
+          },
+          {
+            "id": 104,
+            "pct": "5%"
+          }
+        ]
+      },
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 194,
+            "pct": "60%"
+          },
+          {
+            "id": 422,
+            "pct": "30%"
+          },
+          {
+            "id": 195,
+            "pct": "5%"
+          },
+          {
+            "id": 423,
+            "pct": "5%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "60%"
+          },
+          {
+            "id": 118,
+            "pct": "30%"
+          },
+          {
+            "id": 339,
+            "pct": "10%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "60%"
+          },
+          {
+            "id": 118,
+            "pct": "30%"
+          },
+          {
+            "id": 339,
+            "pct": "10%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 130,
+            "pct": "60%"
+          },
+          {
+            "id": 119,
+            "pct": "30%"
+          },
+          {
+            "id": 340,
+            "pct": "10%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 28
+          },
+          {
+            "id": 294
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 443
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "union_cave_b1f",
+    "name": "Union Cave [B1F]",
+    "levels": "13-16",
+    "image": "img/Route/union_cave_b1f.png",
+    "methods": {
+      "cave_all": {
+        "label": "Cave All Times",
+        "pokemon": [
+          {
+            "id": 41,
+            "pct": "25%"
+          },
+          {
+            "id": 27,
+            "pct": "20%"
+          },
+          {
+            "id": 74,
+            "pct": "10%"
+          },
+          {
+            "id": 436,
+            "pct": "10%"
+          },
+          {
+            "id": 304,
+            "pct": "10%"
+          },
+          {
+            "id": 95,
+            "pct": "15%"
+          },
+          {
+            "id": 371,
+            "pct": "5%"
+          },
+          {
+            "id": 443,
+            "pct": "5%"
+          }
+        ]
+      },
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 194,
+            "pct": "60%"
+          },
+          {
+            "id": 422,
+            "pct": "30%"
+          },
+          {
+            "id": 195,
+            "pct": "5%"
+          },
+          {
+            "id": 423,
+            "pct": "5%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "60%"
+          },
+          {
+            "id": 118,
+            "pct": "30%"
+          },
+          {
+            "id": 339,
+            "pct": "10%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "60%"
+          },
+          {
+            "id": 118,
+            "pct": "30%"
+          },
+          {
+            "id": 339,
+            "pct": "10%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 130,
+            "pct": "60%"
+          },
+          {
+            "id": 119,
+            "pct": "30%"
+          },
+          {
+            "id": 340,
+            "pct": "10%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 42
+          },
+          {
+            "id": 208
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 104
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "union_cave_b2f",
+    "name": "Union Cave [B2F]",
+    "levels": "28-30",
+    "image": "img/Route/union_cave_b2f.png",
+    "methods": {
+      "cave_all": {
+        "label": "Cave All Times",
+        "pokemon": [
+          {
+            "id": 42,
+            "pct": "20%"
+          },
+          {
+            "id": 28,
+            "pct": "20%"
+          },
+          {
+            "id": 75,
+            "pct": "10%"
+          },
+          {
+            "id": 302,
+            "pct": "10%"
+          },
+          {
+            "id": 67,
+            "pct": "10%"
+          },
+          {
+            "id": 294,
+            "pct": "10%"
+          },
+          {
+            "id": 303,
+            "pct": "10%"
+          },
+          {
+            "id": 108,
+            "pct": "5%"
+          },
+          {
+            "id": 115,
+            "pct": "5%"
+          }
+        ]
+      },
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 194,
+            "pct": "60%"
+          },
+          {
+            "id": 422,
+            "pct": "30%"
+          },
+          {
+            "id": 195,
+            "pct": "5%"
+          },
+          {
+            "id": 423,
+            "pct": "5%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "60%"
+          },
+          {
+            "id": 118,
+            "pct": "30%"
+          },
+          {
+            "id": 339,
+            "pct": "10%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "60%"
+          },
+          {
+            "id": 118,
+            "pct": "30%"
+          },
+          {
+            "id": 339,
+            "pct": "10%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 130,
+            "pct": "60%"
+          },
+          {
+            "id": 119,
+            "pct": "30%"
+          },
+          {
+            "id": 340,
+            "pct": "10%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 463
+          },
+          {
+            "id": 295
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 115
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "route_33",
+    "name": "Route 33",
+    "levels": "14-16",
+    "image": "img/Route/route_33.png",
+    "methods": {
+      "grass_morning_day": {
+        "label": "Grass Morning / Day",
+        "pokemon": [
+          {
+            "id": 453,
+            "pct": "20%"
+          },
+          {
+            "id": 23,
+            "pct": "20%"
+          },
+          {
+            "id": 451,
+            "pct": "10%"
+          },
+          {
+            "id": 287,
+            "pct": "10%"
+          },
+          {
+            "id": 333,
+            "pct": "10%"
+          },
+          {
+            "id": 190,
+            "pct": "10%"
+          },
+          {
+            "id": 187,
+            "pct": "10%"
+          },
+          {
+            "id": 111,
+            "pct": "10%"
+          }
+        ]
+      },
+      "grass_night": {
+        "label": "Grass Night",
+        "pokemon": [
+          {
+            "id": 453,
+            "pct": "20%"
+          },
+          {
+            "id": 23,
+            "pct": "20%"
+          },
+          {
+            "id": 451,
+            "pct": "10%"
+          },
+          {
+            "id": 287,
+            "pct": "10%"
+          },
+          {
+            "id": 333,
+            "pct": "10%"
+          },
+          {
+            "id": 190,
+            "pct": "10%"
+          },
+          {
+            "id": 52,
+            "pct": "10%"
+          },
+          {
+            "id": 111,
+            "pct": "10%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 454
+          },
+          {
+            "id": 452
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 271
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "slowpoke_well_1f",
+    "name": "Slowpoke Well [1F]",
+    "levels": "15-16",
+    "image": "img/Route/slowpoke_well_1f.png",
+    "methods": {
+      "cave_all": {
+        "label": "Cave All Times",
+        "pokemon": [
+          {
+            "id": 41,
+            "pct": "20%"
+          },
+          {
+            "id": 79,
+            "pct": "20%"
+          },
+          {
+            "id": 92,
+            "pct": "10%"
+          },
+          {
+            "id": 422,
+            "pct": "10%"
+          },
+          {
+            "id": 90,
+            "pct": "10%"
+          },
+          {
+            "id": 220,
+            "pct": "10%"
+          },
+          {
+            "id": 361,
+            "pct": "10%"
+          },
+          {
+            "id": 436,
+            "pct": "10%"
+          }
+        ]
+      },
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 79,
+            "pct": "90%"
+          },
+          {
+            "id": 80,
+            "pct": "10%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "60%"
+          },
+          {
+            "id": 79,
+            "pct": "30%"
+          },
+          {
+            "id": 339,
+            "pct": "10%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "60%"
+          },
+          {
+            "id": 339,
+            "pct": "30%"
+          },
+          {
+            "id": 79,
+            "pct": "10%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 130,
+            "pct": "60%"
+          },
+          {
+            "id": 340,
+            "pct": "30%"
+          },
+          {
+            "id": 80,
+            "pct": "10%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 80
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 360
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "slowpoke_well_b1f",
+    "name": "Slowpoke Well [B1F]",
+    "levels": "28-33",
+    "image": "img/Route/slowpoke_well_b1f.png",
+    "methods": {
+      "cave_all": {
+        "label": "Cave All Times",
+        "pokemon": [
+          {
+            "id": 42,
+            "pct": "20%"
+          },
+          {
+            "id": 79,
+            "pct": "20%"
+          },
+          {
+            "id": 93,
+            "pct": "10%"
+          },
+          {
+            "id": 423,
+            "pct": "10%"
+          },
+          {
+            "id": 90,
+            "pct": "10%"
+          },
+          {
+            "id": 221,
+            "pct": "10%"
+          },
+          {
+            "id": 361,
+            "pct": "10%"
+          },
+          {
+            "id": 437,
+            "pct": "10%"
+          }
+        ]
+      },
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 79,
+            "pct": "60%"
+          },
+          {
+            "id": 80,
+            "pct": "40%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "60%"
+          },
+          {
+            "id": 79,
+            "pct": "30%"
+          },
+          {
+            "id": 339,
+            "pct": "10%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "60%"
+          },
+          {
+            "id": 339,
+            "pct": "30%"
+          },
+          {
+            "id": 79,
+            "pct": "10%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 130,
+            "pct": "60%"
+          },
+          {
+            "id": 340,
+            "pct": "30%"
+          },
+          {
+            "id": 80,
+            "pct": "10%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 80
+          },
+          {
+            "id": 362
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 202
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "ilex_forest",
+    "name": "Ilex Forest",
+    "levels": "15-18",
+    "image": "img/Route/ilex_forest.png",
+    "methods": {
+      "grass_morning": {
+        "label": "Grass Morning",
+        "pokemon": [
+          {
+            "id": 285,
+            "pct": "20%"
+          },
+          {
+            "id": 165,
+            "pct": "20%"
+          },
+          {
+            "id": 204,
+            "pct": "10%"
+          },
+          {
+            "id": 102,
+            "pct": "10%"
+          },
+          {
+            "id": 407,
+            "pct": "10%"
+          },
+          {
+            "id": 406,
+            "pct": "10%"
+          },
+          {
+            "id": 25,
+            "pct": "5%"
+          },
+          {
+            "id": 12,
+            "pct": "5%"
+          },
+          {
+            "id": 15,
+            "pct": "5%"
+          },
+          {
+            "id": 315,
+            "pct": "5%"
+          }
+        ]
+      },
+      "grass_day": {
+        "label": "Grass Day",
+        "pokemon": [
+          {
+            "id": 285,
+            "pct": "20%"
+          },
+          {
+            "id": 265,
+            "pct": "20%"
+          },
+          {
+            "id": 204,
+            "pct": "10%"
+          },
+          {
+            "id": 102,
+            "pct": "10%"
+          },
+          {
+            "id": 407,
+            "pct": "10%"
+          },
+          {
+            "id": 406,
+            "pct": "10%"
+          },
+          {
+            "id": 25,
+            "pct": "5%"
+          },
+          {
+            "id": 267,
+            "pct": "5%"
+          },
+          {
+            "id": 269,
+            "pct": "5%"
+          },
+          {
+            "id": 315,
+            "pct": "5%"
+          }
+        ]
+      },
+      "grass_night": {
+        "label": "Grass Night",
+        "pokemon": [
+          {
+            "id": 46,
+            "pct": "20%"
+          },
+          {
+            "id": 167,
+            "pct": "20%"
+          },
+          {
+            "id": 204,
+            "pct": "10%"
+          },
+          {
+            "id": 43,
+            "pct": "10%"
+          },
+          {
+            "id": 407,
+            "pct": "10%"
+          },
+          {
+            "id": 48,
+            "pct": "10%"
+          },
+          {
+            "id": 25,
+            "pct": "5%"
+          },
+          {
+            "id": 198,
+            "pct": "5%"
+          },
+          {
+            "id": 200,
+            "pct": "5%"
+          },
+          {
+            "id": 455,
+            "pct": "5%"
+          }
+        ]
+      },
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 54,
+            "pct": "90%"
+          },
+          {
+            "id": 55,
+            "pct": "10%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "60%"
+          },
+          {
+            "id": 60,
+            "pct": "40%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 61,
+            "pct": "90%"
+          },
+          {
+            "id": 130,
+            "pct": "10%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 61,
+            "pct": "60%"
+          },
+          {
+            "id": 130,
+            "pct": "30%"
+          },
+          {
+            "id": 62,
+            "pct": "5%"
+          },
+          {
+            "id": 186,
+            "pct": "5%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 44
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 172
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "route_34",
+    "name": "Route 34",
+    "levels": "15-19",
+    "image": "img/Route/route_34.png",
+    "methods": {
+      "grass_all": {
+        "label": "Grass All Times",
+        "pokemon": [
+          {
+            "id": 96,
+            "pct": "20%"
+          },
+          {
+            "id": 316,
+            "pct": "20%"
+          },
+          {
+            "id": 309,
+            "pct": "10%"
+          },
+          {
+            "id": 438,
+            "pct": "10%"
+          },
+          {
+            "id": 439,
+            "pct": "10%"
+          },
+          {
+            "id": 63,
+            "pct": "10%"
+          },
+          {
+            "id": 132,
+            "pct": "9%"
+          },
+          {
+            "id": 209,
+            "pct": "9%"
+          },
+          {
+            "id": 64,
+            "pct": "2%"
+          }
+        ]
+      },
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 72,
+            "pct": "95%"
+          },
+          {
+            "id": 73,
+            "pct": "5%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 118,
+            "pct": "60%"
+          },
+          {
+            "id": 170,
+            "pct": "30%"
+          },
+          {
+            "id": 120,
+            "pct": "10%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 118,
+            "pct": "60%"
+          },
+          {
+            "id": 170,
+            "pct": "30%"
+          },
+          {
+            "id": 120,
+            "pct": "10%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 119,
+            "pct": "60%"
+          },
+          {
+            "id": 120,
+            "pct": "30%"
+          },
+          {
+            "id": 171,
+            "pct": "5%"
+          },
+          {
+            "id": 121,
+            "pct": "5%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 310
+          },
+          {
+            "id": 97
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 280
+          },
+          {
+            "id": 281
+          }
+        ]
+      },
+      "swarm": {
+        "label": "Swarm",
+        "pokemon": [
+          {
+            "id": 64
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "route_35",
+    "name": "Route 35",
+    "levels": "17-19",
+    "image": "img/Route/route_35.png",
+    "methods": {
+      "grass_morning_day": {
+        "label": "Grass Morning / Day",
+        "pokemon": [
+          {
+            "id": 32,
+            "pct": "20%"
+          },
+          {
+            "id": 29,
+            "pct": "20%"
+          },
+          {
+            "id": 17,
+            "pct": "10%"
+          },
+          {
+            "id": 434,
+            "pct": "10%"
+          },
+          {
+            "id": 431,
+            "pct": "10%"
+          },
+          {
+            "id": 397,
+            "pct": "10%"
+          },
+          {
+            "id": 314,
+            "pct": "5%"
+          },
+          {
+            "id": 313,
+            "pct": "5%"
+          },
+          {
+            "id": 132,
+            "pct": "5%"
+          },
+          {
+            "id": 193,
+            "pct": "5%"
+          }
+        ]
+      },
+      "grass_night": {
+        "label": "Grass Night",
+        "pokemon": [
+          {
+            "id": 32,
+            "pct": "20%"
+          },
+          {
+            "id": 29,
+            "pct": "20%"
+          },
+          {
+            "id": 52,
+            "pct": "10%"
+          },
+          {
+            "id": 434,
+            "pct": "10%"
+          },
+          {
+            "id": 431,
+            "pct": "10%"
+          },
+          {
+            "id": 164,
+            "pct": "10%"
+          },
+          {
+            "id": 314,
+            "pct": "5%"
+          },
+          {
+            "id": 313,
+            "pct": "5%"
+          },
+          {
+            "id": 132,
+            "pct": "5%"
+          },
+          {
+            "id": 193,
+            "pct": "5%"
+          }
+        ]
+      },
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 54,
+            "pct": "90%"
+          },
+          {
+            "id": 55,
+            "pct": "10%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "65%"
+          },
+          {
+            "id": 54,
+            "pct": "35%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "60%"
+          },
+          {
+            "id": 370,
+            "pct": "35%"
+          },
+          {
+            "id": 54,
+            "pct": "5%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 370,
+            "pct": "60%"
+          },
+          {
+            "id": 54,
+            "pct": "35%"
+          },
+          {
+            "id": 130,
+            "pct": "5%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 435
+          },
+          {
+            "id": 432
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 193
+          }
+        ]
+      },
+      "swarm": {
+        "label": "Swarm",
+        "pokemon": [
+          {
+            "id": 314
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "national_park",
+    "name": "National Park",
+    "levels": "17-19",
+    "image": "img/Route/national_park.png",
+    "methods": {
+      "grass_morning": {
+        "label": "Grass Morning",
+        "pokemon": [
+          {
+            "id": 11,
+            "pct": "20%"
+          },
+          {
+            "id": 14,
+            "pct": "20%"
+          },
+          {
+            "id": 415,
+            "pct": "10%"
+          },
+          {
+            "id": 276,
+            "pct": "10%"
+          },
+          {
+            "id": 290,
+            "pct": "10%"
+          },
+          {
+            "id": 412,
+            "pct": "10%"
+          },
+          {
+            "id": 123,
+            "pct": "5%"
+          },
+          {
+            "id": 127,
+            "pct": "5%"
+          },
+          {
+            "id": 214,
+            "pct": "5%"
+          },
+          {
+            "id": 402,
+            "pct": "5%"
+          }
+        ]
+      },
+      "grass_day": {
+        "label": "Grass Day",
+        "pokemon": [
+          {
+            "id": 11,
+            "pct": "20%"
+          },
+          {
+            "id": 14,
+            "pct": "20%"
+          },
+          {
+            "id": 415,
+            "pct": "10%"
+          },
+          {
+            "id": 276,
+            "pct": "10%"
+          },
+          {
+            "id": 191,
+            "pct": "10%"
+          },
+          {
+            "id": 412,
+            "pct": "10%"
+          },
+          {
+            "id": 123,
+            "pct": "5%"
+          },
+          {
+            "id": 127,
+            "pct": "5%"
+          },
+          {
+            "id": 214,
+            "pct": "5%"
+          },
+          {
+            "id": 402,
+            "pct": "5%"
+          }
+        ]
+      },
+      "grass_night": {
+        "label": "Grass Night",
+        "pokemon": [
+          {
+            "id": 11,
+            "pct": "20%"
+          },
+          {
+            "id": 14,
+            "pct": "20%"
+          },
+          {
+            "id": 415,
+            "pct": "10%"
+          },
+          {
+            "id": 261,
+            "pct": "10%"
+          },
+          {
+            "id": 290,
+            "pct": "10%"
+          },
+          {
+            "id": 412,
+            "pct": "10%"
+          },
+          {
+            "id": 123,
+            "pct": "5%"
+          },
+          {
+            "id": 127,
+            "pct": "5%"
+          },
+          {
+            "id": 214,
+            "pct": "5%"
+          },
+          {
+            "id": 402,
+            "pct": "5%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 12
+          },
+          {
+            "id": 15
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 123
+          },
+          {
+            "id": 127
+          },
+          {
+            "id": 214
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "route_36",
+    "name": "Route 36",
+    "levels": "17-19",
+    "image": "img/Route/route_36.png",
+    "methods": {
+      "grass_morning_day": {
+        "label": "Grass Morning / Day",
+        "pokemon": [
+          {
+            "id": 58,
+            "pct": "20%"
+          },
+          {
+            "id": 37,
+            "pct": "20%"
+          },
+          {
+            "id": 415,
+            "pct": "10%"
+          },
+          {
+            "id": 311,
+            "pct": "10%"
+          },
+          {
+            "id": 312,
+            "pct": "10%"
+          },
+          {
+            "id": 33,
+            "pct": "10%"
+          },
+          {
+            "id": 30,
+            "pct": "10%"
+          },
+          {
+            "id": 397,
+            "pct": "5%"
+          },
+          {
+            "id": 234,
+            "pct": "5%"
+          }
+        ]
+      },
+      "grass_night": {
+        "label": "Grass Night",
+        "pokemon": [
+          {
+            "id": 58,
+            "pct": "20%"
+          },
+          {
+            "id": 37,
+            "pct": "20%"
+          },
+          {
+            "id": 415,
+            "pct": "10%"
+          },
+          {
+            "id": 311,
+            "pct": "10%"
+          },
+          {
+            "id": 312,
+            "pct": "10%"
+          },
+          {
+            "id": 33,
+            "pct": "10%"
+          },
+          {
+            "id": 30,
+            "pct": "10%"
+          },
+          {
+            "id": 164,
+            "pct": "5%"
+          },
+          {
+            "id": 234,
+            "pct": "5%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 416
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 438
+          },
+          {
+            "id": 439
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "route_37",
+    "name": "Route 37",
+    "levels": "21-24",
+    "image": "img/Route/route_37.png",
+    "methods": {
+      "grass_morning_day": {
+        "label": "Grass Morning / Day",
+        "pokemon": [
+          {
+            "id": 58,
+            "pct": "20%"
+          },
+          {
+            "id": 37,
+            "pct": "20%"
+          },
+          {
+            "id": 234,
+            "pct": "10%"
+          },
+          {
+            "id": 166,
+            "pct": "10%"
+          },
+          {
+            "id": 17,
+            "pct": "10%"
+          },
+          {
+            "id": 33,
+            "pct": "10%"
+          },
+          {
+            "id": 30,
+            "pct": "10%"
+          },
+          {
+            "id": 335,
+            "pct": "5%"
+          },
+          {
+            "id": 336,
+            "pct": "5%"
+          }
+        ]
+      },
+      "grass_night": {
+        "label": "Grass Night",
+        "pokemon": [
+          {
+            "id": 58,
+            "pct": "20%"
+          },
+          {
+            "id": 37,
+            "pct": "20%"
+          },
+          {
+            "id": 234,
+            "pct": "10%"
+          },
+          {
+            "id": 168,
+            "pct": "10%"
+          },
+          {
+            "id": 164,
+            "pct": "10%"
+          },
+          {
+            "id": 262,
+            "pct": "10%"
+          },
+          {
+            "id": 264,
+            "pct": "10%"
+          },
+          {
+            "id": 335,
+            "pct": "5%"
+          },
+          {
+            "id": 336,
+            "pct": "5%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 59
+          },
+          {
+            "id": 38
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 335
+          },
+          {
+            "id": 336
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "ecruteak_city",
+    "name": "Ecruteak City",
+    "levels": "N/A",
+    "image": "img/Route/ecruteak_city.png",
+    "methods": {
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 60,
+            "pct": "90%"
+          },
+          {
+            "id": 61,
+            "pct": "10%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "100%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "60%"
+          },
+          {
+            "id": 60,
+            "pct": "40%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 61,
+            "pct": "60%"
+          },
+          {
+            "id": 130,
+            "pct": "40%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "burned_tower_1f",
+    "name": "Burned Tower [1F]",
+    "levels": "22-23",
+    "image": "img/Route/burned_tower_1f.png",
+    "methods": {
+      "cave_all": {
+        "label": "Cave All Times",
+        "pokemon": [
+          {
+            "id": 19,
+            "pct": "20%"
+          },
+          {
+            "id": 109,
+            "pct": "20%"
+          },
+          {
+            "id": 263,
+            "pct": "10%"
+          },
+          {
+            "id": 104,
+            "pct": "10%"
+          },
+          {
+            "id": 240,
+            "pct": "10%"
+          },
+          {
+            "id": 88,
+            "pct": "10%"
+          },
+          {
+            "id": 355,
+            "pct": "10%"
+          },
+          {
+            "id": 353,
+            "pct": "10%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 20
+          },
+          {
+            "id": 105
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 358
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "burned_tower_b1f",
+    "name": "Burned Tower [B1F]",
+    "levels": "23-24",
+    "image": "img/Route/burned_tower_b1f.png",
+    "methods": {
+      "cave_all": {
+        "label": "Cave All Times",
+        "pokemon": [
+          {
+            "id": 20,
+            "pct": "20%"
+          },
+          {
+            "id": 109,
+            "pct": "20%"
+          },
+          {
+            "id": 264,
+            "pct": "10%"
+          },
+          {
+            "id": 104,
+            "pct": "10%"
+          },
+          {
+            "id": 240,
+            "pct": "10%"
+          },
+          {
+            "id": 88,
+            "pct": "10%"
+          },
+          {
+            "id": 355,
+            "pct": "10%"
+          },
+          {
+            "id": 353,
+            "pct": "10%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 110
+          },
+          {
+            "id": 126
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 358
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "dark_cave_blackthorn",
+    "name": "Dark Cave (Blackthorn Side)",
+    "levels": "26-30",
+    "image": "img/Route/dark_cave_blackthorn.png",
+    "methods": {
+      "cave_all": {
+        "label": "Cave All Times",
+        "pokemon": [
+          {
+            "id": 75,
+            "pct": "20%"
+          },
+          {
+            "id": 42,
+            "pct": "20%"
+          },
+          {
+            "id": 216,
+            "pct": "20%"
+          },
+          {
+            "id": 218,
+            "pct": "20%"
+          },
+          {
+            "id": 202,
+            "pct": "15%"
+          },
+          {
+            "id": 217,
+            "pct": "5%"
+          }
+        ]
+      },
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 422,
+            "pct": "60%"
+          },
+          {
+            "id": 194,
+            "pct": "30%"
+          },
+          {
+            "id": 423,
+            "pct": "10%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 118,
+            "pct": "60%"
+          },
+          {
+            "id": 339,
+            "pct": "30%"
+          },
+          {
+            "id": 194,
+            "pct": "10%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 118,
+            "pct": "60%"
+          },
+          {
+            "id": 339,
+            "pct": "30%"
+          },
+          {
+            "id": 195,
+            "pct": "10%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 119,
+            "pct": "60%"
+          },
+          {
+            "id": 340,
+            "pct": "30%"
+          },
+          {
+            "id": 195,
+            "pct": "10%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 76
+          },
+          {
+            "id": 217
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 195
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "route_38",
+    "name": "Route 38",
+    "levels": "26-27",
+    "image": "img/Route/route_38.png",
+    "methods": {
+      "grass_morning_day": {
+        "label": "Grass Morning / Day",
+        "pokemon": [
+          {
+            "id": 84,
+            "pct": "20%"
+          },
+          {
+            "id": 404,
+            "pct": "20%"
+          },
+          {
+            "id": 81,
+            "pct": "10%"
+          },
+          {
+            "id": 56,
+            "pct": "10%"
+          },
+          {
+            "id": 100,
+            "pct": "10%"
+          },
+          {
+            "id": 239,
+            "pct": "10%"
+          },
+          {
+            "id": 83,
+            "pct": "5%"
+          },
+          {
+            "id": 241,
+            "pct": "5%"
+          },
+          {
+            "id": 128,
+            "pct": "5%"
+          },
+          {
+            "id": 420,
+            "pct": "5%"
+          }
+        ]
+      },
+      "grass_night": {
+        "label": "Grass Night",
+        "pokemon": [
+          {
+            "id": 52,
+            "pct": "20%"
+          },
+          {
+            "id": 404,
+            "pct": "20%"
+          },
+          {
+            "id": 81,
+            "pct": "10%"
+          },
+          {
+            "id": 56,
+            "pct": "10%"
+          },
+          {
+            "id": 100,
+            "pct": "10%"
+          },
+          {
+            "id": 239,
+            "pct": "10%"
+          },
+          {
+            "id": 83,
+            "pct": "5%"
+          },
+          {
+            "id": 241,
+            "pct": "5%"
+          },
+          {
+            "id": 128,
+            "pct": "5%"
+          },
+          {
+            "id": 300,
+            "pct": "5%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 85
+          },
+          {
+            "id": 125
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 300
+          },
+          {
+            "id": 420
+          }
+        ]
+      },
+      "swarm": {
+        "label": "Swarm",
+        "pokemon": [
+          {
+            "id": 83
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "route_39",
+    "name": "Route 39",
+    "levels": "27-28",
+    "image": "img/Route/route_39.png",
+    "methods": {
+      "grass_morning_day": {
+        "label": "Grass Morning / Day",
+        "pokemon": [
+          {
+            "id": 20,
+            "pct": "20%"
+          },
+          {
+            "id": 77,
+            "pct": "20%"
+          },
+          {
+            "id": 239,
+            "pct": "10%"
+          },
+          {
+            "id": 56,
+            "pct": "10%"
+          },
+          {
+            "id": 100,
+            "pct": "10%"
+          },
+          {
+            "id": 420,
+            "pct": "10%"
+          },
+          {
+            "id": 83,
+            "pct": "5%"
+          },
+          {
+            "id": 241,
+            "pct": "5%"
+          },
+          {
+            "id": 128,
+            "pct": "5%"
+          },
+          {
+            "id": 17,
+            "pct": "5%"
+          }
+        ]
+      },
+      "grass_night": {
+        "label": "Grass Night",
+        "pokemon": [
+          {
+            "id": 20,
+            "pct": "20%"
+          },
+          {
+            "id": 77,
+            "pct": "20%"
+          },
+          {
+            "id": 239,
+            "pct": "10%"
+          },
+          {
+            "id": 56,
+            "pct": "10%"
+          },
+          {
+            "id": 100,
+            "pct": "10%"
+          },
+          {
+            "id": 52,
+            "pct": "10%"
+          },
+          {
+            "id": 83,
+            "pct": "5%"
+          },
+          {
+            "id": 241,
+            "pct": "5%"
+          },
+          {
+            "id": 128,
+            "pct": "5%"
+          },
+          {
+            "id": 300,
+            "pct": "5%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 78
+          },
+          {
+            "id": 57
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 300
+          },
+          {
+            "id": 420
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "olivine_city",
+    "name": "Olivine City",
+    "levels": "N/A",
+    "image": "img/Route/olivine_city.png",
+    "methods": {
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 72,
+            "pct": "65%"
+          },
+          {
+            "id": 278,
+            "pct": "30%"
+          },
+          {
+            "id": 73,
+            "pct": "5%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "95%"
+          },
+          {
+            "id": 120,
+            "pct": "5%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "60%"
+          },
+          {
+            "id": 120,
+            "pct": "30%"
+          },
+          {
+            "id": 170,
+            "pct": "10%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 120,
+            "pct": "60%"
+          },
+          {
+            "id": 170,
+            "pct": "30%"
+          },
+          {
+            "id": 171,
+            "pct": "5%"
+          },
+          {
+            "id": 130,
+            "pct": "5%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "route_40",
+    "name": "Route 40",
+    "levels": "25-35",
+    "image": "img/Route/route_40.png",
+    "methods": {
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 278,
+            "pct": "60%"
+          },
+          {
+            "id": 72,
+            "pct": "30%"
+          },
+          {
+            "id": 279,
+            "pct": "5%"
+          },
+          {
+            "id": 73,
+            "pct": "3%"
+          },
+          {
+            "id": 489,
+            "pct": "2%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "60%"
+          },
+          {
+            "id": 72,
+            "pct": "40%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 120,
+            "pct": "60%"
+          },
+          {
+            "id": 456,
+            "pct": "35%"
+          },
+          {
+            "id": 222,
+            "pct": "5%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 456,
+            "pct": "60%"
+          },
+          {
+            "id": 222,
+            "pct": "30%"
+          },
+          {
+            "id": 457,
+            "pct": "10%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "route_41",
+    "name": "Route 41",
+    "levels": "25-35",
+    "image": "img/Route/route_41.png",
+    "methods": {
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 278,
+            "pct": "60%"
+          },
+          {
+            "id": 458,
+            "pct": "30%"
+          },
+          {
+            "id": 226,
+            "pct": "5%"
+          },
+          {
+            "id": 73,
+            "pct": "3%"
+          },
+          {
+            "id": 489,
+            "pct": "2%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "60%"
+          },
+          {
+            "id": 72,
+            "pct": "30%"
+          },
+          {
+            "id": 116,
+            "pct": "10%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 320,
+            "pct": "60%"
+          },
+          {
+            "id": 116,
+            "pct": "30%"
+          },
+          {
+            "id": 170,
+            "pct": "5%"
+          },
+          {
+            "id": 222,
+            "pct": "5%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 117,
+            "pct": "60%"
+          },
+          {
+            "id": 222,
+            "pct": "30%"
+          },
+          {
+            "id": 171,
+            "pct": "7%"
+          },
+          {
+            "id": 321,
+            "pct": "3%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "cianwood_city",
+    "name": "Cianwood City",
+    "levels": "N/A",
+    "image": "img/Route/cianwood_city.png",
+    "methods": {
+      "rock_smash": {
+        "label": "Rock Smash",
+        "pokemon": [
+          {
+            "id": 213,
+            "pct": "90%"
+          },
+          {
+            "id": 99,
+            "pct": "10%"
+          }
+        ]
+      },
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 278,
+            "pct": "60%"
+          },
+          {
+            "id": 72,
+            "pct": "30%"
+          },
+          {
+            "id": 279,
+            "pct": "5%"
+          },
+          {
+            "id": 73,
+            "pct": "5%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "60%"
+          },
+          {
+            "id": 318,
+            "pct": "40%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 318,
+            "pct": "60%"
+          },
+          {
+            "id": 366,
+            "pct": "40%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 318,
+            "pct": "60%"
+          },
+          {
+            "id": 366,
+            "pct": "30%"
+          },
+          {
+            "id": 319,
+            "pct": "10%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "route_47",
+    "name": "Route 47",
+    "levels": "41-45",
+    "image": "img/Route/route_47.png",
+    "methods": {
+      "grass_morning_day": {
+        "label": "Grass Morning / Day",
+        "pokemon": [
+          {
+            "id": 83,
+            "pct": "20%"
+          },
+          {
+            "id": 132,
+            "pct": "20%"
+          },
+          {
+            "id": 241,
+            "pct": "10%"
+          },
+          {
+            "id": 44,
+            "pct": "10%"
+          },
+          {
+            "id": 70,
+            "pct": "10%"
+          },
+          {
+            "id": 22,
+            "pct": "10%"
+          },
+          {
+            "id": 20,
+            "pct": "10%"
+          },
+          {
+            "id": 277,
+            "pct": "10%"
+          }
+        ]
+      },
+      "grass_night": {
+        "label": "Grass Night",
+        "pokemon": [
+          {
+            "id": 132,
+            "pct": "20%"
+          },
+          {
+            "id": 241,
+            "pct": "10%"
+          },
+          {
+            "id": 44,
+            "pct": "10%"
+          },
+          {
+            "id": 70,
+            "pct": "10%"
+          },
+          {
+            "id": 22,
+            "pct": "10%"
+          },
+          {
+            "id": 20,
+            "pct": "10%"
+          },
+          {
+            "id": 164,
+            "pct": "10%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": []
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 193
+          }
+        ]
+      },
+      "swarm": {
+        "label": "Swarm",
+        "pokemon": [
+          {
+            "id": 334
+          }
+        ]
+      },
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 278,
+            "pct": "60%"
+          },
+          {
+            "id": 86,
+            "pct": "30%"
+          },
+          {
+            "id": 363,
+            "pct": "10%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "90%"
+          },
+          {
+            "id": 72,
+            "pct": "10%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 72,
+            "pct": "60%"
+          },
+          {
+            "id": 90,
+            "pct": "30%"
+          },
+          {
+            "id": 170,
+            "pct": "10%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 90,
+            "pct": "60%"
+          },
+          {
+            "id": 72,
+            "pct": "30%"
+          },
+          {
+            "id": 73,
+            "pct": "7%"
+          },
+          {
+            "id": 171,
+            "pct": "3%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "cliff_cave",
+    "name": "The Cliff Cave",
+    "levels": "30-33",
+    "image": "img/Route/cliff_cave.png",
+    "methods": {
+      "cave_all": {
+        "label": "Cave All Times",
+        "pokemon": [
+          {
+            "id": 75,
+            "pct": "20%"
+          },
+          {
+            "id": 42,
+            "pct": "20%"
+          },
+          {
+            "id": 67,
+            "pct": "10%"
+          },
+          {
+            "id": 328,
+            "pct": "10%"
+          },
+          {
+            "id": 99,
+            "pct": "10%"
+          },
+          {
+            "id": 195,
+            "pct": "10%"
+          },
+          {
+            "id": 449,
+            "pct": "8%"
+          },
+          {
+            "id": 208,
+            "pct": "2%"
+          }
+        ]
+      },
+      "rock_smash": {
+        "label": "Rock Smash",
+        "pokemon": [
+          {
+            "id": 98,
+            "pct": "90%"
+          },
+          {
+            "id": 75,
+            "pct": "10%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 344
+          },
+          {
+            "id": 450
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 95
+          },
+          {
+            "id": 200
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "route_48",
+    "name": "Route 48",
+    "levels": "30-33",
+    "image": "img/Route/route_48.png",
+    "methods": {
+      "grass_morning_day": {
+        "label": "Grass Morning / Day",
+        "pokemon": [
+          {
+            "id": 83,
+            "pct": "20%"
+          },
+          {
+            "id": 114,
+            "pct": "20%"
+          },
+          {
+            "id": 50,
+            "pct": "10%"
+          },
+          {
+            "id": 44,
+            "pct": "10%"
+          },
+          {
+            "id": 70,
+            "pct": "10%"
+          },
+          {
+            "id": 203,
+            "pct": "10%"
+          },
+          {
+            "id": 352,
+            "pct": "5%"
+          },
+          {
+            "id": 113,
+            "pct": "5%"
+          },
+          {
+            "id": 359,
+            "pct": "5%"
+          },
+          {
+            "id": 357,
+            "pct": "5%"
+          }
+        ]
+      },
+      "grass_night": {
+        "label": "Grass Night",
+        "pokemon": [
+          {
+            "id": 228,
+            "pct": "20%"
+          },
+          {
+            "id": 114,
+            "pct": "20%"
+          },
+          {
+            "id": 50,
+            "pct": "10%"
+          },
+          {
+            "id": 44,
+            "pct": "10%"
+          },
+          {
+            "id": 70,
+            "pct": "10%"
+          },
+          {
+            "id": 203,
+            "pct": "10%"
+          },
+          {
+            "id": 352,
+            "pct": "5%"
+          },
+          {
+            "id": 113,
+            "pct": "5%"
+          },
+          {
+            "id": 359,
+            "pct": "5%"
+          },
+          {
+            "id": 357,
+            "pct": "5%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 465
+          },
+          {
+            "id": 51
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 440
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "route_42",
+    "name": "Route 42",
+    "levels": "30-32",
+    "image": "img/Route/route_42.png",
+    "methods": {
+      "grass_morning_day": {
+        "label": "Grass Morning / Day",
+        "pokemon": [
+          {
+            "id": 180,
+            "pct": "20%"
+          },
+          {
+            "id": 22,
+            "pct": "20%"
+          },
+          {
+            "id": 449,
+            "pct": "10%"
+          },
+          {
+            "id": 331,
+            "pct": "10%"
+          },
+          {
+            "id": 24,
+            "pct": "10%"
+          },
+          {
+            "id": 28,
+            "pct": "10%"
+          },
+          {
+            "id": 446,
+            "pct": "10%"
+          },
+          {
+            "id": 328,
+            "pct": "10%"
+          }
+        ]
+      },
+      "grass_night": {
+        "label": "Grass Night",
+        "pokemon": [
+          {
+            "id": 180,
+            "pct": "20%"
+          },
+          {
+            "id": 42,
+            "pct": "20%"
+          },
+          {
+            "id": 449,
+            "pct": "10%"
+          },
+          {
+            "id": 331,
+            "pct": "10%"
+          },
+          {
+            "id": 24,
+            "pct": "10%"
+          },
+          {
+            "id": 28,
+            "pct": "10%"
+          },
+          {
+            "id": 446,
+            "pct": "10%"
+          },
+          {
+            "id": 328,
+            "pct": "10%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 332
+          },
+          {
+            "id": 329
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 236
+          }
+        ]
+      },
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 118,
+            "pct": "95%"
+          },
+          {
+            "id": 119,
+            "pct": "5%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 118,
+            "pct": "100%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 118,
+            "pct": "65%"
+          },
+          {
+            "id": 318,
+            "pct": "35%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 118,
+            "pct": "60%"
+          },
+          {
+            "id": 318,
+            "pct": "30%"
+          },
+          {
+            "id": 119,
+            "pct": "7%"
+          },
+          {
+            "id": 319,
+            "pct": "3%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "mt_mortar_1f",
+    "name": "Mt. Mortar [1F]",
+    "levels": "31-34",
+    "image": "img/Route/mt_mortar_1f.png",
+    "methods": {
+      "cave_all": {
+        "label": "Cave All Times",
+        "pokemon": [
+          {
+            "id": 75,
+            "pct": "30%"
+          },
+          {
+            "id": 42,
+            "pct": "30%"
+          },
+          {
+            "id": 111,
+            "pct": "10%"
+          },
+          {
+            "id": 305,
+            "pct": "10%"
+          },
+          {
+            "id": 307,
+            "pct": "10%"
+          },
+          {
+            "id": 183,
+            "pct": "10%"
+          }
+        ]
+      },
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 183,
+            "pct": "95%"
+          },
+          {
+            "id": 184,
+            "pct": "5%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 112
+          },
+          {
+            "id": 308
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 298
+          }
+        ]
+      },
+      "swarm": {
+        "label": "Swarm",
+        "pokemon": [
+          {
+            "id": 338
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 118,
+            "pct": "100%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 118,
+            "pct": "65%"
+          },
+          {
+            "id": 339,
+            "pct": "35%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 118,
+            "pct": "60%"
+          },
+          {
+            "id": 339,
+            "pct": "30%"
+          },
+          {
+            "id": 119,
+            "pct": "5%"
+          },
+          {
+            "id": 340,
+            "pct": "5%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "mt_mortar_1f2",
+    "name": "Mt. Mortar [1F-2]",
+    "levels": "33-37",
+    "image": "img/Route/mt_mortar_1f2.png",
+    "methods": {
+      "cave_all": {
+        "label": "Cave All Times",
+        "pokemon": [
+          {
+            "id": 75,
+            "pct": "20%"
+          },
+          {
+            "id": 42,
+            "pct": "20%"
+          },
+          {
+            "id": 111,
+            "pct": "10%"
+          },
+          {
+            "id": 305,
+            "pct": "10%"
+          },
+          {
+            "id": 183,
+            "pct": "10%"
+          },
+          {
+            "id": 297,
+            "pct": "10%"
+          },
+          {
+            "id": 35,
+            "pct": "5%"
+          },
+          {
+            "id": 308,
+            "pct": "5%"
+          },
+          {
+            "id": 338,
+            "pct": "5%"
+          },
+          {
+            "id": 337,
+            "pct": "5%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 112
+          },
+          {
+            "id": 184
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 173
+          },
+          {
+            "id": 35
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "mt_mortar_1f3",
+    "name": "Mt. Mortar [1F-3]",
+    "levels": "41-45",
+    "image": "img/Route/mt_mortar_1f3.png",
+    "methods": {
+      "cave_all": {
+        "label": "Cave All Times",
+        "pokemon": [
+          {
+            "id": 75,
+            "pct": "20%"
+          },
+          {
+            "id": 42,
+            "pct": "20%"
+          },
+          {
+            "id": 112,
+            "pct": "10%"
+          },
+          {
+            "id": 305,
+            "pct": "10%"
+          },
+          {
+            "id": 184,
+            "pct": "10%"
+          },
+          {
+            "id": 297,
+            "pct": "10%"
+          },
+          {
+            "id": 35,
+            "pct": "5%"
+          },
+          {
+            "id": 308,
+            "pct": "5%"
+          },
+          {
+            "id": 338,
+            "pct": "5%"
+          },
+          {
+            "id": 337,
+            "pct": "5%"
+          }
+        ]
+      },
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 183,
+            "pct": "95%"
+          },
+          {
+            "id": 184,
+            "pct": "5%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 76
+          },
+          {
+            "id": 36
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 173
+          },
+          {
+            "id": 298
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 118,
+            "pct": "100%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 118,
+            "pct": "65%"
+          },
+          {
+            "id": 339,
+            "pct": "35%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 118,
+            "pct": "60%"
+          },
+          {
+            "id": 339,
+            "pct": "30%"
+          },
+          {
+            "id": 119,
+            "pct": "5%"
+          },
+          {
+            "id": 340,
+            "pct": "5%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "mt_mortar_b1f",
+    "name": "Mt. Mortar [B1F]",
+    "levels": "33-35",
+    "image": "img/Route/mt_mortar_b1f.png",
+    "methods": {
+      "cave_all": {
+        "label": "Cave All Times",
+        "pokemon": [
+          {
+            "id": 75,
+            "pct": "20%"
+          },
+          {
+            "id": 42,
+            "pct": "20%"
+          },
+          {
+            "id": 111,
+            "pct": "10%"
+          },
+          {
+            "id": 305,
+            "pct": "10%"
+          },
+          {
+            "id": 67,
+            "pct": "10%"
+          },
+          {
+            "id": 297,
+            "pct": "10%"
+          },
+          {
+            "id": 35,
+            "pct": "5%"
+          },
+          {
+            "id": 183,
+            "pct": "5%"
+          },
+          {
+            "id": 375,
+            "pct": "5%"
+          },
+          {
+            "id": 247,
+            "pct": "5%"
+          }
+        ]
+      },
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 183,
+            "pct": "95%"
+          },
+          {
+            "id": 184,
+            "pct": "5%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 36
+          },
+          {
+            "id": 184
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 447
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 118,
+            "pct": "100%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 118,
+            "pct": "65%"
+          },
+          {
+            "id": 339,
+            "pct": "35%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 118,
+            "pct": "60%"
+          },
+          {
+            "id": 339,
+            "pct": "30%"
+          },
+          {
+            "id": 119,
+            "pct": "5%"
+          },
+          {
+            "id": 340,
+            "pct": "5%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "route_43",
+    "name": "Route 43",
+    "levels": "34-36",
+    "image": "img/Route/route_43.png",
+    "methods": {
+      "grass_morning_day": {
+        "label": "Grass Morning / Day",
+        "pokemon": [
+          {
+            "id": 17,
+            "pct": "20%"
+          },
+          {
+            "id": 203,
+            "pct": "20%"
+          },
+          {
+            "id": 102,
+            "pct": "10%"
+          },
+          {
+            "id": 281,
+            "pct": "10%"
+          },
+          {
+            "id": 333,
+            "pct": "10%"
+          },
+          {
+            "id": 400,
+            "pct": "10%"
+          },
+          {
+            "id": 264,
+            "pct": "10%"
+          },
+          {
+            "id": 310,
+            "pct": "10%"
+          }
+        ]
+      },
+      "grass_night": {
+        "label": "Grass Night",
+        "pokemon": [
+          {
+            "id": 203,
+            "pct": "20%"
+          },
+          {
+            "id": 102,
+            "pct": "10%"
+          },
+          {
+            "id": 281,
+            "pct": "10%"
+          },
+          {
+            "id": 333,
+            "pct": "10%"
+          },
+          {
+            "id": 400,
+            "pct": "10%"
+          },
+          {
+            "id": 264,
+            "pct": "10%"
+          },
+          {
+            "id": 310,
+            "pct": "10%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 334
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 440
+          },
+          {
+            "id": 113
+          }
+        ]
+      },
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 79,
+            "pct": "100%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "100%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "100%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 130,
+            "pct": "100%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "lake_of_rage",
+    "name": "Lake of Rage",
+    "levels": "10-50",
+    "image": "img/Route/lake_of_rage.png",
+    "methods": {
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "100%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "95%"
+          },
+          {
+            "id": 349,
+            "pct": "5%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "60%"
+          },
+          {
+            "id": 130,
+            "pct": "30%"
+          },
+          {
+            "id": 349,
+            "pct": "10%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "60%"
+          },
+          {
+            "id": 349,
+            "pct": "30%"
+          },
+          {
+            "id": 130,
+            "pct": "7%"
+          },
+          {
+            "id": 350,
+            "pct": "3%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "whirl_islands_1f",
+    "name": "Whirl Islands [1F]",
+    "levels": "34-36",
+    "image": "img/Route/whirl_islands_1f.png",
+    "methods": {
+      "cave_all": {
+        "label": "Cave All Times",
+        "pokemon": [
+          {
+            "id": 98,
+            "pct": "20%"
+          },
+          {
+            "id": 86,
+            "pct": "20%"
+          },
+          {
+            "id": 54,
+            "pct": "20%"
+          },
+          {
+            "id": 363,
+            "pct": "20%"
+          },
+          {
+            "id": 42,
+            "pct": "10%"
+          },
+          {
+            "id": 90,
+            "pct": "10%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 99
+          },
+          {
+            "id": 87
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 120
+          }
+        ]
+      },
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 116,
+            "pct": "90%"
+          },
+          {
+            "id": 117,
+            "pct": "10%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 116,
+            "pct": "100%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 116,
+            "pct": "100%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 116,
+            "pct": "60%"
+          },
+          {
+            "id": 117,
+            "pct": "40%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "whirl_islands_b1f",
+    "name": "Whirl Islands [B1F]",
+    "levels": "35-38",
+    "image": "img/Route/whirl_islands_b1f.png",
+    "methods": {
+      "cave_all": {
+        "label": "Cave All Times",
+        "pokemon": [
+          {
+            "id": 98,
+            "pct": "20%"
+          },
+          {
+            "id": 86,
+            "pct": "20%"
+          },
+          {
+            "id": 90,
+            "pct": "20%"
+          },
+          {
+            "id": 363,
+            "pct": "20%"
+          },
+          {
+            "id": 42,
+            "pct": "10%"
+          },
+          {
+            "id": 55,
+            "pct": "10%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 99
+          },
+          {
+            "id": 87
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 120
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "whirl_islands_b2f",
+    "name": "Whirl Islands [B2F]",
+    "levels": "37-39",
+    "image": "img/Route/whirl_islands_b2f.png",
+    "methods": {
+      "cave_all": {
+        "label": "Cave All Times",
+        "pokemon": [
+          {
+            "id": 98,
+            "pct": "20%"
+          },
+          {
+            "id": 86,
+            "pct": "20%"
+          },
+          {
+            "id": 90,
+            "pct": "20%"
+          },
+          {
+            "id": 363,
+            "pct": "20%"
+          },
+          {
+            "id": 42,
+            "pct": "10%"
+          },
+          {
+            "id": 55,
+            "pct": "10%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 364
+          },
+          {
+            "id": 87
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 120
+          }
+        ]
+      },
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 116,
+            "pct": "90%"
+          },
+          {
+            "id": 117,
+            "pct": "10%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 116,
+            "pct": "100%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 116,
+            "pct": "100%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 116,
+            "pct": "60%"
+          },
+          {
+            "id": 117,
+            "pct": "38%"
+          },
+          {
+            "id": 230,
+            "pct": "2%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "whirl_islands_b3f",
+    "name": "Whirl Islands [B3F]",
+    "levels": "47-49 / 42-44",
+    "image": "img/Route/whirl_islands_b3f.png",
+    "methods": {
+      "cave_all": {
+        "label": "Cave All Times",
+        "pokemon": [
+          {
+            "id": 99,
+            "pct": "20%"
+          },
+          {
+            "id": 87,
+            "pct": "20%"
+          },
+          {
+            "id": 90,
+            "pct": "20%"
+          },
+          {
+            "id": 364,
+            "pct": "20%"
+          },
+          {
+            "id": 42,
+            "pct": "10%"
+          },
+          {
+            "id": 55,
+            "pct": "10%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 91
+          },
+          {
+            "id": 169
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 120
+          },
+          {
+            "id": 121
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "route_44",
+    "name": "Route 44",
+    "levels": "38-39",
+    "image": "img/Route/route_44.png",
+    "methods": {
+      "grass_morning_day": {
+        "label": "Grass Morning / Day",
+        "pokemon": [
+          {
+            "id": 114,
+            "pct": "20%"
+          },
+          {
+            "id": 108,
+            "pct": "20%"
+          },
+          {
+            "id": 12,
+            "pct": "10%"
+          },
+          {
+            "id": 15,
+            "pct": "10%"
+          },
+          {
+            "id": 267,
+            "pct": "10%"
+          },
+          {
+            "id": 188,
+            "pct": "10%"
+          },
+          {
+            "id": 274,
+            "pct": "10%"
+          },
+          {
+            "id": 421,
+            "pct": "5%"
+          },
+          {
+            "id": 334,
+            "pct": "4%"
+          },
+          {
+            "id": 416,
+            "pct": "1%"
+          }
+        ]
+      },
+      "grass_night": {
+        "label": "Grass Night",
+        "pokemon": [
+          {
+            "id": 114,
+            "pct": "20%"
+          },
+          {
+            "id": 108,
+            "pct": "20%"
+          },
+          {
+            "id": 12,
+            "pct": "10%"
+          },
+          {
+            "id": 15,
+            "pct": "10%"
+          },
+          {
+            "id": 269,
+            "pct": "10%"
+          },
+          {
+            "id": 274,
+            "pct": "10%"
+          },
+          {
+            "id": 459,
+            "pct": "5%"
+          },
+          {
+            "id": 334,
+            "pct": "4%"
+          },
+          {
+            "id": 416,
+            "pct": "1%"
+          }
+        ]
+      },
+      "swarm": {
+        "label": "Swarm",
+        "pokemon": [
+          {
+            "id": 223
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 465
+          },
+          {
+            "id": 463
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 415
+          },
+          {
+            "id": 271
+          }
+        ]
+      },
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 270,
+            "pct": "60%"
+          },
+          {
+            "id": 60,
+            "pct": "30%"
+          },
+          {
+            "id": 61,
+            "pct": "5%"
+          },
+          {
+            "id": 271,
+            "pct": "5%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "90%"
+          },
+          {
+            "id": 223,
+            "pct": "10%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "60%"
+          },
+          {
+            "id": 223,
+            "pct": "40%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "60%"
+          },
+          {
+            "id": 223,
+            "pct": "30%"
+          },
+          {
+            "id": 130,
+            "pct": "7%"
+          },
+          {
+            "id": 224,
+            "pct": "3%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "ice_path_1f",
+    "name": "Ice Path [1F]",
+    "levels": "37-40",
+    "image": "img/Route/ice_path_1f.png",
+    "methods": {
+      "cave_all": {
+        "label": "Cave All Times",
+        "pokemon": [
+          {
+            "id": 42,
+            "pct": "30%"
+          },
+          {
+            "id": 220,
+            "pct": "30%"
+          },
+          {
+            "id": 459,
+            "pct": "15%"
+          },
+          {
+            "id": 363,
+            "pct": "10%"
+          },
+          {
+            "id": 86,
+            "pct": "10%"
+          },
+          {
+            "id": 238,
+            "pct": "5%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 221
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 238
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "ice_path_b1f",
+    "name": "Ice Path [B1F]",
+    "levels": "38-41",
+    "image": "img/Route/ice_path_b1f.png",
+    "methods": {
+      "cave_all": {
+        "label": "Cave All Times",
+        "pokemon": [
+          {
+            "id": 42,
+            "pct": "30%"
+          },
+          {
+            "id": 220,
+            "pct": "30%"
+          },
+          {
+            "id": 90,
+            "pct": "10%"
+          },
+          {
+            "id": 363,
+            "pct": "10%"
+          },
+          {
+            "id": 86,
+            "pct": "10%"
+          },
+          {
+            "id": 238,
+            "pct": "5%"
+          },
+          {
+            "id": 225,
+            "pct": "5%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 221
+          },
+          {
+            "id": 364
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 225
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "ice_path_b2f",
+    "name": "Ice Path [B2F]",
+    "levels": "40-43",
+    "image": "img/Route/ice_path_b2f.png",
+    "methods": {
+      "cave_all": {
+        "label": "Cave All Times",
+        "pokemon": [
+          {
+            "id": 42,
+            "pct": "30%"
+          },
+          {
+            "id": 221,
+            "pct": "30%"
+          },
+          {
+            "id": 364,
+            "pct": "10%"
+          },
+          {
+            "id": 87,
+            "pct": "10%"
+          },
+          {
+            "id": 361,
+            "pct": "10%"
+          },
+          {
+            "id": 124,
+            "pct": "5%"
+          },
+          {
+            "id": 225,
+            "pct": "5%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 362
+          },
+          {
+            "id": 478
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 225
+          },
+          {
+            "id": 124
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "ice_path_b3f",
+    "name": "Ice Path [B3F]",
+    "levels": "42-44",
+    "image": "img/Route/ice_path_b3f.png",
+    "methods": {
+      "cave_all": {
+        "label": "Cave All Times",
+        "pokemon": [
+          {
+            "id": 42,
+            "pct": "30%"
+          },
+          {
+            "id": 221,
+            "pct": "30%"
+          },
+          {
+            "id": 364,
+            "pct": "10%"
+          },
+          {
+            "id": 87,
+            "pct": "10%"
+          },
+          {
+            "id": 362,
+            "pct": "10%"
+          },
+          {
+            "id": 124,
+            "pct": "5%"
+          },
+          {
+            "id": 215,
+            "pct": "5%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 473
+          },
+          {
+            "id": 365
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 124
+          },
+          {
+            "id": 215
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "blackthorn_city",
+    "name": "Blackthorn City",
+    "levels": "N/A",
+    "image": "img/Route/blackthorn_city.png",
+    "methods": {
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "100%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "97%"
+          },
+          {
+            "id": 147,
+            "pct": "3%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "97%"
+          },
+          {
+            "id": 147,
+            "pct": "3%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "97%"
+          },
+          {
+            "id": 147,
+            "pct": "3%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "route_45",
+    "name": "Route 45",
+    "levels": "42-45",
+    "image": "img/Route/route_45.png",
+    "methods": {
+      "grass_all": {
+        "label": "Grass All Times",
+        "pokemon": [
+          {
+            "id": 75,
+            "pct": "30%"
+          },
+          {
+            "id": 326,
+            "pct": "20%"
+          },
+          {
+            "id": 232,
+            "pct": "10%"
+          },
+          {
+            "id": 323,
+            "pct": "10%"
+          },
+          {
+            "id": 324,
+            "pct": "10%"
+          },
+          {
+            "id": 207,
+            "pct": "10%"
+          },
+          {
+            "id": 329,
+            "pct": "5%"
+          },
+          {
+            "id": 227,
+            "pct": "5%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 472
+          },
+          {
+            "id": 76
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 111
+          },
+          {
+            "id": 329
+          }
+        ]
+      },
+      "swarm": {
+        "label": "Swarm",
+        "pokemon": [
+          {
+            "id": 112
+          }
+        ]
+      },
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "100%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "97%"
+          },
+          {
+            "id": 147,
+            "pct": "3%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "97%"
+          },
+          {
+            "id": 147,
+            "pct": "3%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "97%"
+          },
+          {
+            "id": 147,
+            "pct": "3%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "dragons_den",
+    "name": "Dragon's Den",
+    "levels": "10-40",
+    "image": "img/Route/dragons_den.png",
+    "methods": {
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "60%"
+          },
+          {
+            "id": 147,
+            "pct": "30%"
+          },
+          {
+            "id": 130,
+            "pct": "10%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "93%"
+          },
+          {
+            "id": 147,
+            "pct": "7%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "90%"
+          },
+          {
+            "id": 147,
+            "pct": "7%"
+          },
+          {
+            "id": 130,
+            "pct": "3%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "60%"
+          },
+          {
+            "id": 147,
+            "pct": "30%"
+          },
+          {
+            "id": 130,
+            "pct": "7%"
+          },
+          {
+            "id": 148,
+            "pct": "3%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "tohjo_falls",
+    "name": "Tohjo Falls",
+    "levels": "43-45",
+    "image": "img/Route/tohjo_falls.png",
+    "methods": {
+      "cave_all": {
+        "label": "Cave All Times",
+        "pokemon": [
+          {
+            "id": 20,
+            "pct": "20%"
+          },
+          {
+            "id": 184,
+            "pct": "20%"
+          },
+          {
+            "id": 80,
+            "pct": "20%"
+          },
+          {
+            "id": 87,
+            "pct": "10%"
+          },
+          {
+            "id": 42,
+            "pct": "10%"
+          },
+          {
+            "id": 437,
+            "pct": "10%"
+          },
+          {
+            "id": 195,
+            "pct": "10%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 169
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 298
+          },
+          {
+            "id": 433
+          }
+        ]
+      },
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 118,
+            "pct": "60%"
+          },
+          {
+            "id": 79,
+            "pct": "30%"
+          },
+          {
+            "id": 119,
+            "pct": "10%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "95%"
+          },
+          {
+            "id": 118,
+            "pct": "5%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 129,
+            "pct": "60%"
+          },
+          {
+            "id": 118,
+            "pct": "40%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 118,
+            "pct": "90%"
+          },
+          {
+            "id": 130,
+            "pct": "7%"
+          },
+          {
+            "id": 119,
+            "pct": "3%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "route_27",
+    "name": "Route 27",
+    "levels": "42-45",
+    "image": "img/Route/route_27.png",
+    "methods": {
+      "grass_morning_day": {
+        "label": "Grass Morning / Day",
+        "pokemon": [
+          {
+            "id": 84,
+            "pct": "20%"
+          },
+          {
+            "id": 188,
+            "pct": "20%"
+          },
+          {
+            "id": 77,
+            "pct": "20%"
+          },
+          {
+            "id": 85,
+            "pct": "10%"
+          },
+          {
+            "id": 78,
+            "pct": "10%"
+          },
+          {
+            "id": 28,
+            "pct": "10%"
+          },
+          {
+            "id": 24,
+            "pct": "10%"
+          }
+        ]
+      },
+      "grass_night": {
+        "label": "Grass Night",
+        "pokemon": [
+          {
+            "id": 194,
+            "pct": "20%"
+          },
+          {
+            "id": 228,
+            "pct": "20%"
+          },
+          {
+            "id": 77,
+            "pct": "20%"
+          },
+          {
+            "id": 195,
+            "pct": "10%"
+          },
+          {
+            "id": 78,
+            "pct": "10%"
+          },
+          {
+            "id": 28,
+            "pct": "10%"
+          },
+          {
+            "id": 24,
+            "pct": "10%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": []
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 326
+          }
+        ]
+      },
+      "swarm": {
+        "label": "Swarm",
+        "pokemon": [
+          {
+            "id": 349
+          }
+        ]
+      },
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 418,
+            "pct": "93%"
+          },
+          {
+            "id": 419,
+            "pct": "7%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 370,
+            "pct": "100%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 370,
+            "pct": "100%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 370,
+            "pct": "100%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "route_26",
+    "name": "Route 26",
+    "levels": "44-46",
+    "image": "img/Route/route_26.png",
+    "methods": {
+      "grass_morning_day": {
+        "label": "Grass Morning / Day",
+        "pokemon": [
+          {
+            "id": 85,
+            "pct": "20%"
+          },
+          {
+            "id": 188,
+            "pct": "20%"
+          },
+          {
+            "id": 78,
+            "pct": "20%"
+          },
+          {
+            "id": 82,
+            "pct": "10%"
+          },
+          {
+            "id": 115,
+            "pct": "10%"
+          },
+          {
+            "id": 28,
+            "pct": "10%"
+          },
+          {
+            "id": 24,
+            "pct": "10%"
+          }
+        ]
+      },
+      "grass_night": {
+        "label": "Grass Night",
+        "pokemon": [
+          {
+            "id": 195,
+            "pct": "20%"
+          },
+          {
+            "id": 229,
+            "pct": "20%"
+          },
+          {
+            "id": 78,
+            "pct": "20%"
+          },
+          {
+            "id": 82,
+            "pct": "10%"
+          },
+          {
+            "id": 115,
+            "pct": "10%"
+          },
+          {
+            "id": 28,
+            "pct": "10%"
+          },
+          {
+            "id": 24,
+            "pct": "10%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": []
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 210
+          }
+        ]
+      },
+      "surf": {
+        "label": "Surf",
+        "pokemon": [
+          {
+            "id": 418,
+            "pct": "93%"
+          },
+          {
+            "id": 419,
+            "pct": "7%"
+          }
+        ]
+      },
+      "old_rod": {
+        "label": "Old Rod",
+        "pokemon": [
+          {
+            "id": 370,
+            "pct": "100%"
+          }
+        ]
+      },
+      "good_rod": {
+        "label": "Good Rod",
+        "pokemon": [
+          {
+            "id": 370,
+            "pct": "100%"
+          }
+        ]
+      },
+      "super_rod": {
+        "label": "Super Rod",
+        "pokemon": [
+          {
+            "id": 370,
+            "pct": "60%"
+          },
+          {
+            "id": 171,
+            "pct": "35%"
+          },
+          {
+            "id": 73,
+            "pct": "5%"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "victory_road_1f",
+    "name": "Victory Road [1F]",
+    "levels": "44-46",
+    "image": "img/Route/victory_road_1f.png",
+    "methods": {
+      "cave_all": {
+        "label": "Cave All Times",
+        "pokemon": [
+          {
+            "id": 42,
+            "pct": "20%"
+          },
+          {
+            "id": 75,
+            "pct": "20%"
+          },
+          {
+            "id": 112,
+            "pct": "10%"
+          },
+          {
+            "id": 217,
+            "pct": "10%"
+          },
+          {
+            "id": 232,
+            "pct": "10%"
+          },
+          {
+            "id": 105,
+            "pct": "10%"
+          },
+          {
+            "id": 208,
+            "pct": "10%"
+          },
+          {
+            "id": 437,
+            "pct": "10%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 169
+          },
+          {
+            "id": 76
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 358
+          },
+          {
+            "id": 105
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "victory_road_2f",
+    "name": "Victory Road [2F]",
+    "levels": "44-46",
+    "image": "img/Route/victory_road_2f.png",
+    "methods": {
+      "cave_all": {
+        "label": "Cave All Times",
+        "pokemon": [
+          {
+            "id": 67,
+            "pct": "20%"
+          },
+          {
+            "id": 297,
+            "pct": "20%"
+          },
+          {
+            "id": 42,
+            "pct": "10%"
+          },
+          {
+            "id": 305,
+            "pct": "10%"
+          },
+          {
+            "id": 294,
+            "pct": "10%"
+          },
+          {
+            "id": 75,
+            "pct": "10%"
+          },
+          {
+            "id": 308,
+            "pct": "5%"
+          },
+          {
+            "id": 82,
+            "pct": "5%"
+          },
+          {
+            "id": 64,
+            "pct": "5%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 295
+          },
+          {
+            "id": 306
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 358
+          },
+          {
+            "id": 105
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "victory_road_3f",
+    "name": "Victory Road [3F]",
+    "levels": "45-46",
+    "image": "img/Route/victory_road_3f.png",
+    "methods": {
+      "cave_all": {
+        "label": "Cave All Times",
+        "pokemon": [
+          {
+            "id": 232,
+            "pct": "20%"
+          },
+          {
+            "id": 217,
+            "pct": "20%"
+          },
+          {
+            "id": 42,
+            "pct": "10%"
+          },
+          {
+            "id": 305,
+            "pct": "10%"
+          },
+          {
+            "id": 303,
+            "pct": "10%"
+          },
+          {
+            "id": 302,
+            "pct": "10%"
+          },
+          {
+            "id": 444,
+            "pct": "5%"
+          },
+          {
+            "id": 82,
+            "pct": "5%"
+          },
+          {
+            "id": 375,
+            "pct": "5%"
+          },
+          {
+            "id": 64,
+            "pct": "5%"
+          }
+        ]
+      },
+      "rock_smash": {
+        "label": "Rock Smash",
+        "pokemon": [
+          {
+            "id": 75,
+            "pct": "90%"
+          },
+          {
+            "id": 299,
+            "pct": "10%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 65
+          },
+          {
+            "id": 306
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 358
+          },
+          {
+            "id": 105
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "bell_tower_2f3f",
+    "name": "Bell Tower [2F-3F]",
+    "levels": "40-48",
+    "image": "img/Route/bell_tower_2f3f.png",
+    "methods": {
+      "building_all": {
+        "label": "Building All Times",
+        "pokemon": [
+          {
+            "id": 19,
+            "pct": "35%"
+          },
+          {
+            "id": 263,
+            "pct": "20%"
+          },
+          {
+            "id": 42,
+            "pct": "20%"
+          },
+          {
+            "id": 92,
+            "pct": "15%"
+          },
+          {
+            "id": 353,
+            "pct": "5%"
+          },
+          {
+            "id": 355,
+            "pct": "5%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 93
+          },
+          {
+            "id": 264
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 353
+          },
+          {
+            "id": 355
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "bell_tower_4f6f",
+    "name": "Bell Tower [4F-6F]",
+    "levels": "41-49",
+    "image": "img/Route/bell_tower_4f6f.png",
+    "methods": {
+      "building_all": {
+        "label": "Building All Times",
+        "pokemon": [
+          {
+            "id": 20,
+            "pct": "30%"
+          },
+          {
+            "id": 264,
+            "pct": "20%"
+          },
+          {
+            "id": 42,
+            "pct": "20%"
+          },
+          {
+            "id": 93,
+            "pct": "15%"
+          },
+          {
+            "id": 353,
+            "pct": "5%"
+          },
+          {
+            "id": 355,
+            "pct": "5%"
+          },
+          {
+            "id": 132,
+            "pct": "5%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 356
+          },
+          {
+            "id": 354
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 132
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "bell_tower_7f9f",
+    "name": "Bell Tower [7F-9F]",
+    "levels": "41-50",
+    "image": "img/Route/bell_tower_7f9f.png",
+    "methods": {
+      "building_all": {
+        "label": "Building All Times",
+        "pokemon": [
+          {
+            "id": 20,
+            "pct": "20%"
+          },
+          {
+            "id": 93,
+            "pct": "20%"
+          },
+          {
+            "id": 42,
+            "pct": "15%"
+          },
+          {
+            "id": 356,
+            "pct": "10%"
+          },
+          {
+            "id": 354,
+            "pct": "10%"
+          },
+          {
+            "id": 333,
+            "pct": "10%"
+          },
+          {
+            "id": 177,
+            "pct": "5%"
+          },
+          {
+            "id": 436,
+            "pct": "5%"
+          },
+          {
+            "id": 132,
+            "pct": "5%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 334
+          },
+          {
+            "id": 178
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 436
+          },
+          {
+            "id": 132
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "bell_tower_10f",
+    "name": "Bell Tower [10F]",
+    "levels": "43-50",
+    "image": "img/Route/bell_tower_10f.png",
+    "methods": {
+      "building_all": {
+        "label": "Building All Times",
+        "pokemon": [
+          {
+            "id": 20,
+            "pct": "20%"
+          },
+          {
+            "id": 132,
+            "pct": "20%"
+          },
+          {
+            "id": 42,
+            "pct": "10%"
+          },
+          {
+            "id": 334,
+            "pct": "10%"
+          },
+          {
+            "id": 178,
+            "pct": "10%"
+          },
+          {
+            "id": 93,
+            "pct": "10%"
+          },
+          {
+            "id": 344,
+            "pct": "5%"
+          },
+          {
+            "id": 338,
+            "pct": "5%"
+          },
+          {
+            "id": 437,
+            "pct": "5%"
+          },
+          {
+            "id": 337,
+            "pct": "5%"
+          }
+        ]
+      },
+      "meridian_sound": {
+        "label": "Meridian Sound",
+        "pokemon": [
+          {
+            "id": 94
+          }
+        ]
+      },
+      "pastoral_sound": {
+        "label": "Pastoral Sound",
+        "pokemon": [
+          {
+            "id": 344
+          },
+          {
+            "id": 437
+          }
+        ]
+      }
+    }
+  }
+]
