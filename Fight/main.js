@@ -391,11 +391,33 @@ async function renderAllSplits() {
     const allData = await res.json();
 
     Object.values(allData).forEach(splitData => {
+      const splitName = splitData["split"]; // ✅ évite le conflit avec String.split()
+
+      // ── Trouver le level cap
+      let levelCap = null;
+      for (let i = splitData.locations.length - 1; i >= 0; i--) {
+        const location = splitData.locations[i];
+        for (let j = location.trainers.length - 1; j >= 0; j--) {
+          const trainer = location.trainers[j];
+          const name = (trainer.name || '').toLowerCase();
+          if (name.includes('leader') || name.includes('champion') || name.includes('elite four')) {
+            const pokemons = trainer.pokemon;
+            if (pokemons && pokemons.length > 0) {
+              const lastPoke = pokemons[pokemons.length - 1];
+              const match = String(lastPoke.level).match(/\d+/);
+              if (match) levelCap = match[0];
+            }
+            break;
+          }
+        }
+        if (levelCap) break;
+      }
+
       // ── Titre du split
       const splitTitle = document.createElement("h2");
-      splitTitle.textContent = splitData.split.toUpperCase();
+      splitTitle.innerHTML = `${splitName.toUpperCase()}${levelCap ? ` <span style="font-size:0.7em;opacity:0.7;">(Level Cap : ${levelCap})</span>` : ''}`;
       splitTitle.classList.add("split_title");
-      splitTitle.dataset.split = splitData.split.toLowerCase();
+      splitTitle.dataset.split = splitName.toLowerCase();
       main.appendChild(splitTitle);
 
       // ── Trainers
@@ -403,14 +425,14 @@ async function renderAllSplits() {
         location.trainers.forEach(trainer => {
           const div = document.createElement("div");
           div.className = getDivClass(trainer.name);
-          div.dataset.split = splitData.split.toLowerCase();
+          div.dataset.split = splitName.toLowerCase();
           div.innerHTML = buildTrainerTable(trainer, location.name);
           main.appendChild(div);
         });
       });
     });
 
-    // ── Filtre — branché après que tout le contenu est généré
+    // ── Filtre — à remettre ici après le forEach ✅
     const filterSelect = document.getElementById('filter');
     if (filterSelect) {
       filterSelect.addEventListener('change', () => {

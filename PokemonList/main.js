@@ -1,4 +1,93 @@
-// ✅ Fonction utilitaire extraite — ne se recrée plus à chaque Pokémon
+const TYPE_CHART = {
+  NORMAL:   { ROCK:0.5, GHOST:0, STEEL:0.5 },
+  FIRE:     { FIRE:0.5, WATER:0.5, GRASS:2, ICE:2, BUG:2, ROCK:0.5, DRAGON:0.5, STEEL:2 },
+  WATER:    { FIRE:2, WATER:0.5, GRASS:0.5, GROUND:2, ROCK:2, DRAGON:0.5 },
+  ELECTRIC: { WATER:2, ELECTRIC:0.5, GRASS:0.5, GROUND:0, FLYING:2, DRAGON:0.5 },
+  GRASS:    { FIRE:0.5, WATER:2, GRASS:0.5, POISON:0.5, GROUND:2, FLYING:0.5, BUG:0.5, ROCK:2, DRAGON:0.5, STEEL:0.5 },
+  ICE:      { FIRE:0.5, WATER:0.5, GRASS:2, ICE:0.5, GROUND:2, FLYING:2, DRAGON:2, STEEL:0.5 },
+  FIGHTING: { NORMAL:2, ICE:2, POISON:0.5, FLYING:0.5, PSYCHIC:0.5, BUG:0.5, ROCK:2, GHOST:0, DARK:2, STEEL:2, FAIRY:0.5 },
+  POISON:   { GRASS:2, POISON:0.5, GROUND:0.5, ROCK:0.5, GHOST:0.5, STEEL:0, FAIRY:2 },
+  GROUND:   { FIRE:2, ELECTRIC:2, GRASS:0.5, POISON:2, FLYING:0, BUG:0.5, ROCK:2, STEEL:2 },
+  FLYING:   { ELECTRIC:0.5, GRASS:2, FIGHTING:2, BUG:2, ROCK:0.5, STEEL:0.5 },
+  PSYCHIC:  { FIGHTING:2, POISON:2, PSYCHIC:0.5, DARK:0, STEEL:0.5 },
+  BUG:      { FIRE:0.5, GRASS:2, FIGHTING:0.5, FLYING:0.5, PSYCHIC:2, GHOST:0.5, DARK:2, STEEL:0.5, FAIRY:0.5 },
+  ROCK:     { FIRE:2, ICE:2, FIGHTING:0.5, GROUND:0.5, FLYING:2, BUG:2, STEEL:0.5 },
+  GHOST:    { NORMAL:0, PSYCHIC:2, GHOST:2, DARK:0.5 },
+  DRAGON:   { DRAGON:2, STEEL:0.5, FAIRY:0 },
+  DARK:     { FIGHTING:0.5, PSYCHIC:2, GHOST:2, DARK:0.5, FAIRY:0.5 },
+  STEEL:    { FIRE:0.5, WATER:0.5, ELECTRIC:0.5, ICE:2, ROCK:2, STEEL:0.5, FAIRY:2 },
+  FAIRY:    { FIRE:0.5, FIGHTING:2, POISON:0.5, DRAGON:2, DARK:2, STEEL:0.5 },
+};
+
+const TYPE_COLORS = {
+  NORMAL:'#A8A878', FIRE:'#F08030', WATER:'#6890F0', ELECTRIC:'#F8D030',
+  GRASS:'#78C850', ICE:'#98D8D8', FIGHTING:'#C03028', POISON:'#A040A0',
+  GROUND:'#E0C068', FLYING:'#A890F0', PSYCHIC:'#F85888', BUG:'#A8B820',
+  ROCK:'#B8A038', GHOST:'#705898', DRAGON:'#7038F8', DARK:'#705848',
+  STEEL:'#B8B8D0', FAIRY:'#EE99AC',
+};
+
+function computeMatchups(type1, type2) {
+  const result = { immune: [], resistant: [], weak: [], double_weak: [] };
+  Object.keys(TYPE_CHART).forEach(attacker => {
+    const m1 = TYPE_CHART[attacker]?.[type1] ?? 1;
+    const m2 = type2 ? (TYPE_CHART[attacker]?.[type2] ?? 1) : 1;
+    const total = m1 * m2;
+    if      (total === 0)   result.immune.push(attacker);
+    else if (total < 1)     result.resistant.push(attacker);
+    else if (total === 4)   result.double_weak.push(attacker);
+    else if (total === 2)   result.weak.push(attacker);
+  });
+  return result;
+}
+
+// Tooltip unique partagé entre tous les Pokémon
+const typeTooltip = document.createElement('div');
+typeTooltip.id = 'type_tooltip';
+typeTooltip.style.cssText = `
+  display:none; position:fixed; z-index:9999;
+  background:#1a1a2e; border:1px solid #444; border-radius:10px;
+  padding:12px; min-width:180px; max-width:260px;
+  box-shadow:0 4px 20px rgba(0,0,0,0.6); color:white; font-size:13px;
+  pointer-events:none;
+`;
+document.body.appendChild(typeTooltip);
+
+function positionTooltip(e) {
+  const x = e.clientX + 14;
+  const y = e.clientY + 14;
+  typeTooltip.style.left = (x + typeTooltip.offsetWidth  > window.innerWidth  ? e.clientX - typeTooltip.offsetWidth  - 14 : x) + 'px';
+  typeTooltip.style.top  = (y + typeTooltip.offsetHeight > window.innerHeight ? e.clientY - typeTooltip.offsetHeight - 14 : y) + 'px';
+}
+
+function showTypeTooltip(e, type1, type2) {
+  const matchups = computeMatchups(type1, type2);
+  const sections = [
+    { label: 'Immune to :',      key: 'immune' },
+    { label: 'Resistant to :',   key: 'resistant' },
+    { label: 'Weak to :',        key: 'weak' },
+    { label: 'Double weak to :', key: 'double_weak' },
+  ];
+
+  typeTooltip.innerHTML = sections
+    .filter(s => matchups[s.key].length > 0)
+    .map(s => `
+      <div style="margin-bottom:8px;">
+        <div style="font-size:11px;color:#aaa;margin-bottom:4px;">${s.label}</div>
+        <div style="display:flex;flex-wrap:wrap;gap:4px;">
+          ${matchups[s.key].map(t => `
+            <img src="./img/type/${t.toLowerCase()}.png"
+                 alt="${t}"
+                 style="width:75px;height:30px;object-fit:contain;">
+          `).join('')}
+        </div>
+      </div>
+    `).join('');
+
+  typeTooltip.style.display = 'block';
+  positionTooltip(e);
+}
+
 function createStat(label, value, className, buff = 0) {
   const div = document.createElement('div');
   div.classList.add(className);
@@ -188,9 +277,10 @@ async function getPokemon() {
         divNomTalent.appendChild(talentNom);
       });
 
-      // — Types
+      // — Types (ton code existant)
       const typesContainer = document.createElement('div');
       typesContainer.classList.add('types_container');
+      typesContainer.style.cursor = 'default';
 
       const types = [pokemon.Type1, pokemon.Type2].filter(
         (t, index, arr) => t && t !== '-' && arr.indexOf(t) === index
@@ -202,6 +292,14 @@ async function getPokemon() {
         typeImg.classList.add('type_image');
         typesContainer.appendChild(typeImg);
       });
+
+      // ✅ NOUVEAU — Tooltip matchups au hover
+      const t1 = pokemon.Type1?.toUpperCase();
+      const t2 = pokemon.Type2 && pokemon.Type2 !== '-' ? pokemon.Type2.toUpperCase() : null;
+
+      typesContainer.addEventListener('mouseenter', e => showTypeTooltip(e, t1, t2));
+      typesContainer.addEventListener('mousemove',  positionTooltip);
+      typesContainer.addEventListener('mouseleave', () => typeTooltip.style.display = 'none');
 
       // — Stats
       const divStats = document.createElement('div');

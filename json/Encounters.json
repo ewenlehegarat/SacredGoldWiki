@@ -2736,6 +2736,27 @@
     }
   },
   {
+    "id": "goldenrod_city",
+    "name": "Goldenrod City",
+    "image": "img/city/goldenrod_city.png",
+    "methods": {
+      "starter": {
+        "label": "Starter Gift",
+        "pokemon":[
+          {
+            "id": 387
+          },
+          {
+            "id": 390
+          },
+          {
+            "id": 393
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "route_35",
     "name": "Route 35",
     "levels": "17-19",
