@@ -5,6 +5,14 @@
     "levels": "",
     "image": "img/city/new_bark_town.png",
     "methods": {
+      "event": {
+        "label": "Special Event",
+        "pokemon":[
+          {
+            "id": 479
+          }
+        ]
+      },
       "surf": {
         "label": "Surf",
         "pokemon": [
@@ -317,6 +325,20 @@
             "pct": "10%"
           }
         ]
+      },
+      "starter": {
+        "label": "Starter Gift",
+        "pokemon":[
+          {
+            "id": 1
+          },
+          {
+            "id": 4
+          },
+          {
+            "id": 7
+          }
+        ]
       }
     }
   },
@@ -326,6 +348,14 @@
     "levels": "4-6",
     "image": "img/Route/Route_30.png",
     "methods": {
+      "gift": {
+        "label": "Gifted Pokemon",
+        "pokemon":[
+          {
+            "id": 133
+          }
+        ]
+      },
       "grass_morning": {
         "label": "Grass Morning",
         "pokemon": [
@@ -989,6 +1019,28 @@
     "levels": "N/A",
     "image": "img/city/violet_city.png",
     "methods": {
+      "starter": {
+        "label": "Starter Gift",
+        "pokemon":[
+          {
+            "id": 1
+          },
+          {
+            "id": 4
+          },
+          {
+            "id": 7
+          }
+        ]
+      },
+      "event": {
+        "label": "Special Event",
+        "pokemon":[
+          {
+            "id": 442
+          }
+        ]
+      },
       "surf": {
         "label": "Surf",
         "pokemon": [
@@ -3042,6 +3094,14 @@
     "levels": "17-19",
     "image": "img/Route/route_36.png",
     "methods": {
+      "event": {
+        "label": "Special Event",
+        "pokemon":[
+          {
+            "id": 185
+          }
+        ]
+      },
       "grass_morning_day": {
         "label": "Grass Morning / Day",
         "pokemon": [

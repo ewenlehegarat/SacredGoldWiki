@@ -13,20 +13,19 @@ if (searchInput) {
 }
 
 async function getLocations() {
-  const data = await fetch("../json/Encounters.json").then(res => res.json());
-  const main = document.querySelector('main');
+  // Charger les deux JSON en parallèle
+  const [data, pokemonData] = await Promise.all([
+    fetch("../json/Encounters.json").then(res => res.json()),
+    fetch("../json/PokemonPersonalData.json").then(res => res.json())
+  ]);
 
-  // Search input
-  const searchInput = document.getElementById('searchInput');
-  if (searchInput) {
-    searchInput.addEventListener('input', () => {
-      const q = searchInput.value.trim().toLowerCase();
-      document.querySelectorAll('.divs').forEach(zone => {
-        const name = zone.querySelector('h2')?.textContent.toLowerCase() || '';
-        zone.style.display = !q || name.includes(q) ? '' : 'none';
-      });
-    });
-  }
+  // Créer un dictionnaire ID → Name pour lookup rapide
+  const pokemonById = {};
+  pokemonData.forEach(p => {
+    pokemonById[p.ID] = p.Name;
+  });
+
+  const main = document.querySelector('main');
 
   data.forEach(location => {
     const div = document.createElement('div');
@@ -47,9 +46,24 @@ async function getLocations() {
       if (!method.pokemon || method.pokemon.length === 0) return;
 
       html += `<div class="${key} encounters"><h3>${method.label} :</h3>`;
+
       method.pokemon.forEach(p => {
-        html += `<p><img src="../PokemonList/img/pokemon_animated_sprite/${p.id}.gif" alt="pokemon" class="pokemon_image">${p.pct || ''}</p>`;
+        // Récupérer le nom depuis PokemonPersonalData via l'ID
+        const name = pokemonById[p.id] || '';
+
+        html += `
+          <p>
+            <a href="../PokemonList/index.html?search=${encodeURIComponent(name)}" title="${name} Info">
+              <img src="../PokemonList/img/pokemon_animated_sprite/${p.id}.gif"
+                   alt="${name}"
+                   class="pokemon_image"
+                   style="cursor:pointer;">
+            </a>
+            ${p.pct || ''}
+          </p>
+        `;
       });
+
       html += `</div>`;
     });
 
