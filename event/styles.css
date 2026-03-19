@@ -81,7 +81,7 @@ nav{
         }
     }
     .dropdown_content{
-        border-top: 2px solid var(--White);
+        border-top: 2px solid var(--Black);
         padding: 15px;
         display: flex;
         align-items: center;
