@@ -321,10 +321,26 @@ main{
                     height: 150px;
                     overflow-y: auto;
                     margin-top: 10px;
-                }
+                }display:none
             }
         }
     }
+}
+
+#type_tooltip{
+    display:none;
+    position: fixed;
+    z-index: 9999;
+    background: #1a1a2e;
+    border: 1px solid #444;
+    border-radius: 10px;
+    padding: 12px;
+    min-width: 180px;
+    max-width: 260px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+    color: var(--White);
+    font-size: 13px;
+    pointer-events: none;
 }
 
 @media screen and (min-width: 768px) {
