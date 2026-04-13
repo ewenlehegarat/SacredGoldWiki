@@ -17,7 +17,7 @@
 
 /* ###### Body ###### */
 body{
-    background-image: url(img/background.jpg);
+    background-image: url(/img/background.jpg);
     background-size: 100%;
     background-position: 50% 10%;
     background-repeat: no-repeat;
@@ -160,6 +160,10 @@ main{
                 text-decoration: none;
                 font-size: 20px;
                 cursor: pointer;
+                transition: color ease-in-out 500ms;
+            }
+            a:hover{
+                color: var(--White);
             }
             a::after{
                 content: "";
@@ -168,7 +172,7 @@ main{
                 left: 0;
                 width: 0;
                 height: 3px;
-                background-color: var(--Black);
+                background-color: var(--White);
                 transition: width ease 400ms;
             }
             a:hover::after{
