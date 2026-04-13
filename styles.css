@@ -17,13 +17,12 @@
 
 /* ###### Body ###### */
 body{
-    background-color: var(--Color-2);
+    background-image: url(img/background.jpg);
+    background-size: 100%;
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
     font-family: "Roboto", sans-serif;
-    color: var(--Black);
-
-    a{
-        color: var(--Black);
-    }
+    color: var(--White);
 }
 
 /* ###### Nav ###### */
@@ -43,6 +42,7 @@ nav{
     }
     ion-icon{
         font-size: 30px;
+        color: var(--Black);
     }
     input{
         width: 30px;
@@ -105,6 +105,9 @@ nav{
             color: rgb(77, 77, 77);
         }
     }
+    a{
+        color: var(--Black);
+    }
 }
 
 nav input:checked ~ .dropdown_content{
@@ -131,9 +134,16 @@ main{
 
     h1{
         font-size: 25px;
+        margin-bottom: 8px;
     }
     .image_1{
         transform: scaleX(-1);
+    }
+    p:nth-child(2){
+        margin-bottom: 4px;
+    }
+    a{
+        color: var(--White);
     }
 }
 
