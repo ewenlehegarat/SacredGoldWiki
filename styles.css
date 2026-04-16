@@ -17,11 +17,7 @@
 
 /* ###### Body ###### */
 body{
-    background-image: url(./img/background.jpg);
-    background-size: 100%;
-    background-position: 50% 10%;
-    background-repeat: no-repeat;
-    font-family: "Roboto", sans-serif;
+    background-color: var(--Color-2);
     color: var(--White);
 }
 
