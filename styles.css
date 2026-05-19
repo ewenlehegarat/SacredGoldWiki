@@ -129,8 +129,9 @@ main{
     padding: 150px 0 0 10px;
 
     h1{
-        font-size: 25px;
+        font-size: 40px;
         margin-bottom: 8px;
+        color: #fefdc7;
     }
     .image_1{
         transform: scaleX(-1);
@@ -139,7 +140,10 @@ main{
         margin-bottom: 4px;
     }
     a{
-        color: var(--White);
+        color: var(--Black);
+    }
+    p{
+        color: rgb(39, 39, 171);
     }
 }
 
