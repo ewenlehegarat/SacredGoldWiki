@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ###### Global ###### */
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* ### Color ### */
+    --White: #fff;
+    --Black: #171716;
+    --Red: #EA9999;
+    --Pink: #F4CCCC;
+    --Blue: #A4C2F4;
+    --Little-Blue: #c9f3f8;
+    --Green: #B6D7A8;
+    --Little-Green: #D9EAD3;
+    --Color-1: #D7B957;
+    --Color-2: #9EA5A8;
+}
+
+/* ###### Body ###### */
+body {
+    background-color: var(--Color-2);
+    font-family: 'Roboto', sans-serif;
+
+    a {
+        color: var(--Black);
+    }
+}
+
+/* ###### Main ###### */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 25px;
+    gap: 25px;
+
+    select {
+        cursor: pointer;
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        padding: 8px;
+        background-color: var(--White);
+        border: none;
+        border-radius: 4px;
+    }
+
+    .divs {
+        width: 100%;
+        padding: 15px;
+        background-color: var(--White);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        border-radius: 10px;
+        overflow-y: hidden;
+
+        table {
+            width: 1500px;
+        }
+    }
+
+    .first_div {
+        table {
+            thead {
+                tr:first-child {
+                    th {
+                        background-color: var(--Black);
+                        color: var(--White);
+                        padding: 4px 0;
+                    }
+                }
+
+                tr:last-child {
+                    height: 80px;
+
+                    th:last-child {
+                        background-color: var(--Black);
+                        color: white;
+                    }
+                }
+            }
+
+            tbody {
+                tr {
+                    th {
+                        padding: 8px 0;
+                    }
+
+                    th:last-child {
+                        background-color: var(--Black);
+                        color: white;
+                    }
+
+                    &:nth-child(3) {
+                        th:first-child {
+                            background-color: var(--Red);
+                        }
+                    }
+
+                    &:nth-child(5) {
+                        th:first-child {
+                            background-color: var(--Blue);
+                        }
+                    }
+
+                    &:nth-child(8) {
+                        th:first-child {
+                            background-color: var(--Green);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .red_div,
+    .blue_div,
+    .green_div {
+        table {
+            thead {
+                tr:first-child {
+                    th {
+                        background-color: var(--Black);
+                        color: var(--White);
+                        padding: 4px 0;
+                    }
+                }
+
+                tr:nth-child(2) {
+                    height: 80px;
+
+                    th:last-child {
+                        background-color: var(--Black);
+                        color: white;
+                    }
+                }
+            }
+
+            tbody {
+                tr {
+                    th {
+                        padding: 8px 0;
+                        width: 12.5%;
+                        height: 40px;
+                    }
+
+                    th:last-child {
+                        background-color: var(--Black);
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+
+    .red_div {
+        table {
+            tbody {
+                tr:first-child {
+                    th {
+                        background-color: var(--Red);
+                    }
+                }
+
+                tr:nth-child(2) {
+                    th:first-child {
+                        background-color: var(--White);
+                    }
+
+                    th {
+                        background-color: var(--Pink);
+                    }
+
+                    th:last-child {
+                        background-color: var(--Black);
+                    }
+                }
+
+                tr:nth-child(4) {
+                    th {
+                        background-color: var(--Pink);
+                    }
+
+                    th:last-child {
+                        background-color: var(--Black);
+                    }
+                }
+            }
+        }
+    }
+
+    .blue_div {
+        table {
+            tbody {
+                tr:first-child {
+                    th {
+                        background-color: var(--Blue);
+                    }
+                }
+
+                tr:nth-child(2),
+                tr:nth-child(4) {
+                    th {
+                        background-color: var(--Little-Blue);
+                    }
+
+                    th:last-child {
+                        background-color: var(--Black);
+                    }
+                }
+            }
+        }
+    }
+
+    .green_div {
+        table {
+            tbody {
+                tr:first-child {
+                    th {
+                        background-color: var(--Green);
+                    }
+                }
+
+                tr:nth-child(2),
+                tr:nth-child(4) {
+                    th {
+                        background-color: var(--Little-Green);
+                    }
+
+                    th:last-child {
+                        background-color: var(--Black);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        select {
+            margin: 0;
+            max-width: 150px;
+        }
+
+        .divs {
+            table {
+                width: 100%;
+            }
+        }
+    }
+}
