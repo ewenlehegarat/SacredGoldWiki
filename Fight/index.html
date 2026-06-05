@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Sacred Gold Wiki</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <ion-icon name="book-outline"></ion-icon>
+        <div class="links">
+            <a href="../index.html">Home</a>
+            <a href="../PokemonList/index.html">Pokemon List</a>
+            <a href="../Encounters/index.html">Encounters</a>
+            <a>Fight</a>
+            <a href="../Item/index.html">Important Item</a>
+            <a href="../event/index.html">Special Event</a>
+        </div>
+        <input type="checkbox" id="burger">
+        <label for="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <div class="dropdown_content">
+            <a href="../index.html">Home</a>
+            <a href="../PokemonList/index.html">Pokemon List</a>
+            <a href="../Encounters/index.html">Encounters</a>
+            <a href="../Item/index.html">Important Item</a>
+            <a>Fight</a>
+            <a href="../event/index.html">Special Event</a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="first_div divs">
+            <table border="1" cellspacing="0" cellpadding="6">
+                <thead>
+                    <tr>
+                        <th colspan="8">KEY</th>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">Trainer Sprite</th>
+                        <th rowspan="2">Pokemon Sprite</th>
+                        <th rowspan="2">Pokemon Sprite</th>
+                        <th rowspan="2">Pokemon Sprite</th>
+                        <th rowspan="2">Pokemon Sprite</th>
+                        <th rowspan="2">Pokemon Sprite</th>
+                        <th rowspan="2">Pokemon Sprite</th>
+                        <th rowspan="2">Pokemon Sprite</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th>Trainer Name</th>
+                        <th>Pokemon 1</th>
+                        <th>Pokemon 2</th>
+                        <th>Pokemon 3</th>
+                        <th>Pokemon 4</th>
+                        <th>Pokemon 5</th>
+                        <th>Pokemon 6</th>
+                        <th>Pokemon Name</th>
+                    </tr>
+                    <tr>
+                        <th>Notes</th>
+                        <th>Level</th>
+                        <th>Level</th>
+                        <th>Level</th>
+                        <th>Level</th>
+                        <th>Level</th>
+                        <th>Level</th>
+                        <th>Level</th>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">RED = MANDATORY BATTLE</th>
+                        <th>Nature<br>(+Stat -Stat)</th>
+                        <th>Nature<br>(+Stat -Stat)</th>
+                        <th>Nature<br>(+Stat -Stat)</th>
+                        <th>Nature<br>(+Stat -Stat)</th>
+                        <th>Nature<br>(+Stat -Stat)</th>
+                        <th>Nature<br>(+Stat -Stat)</th>
+                        <th>Nature<br>(+Stat -Stat)</th>
+                    </tr>
+                    <tr>
+                        <th>Ability</th>
+                        <th>Ability</th>
+                        <th>Ability</th>
+                        <th>Ability</th>
+                        <th>Ability</th>
+                        <th>Ability</th>
+                        <th>Ability</th>
+                    </tr>
+                    <tr>
+                        <th rowspan="3">RED = MANDATORY BATTLE</th>
+                        <th>Held Item</th>
+                        <th>Held Item</th>
+                        <th>Held Item</th>
+                        <th>Held Item</th>
+                        <th>Held Item</th>
+                        <th>Held Item</th>
+                        <th>Held Item</th>
+                    </tr>
+                    <tr>
+                        <th>Move 1</th>
+                        <th>Move 1</th>
+                        <th>Move 1</th>
+                        <th>Move 1</th>
+                        <th>Move 1</th>
+                        <th>Move 1</th>
+                        <th>Move 1</th>
+                    </tr>
+                    <tr>
+                        <th>Move 2</th>
+                        <th>Move 2</th>
+                        <th>Move 2</th>
+                        <th>Move 2</th>
+                        <th>Move 2</th>
+                        <th>Move 2</th>
+                        <th>Move 2</th>
+                    </tr>
+                    <tr>
+                        <th rowspan="3">GREEN = ALLY TRAINER</th>
+                        <th>Move 3</th>
+                        <th>Move 3</th>
+                        <th>Move 3</th>
+                        <th>Move 3</th>
+                        <th>Move 3</th>
+                        <th>Move 3</th>
+                        <th>Move 3</th>
+                    </tr>
+                    <tr>
+                        <th>Move 4</th>
+                        <th>Move 4</th>
+                        <th>Move 4</th>
+                        <th>Move 4</th>
+                        <th>Move 4</th>
+                        <th>Move 4</th>
+                        <th>Move 4</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <select name="filter" id="filter">
+            <option value="all">All Split</option>
+            <option value="falkner split">Falkner Split</option>
+            <option value="bugsy split">Bugsy Split</option>
+            <option value="whitney split">Witney Split</option>
+            <option value="morty split">Morty Split</option>
+            <option value="chuck split">Chuck Split</option>
+            <option value="jasmine split">Jasmine Split</option>
+            <option value="pryce split">Pryce Split</option>
+            <option value="clair split">Clair Split</option>
+            <option value="champion split">Champion Split</option>
+        </select>
+    </main>
+
+    <div id="battles-container"></div>
+</body>
+
+</html>

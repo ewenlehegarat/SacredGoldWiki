@@ -1,15 +1,50 @@
 <!DOCTYPE html>
-<html lang="">
-  <head>
+<html lang="fr">
+
+<head>
     <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vite App</title>
+    <title>Pokemon Sacred Gold Wiki</title>
+    <link rel="stylesheet" href="styles.css">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+</head>
+
+<body>
+    
+    <nav>
+        <ion-icon name="book-outline"></ion-icon>
+        <div class="links">
+            <a>Home</a>
+            <a href="PokemonList/index.html">Pokemon List</a>
+            <a href="Encounters/index.html">Encounters</a>
+            <a href="Fight/index.html">Fight</a>
+            <a href="Item/index.html">Important Item</a>
+            <a href="event/index.html">Special Event</a>
+        </div>
+        <input type="checkbox" id="burger">
+        <label for="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <div class="dropdown_content">
+            <a>Home</a>
+            <a href="PokemonList/index.html">Pokemon List</a>
+            <a href="Encounters/index.html">Encouters</a>
+            <a href="Fight/index.html">Fight</a>
+            <a href="Item/index.html">Important Item</a>
+            <a href="event/index.html">Special Event</a>
+        </div>
+    </nav>
+
+    <main>
+        <h1>Welcome to Sacred Gold wiki</h1>
+
+        <p>Here you'll find the <a href="PokemonList/index.html">List of Pokémon</a>, the different <a href="Encounters/index.html">Encounters</a>, <a href="Item/index.html">Important items</a>, and more ( <a href="Fight/index.html">Fight</a>, <a href="event/index.html">Special Event</a> ),</p>
+        <p>and the link to the official ROM hack <a href="https://drive.google.com/drive/u/1/folders/1oSurQpYjTCMBxC3G6g3vcxsqBjI04ILT" target="_blank">Documentation</a>. Enjoy!</p>
+    </main>
+
+</body>
+
 </html>

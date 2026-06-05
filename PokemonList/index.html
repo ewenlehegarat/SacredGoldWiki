@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Sacred Gold Wiki</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <nav>
+        <ion-icon name="book-outline"></ion-icon>
+        <div class="links">
+            <a href="../index.html">Home</a>
+            <a>Pokemon List</a>
+            <a href="../Encounters/index.html">Encounters</a>
+            <a href="../Fight/index.html">Fight</a>
+            <a href="../Item/index.html">Important Item</a>
+            <a href="../event/index.html">Special Event</a>
+        </div>
+        <input type="checkbox" id="burger">
+        <label for="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <div class="dropdown_content">
+            <a href="../index.html">Home</a>
+            <a>Pokemon List</a>
+            <a href="../Encounters/index.html">Encounters</a>
+            <a href="../Fight/index.html">Fight</a>
+            <a href="../Item/index.html">Important Item</a>
+            <a href="../event/index.html">Special Event</a>
+        </div>
+    </nav>
+
+    <main>
+        <h1>Pokemon List :</h1>
+
+        <input id="searchInput" type="text" placeholder="Search a pokemon">
+        <select name="sort" id="sort">
+            <option value="pokedex01">Pokedex #0 > #493</option>
+            <option value="pokedex10">Pokedex #493 > #0</option>
+            <option value="pokemonaz">Pokemon A > Z</option>
+            <option value="pokemonza">Pokemon Z > A</option>
+        </select>
+        <select name="filter" id="filter">
+            <option value="alltype">Pokemon all type</option>
+            <option value="bug">Type Bug</option>
+            <option value="dark">Type Dark</option>
+            <option value="dragon">Type Dragon</option>
+            <option value="electric">Type Electric</option>
+            <option value="fairy">Type Fairy</option>
+            <option value="fighting">Type Fighting</option>
+            <option value="fire">Type Fire</option>
+            <option value="flying">Type Flying</option>
+            <option value="ghost">Type Ghost</option>
+            <option value="grass">Type Grass</option>
+            <option value="ground">Type Ground</option>
+            <option value="ice">Type Ice</option>
+            <option value="normal">Type Normal</option>
+            <option value="poison">Type Poison</option>
+            <option value="psychic">Type Psychic</option>
+            <option value="rock">Type Rock</option>
+            <option value="steel">Type Steel</option>
+            <option value="water">Type Water</option>
+        </select>
+        <div class="pokemon_container">
+            
+        </div>
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,3 @@
+- Régler problème 4 ème attaque sur chaque leader en version mobile
+- Azalea Town mettre spritomb en spécial event
+- Régler image de route 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 47, 48, 42, 43, 44, 45, 27, 26 slowpoke well[1f], Ilex forest, national park, 
